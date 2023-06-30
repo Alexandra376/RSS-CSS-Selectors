@@ -1,0 +1,16 @@
+.button-help {
+    background-color: rgba(0,0,0,.2);
+    padding: 8px 15px 10px 15px;
+    border-radius: 22px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-help__help {
+    color: $fonts-color;
+}
+
+.button-help:hover {
+    box-shadow: 1px 5px 6px 1px rgba(244, 241, 238, 0.71);
+    transition: 0.5s;
+}

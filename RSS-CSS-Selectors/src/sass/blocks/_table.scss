@@ -1,0 +1,53 @@
+.table {
+  transform-style: preserve-3d;
+  outline: solid 1px transparent;
+  margin: 0px auto 0px auto;
+  padding: 15px 15px 22px 15px;
+  display: inline-block;
+  z-index: 999;
+  position: relative;
+  white-space: nowrap;
+}
+
+.table__strobe {
+  width: 100px;
+  transform-origin: bottom;
+  animation: strobeStart .5s ease-out, strobe 1s infinite;
+  animation-delay: 0s, .5s;
+  cursor: pointer;
+}
+
+.table__strobe:hover {
+  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255,.4);
+}
+
+plate:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: calc(50% - 32px);
+  top: calc(50% - 32px);
+  height: 65px;
+  width: 65px;
+  border-radius: 60px;
+  border-top: solid 6px #CCC;
+  opacity: .4;
+  background: rgba(255,255,255,1);
+}
+
+plate {
+  border-bottom: solid 5px #DDD;
+  background: white;
+  border-radius: 100px;
+  border-radius: 100px;
+}
+
+bento, plate {
+  box-shadow: 0px 8px 0px rgba(0,0,0,.1);
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+  position: relative;
+}
+

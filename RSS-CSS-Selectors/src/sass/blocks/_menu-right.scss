@@ -1,0 +1,18 @@
+h1 {
+  color: #6c6a66;
+}
+
+.menu-right {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.menu-right h1:hover {
+  box-shadow: 1px 1px 7px 2px rgb(242 238 233 / 71%);
+  transition: 0.2s;
+}
+
+.menu-right h1 {
+  cursor: pointer;
+}

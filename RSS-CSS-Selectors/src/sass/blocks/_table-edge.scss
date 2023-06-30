@@ -1,0 +1,25 @@
+.table-edge {
+  width: 274px;
+  opacity: 1;
+  margin: 0 auto 10px auto;
+  background: #ac741c;
+  height: 15px;
+  transform: rotateX(-40deg);
+  transform-origin: top;
+}
+
+.table-edge__leg {
+  width: 24px;
+  height: 10px;
+  background: #84570f;
+  position: absolute;
+  top: 15px;
+}
+
+.table-edge__leg:first-child {
+  left: 20px;
+}
+
+.table-edge__leg:last-child {
+  right: 20px;
+}

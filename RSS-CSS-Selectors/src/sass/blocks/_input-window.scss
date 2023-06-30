@@ -1,0 +1,40 @@
+.css-view .input-window__numbers {
+  color: #999;
+  background: #DDD;
+}
+
+.input-window__plus {
+  color: #666;
+  padding: 0px 4px;
+  font-size: 40px;
+  display: none;
+}
+
+.input-window__button {
+  background: #ddd;
+  display: block;
+  border-radius: 2px;
+  padding: 2px 7px 2px 7px;
+  color: #666;
+  border: solid 3px #999;
+  border-width: 1px 1px 6px 1px;
+  font-size: 9px;
+  position: absolute;
+  cursor: pointer;
+  top: 7px;
+  right: 7px;
+  z-index: 999999;
+}
+
+.html-view .input-window__numbers {
+  color: #666;
+  border-right: solid 1px #333;
+}
+
+.input-window__markup {
+  color: rgba(255,255,255,.3);
+}
+
+.input-window__strobe {
+  margin-bottom: 10px;
+}

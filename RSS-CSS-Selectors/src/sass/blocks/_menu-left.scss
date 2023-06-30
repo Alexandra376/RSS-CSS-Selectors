@@ -1,0 +1,25 @@
+.menu-left {
+    margin-left: 10px;
+    display: flex;
+    gap: 9px;
+}
+
+.menu-left__logo {
+  color: $fonts-color;
+}
+
+.menu-left__reset {
+  width: 91px;
+  height: 31px;
+  border: none;
+  background-color: #711212;
+  color: rgba(255, 255, 255, 0.3);
+  place-items: center;
+  margin-top: 14px;
+  cursor: pointer;
+}
+
+.menu-left__reset:hover {
+  box-shadow: 1px 5px 6px 1px rgba(175, 0, 0, 0.71);
+  transition: 0.5s;
+}
