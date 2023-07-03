@@ -9119,7 +9119,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_libs_normalize_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".main-block {\n  display: flex;\n}\n\n.left-column {\n  background-color: #2e2a23;\n  height: 100vh;\n  width: 60%;\n  text-align: center;\n  overflow-x: visible;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 2;\n}\n\n.right-column {\n  background-color: rgba(0, 0, 0, 0.2);\n  height: 115vh;\n  position: fixed;\n  width: 40%;\n  right: 0;\n}\n\nbody {\n  background: #2e2a23;\n}\n\n.menu-left {\n  margin-left: 10px;\n  display: flex;\n  gap: 9px;\n}\n\n.menu-left__logo {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.menu-left__reset {\n  width: 91px;\n  height: 31px;\n  border: none;\n  background-color: #711212;\n  color: rgba(255, 255, 255, 0.3);\n  place-items: center;\n  margin-top: 14px;\n  cursor: pointer;\n}\n\n.menu-left__reset:hover {\n  box-shadow: 1px 5px 6px 1px rgba(175, 0, 0, 0.71);\n  transition: 0.5s;\n}\n\n.selection__order {\n  color: rgba(255, 255, 255, 0.3);\n  font-size: 45px;\n  margin: 0;\n  font-weight: 400;\n  text-align: center;\n  padding: 20px 30px;\n}\n\n.selection__orders {\n  display: none;\n}\n\n.button-help {\n  background-color: rgba(0, 0, 0, 0.2);\n  padding: 8px 15px 10px 15px;\n  border-radius: 22px;\n  cursor: pointer;\n  border: none;\n}\n\n.button-help__help {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.button-help:hover {\n  box-shadow: 1px 5px 6px 1px rgba(244, 241, 238, 0.71);\n  transition: 0.5s;\n}\n\n.game-wrapper {\n  transform: translate3d(0, 0, 0);\n  perspective: 400px;\n  text-align: center;\n  position: relative;\n  padding-top: 15px;\n  margin-bottom: 50px;\n}\n\n.table-wrapper {\n  min-height: 142px;\n  transform-origin: bottom;\n  z-index: 9999;\n  position: relative;\n  margin: 10px auto 0 auto;\n  transform: rotateX(20deg);\n  width: 274px;\n  opacity: 1;\n}\n\n.table-wrapper__surface {\n  box-shadow: 0px 40px 10px rgba(0, 0, 0, 0.2);\n  background: linear-gradient(#dd992d, #cd8c26);\n  position: absolute;\n  height: 100%;\n  bottom: 0;\n  width: 100%;\n}\n\n.table {\n  transform-style: preserve-3d;\n  outline: solid 1px transparent;\n  margin: 0px auto 0px auto;\n  padding: 15px 15px 22px 15px;\n  display: inline-block;\n  z-index: 999;\n  position: relative;\n  white-space: nowrap;\n}\n\n.table__strobe {\n  width: 100px;\n  transform-origin: bottom;\n  animation: strobeStart 0.5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, 0.5s;\n  cursor: pointer;\n}\n\n.table__strobe:hover {\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.4);\n}\n\nplate:before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 32px);\n  top: calc(50% - 32px);\n  height: 65px;\n  width: 65px;\n  border-radius: 60px;\n  border-top: solid 6px #CCC;\n  opacity: 0.4;\n  background: rgb(255, 255, 255);\n}\n\nplate {\n  border-bottom: solid 5px #DDD;\n  background: white;\n  border-radius: 100px;\n  border-radius: 100px;\n}\n\nbento, plate {\n  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.1);\n  display: inline-block;\n  width: 100px;\n  height: 100px;\n  margin: 0 10px;\n  position: relative;\n}\n\n@keyframes strobetart {\n  0% {\n    transform: skew(0deg, 0deg) scaleY(1);\n    animation-timing-function: ease-in;\n  }\n  40% {\n    transform: skew(0deg, 0deg) scaleY(0.9);\n    animation-timing-function: ease-out;\n  }\n  100% {\n    transform: skew(4deg, 0deg) scaleX(1);\n  }\n}\n@keyframes strobe {\n  00% {\n    transform: skew(4deg, 0deg) scaleX(1);\n  }\n  10% {\n    transform: skew(1deg, 0deg) scaleY(0.9);\n  }\n  50% {\n    transform: skew(-4deg, 0deg) scaleX(1);\n  }\n  60% {\n    transform: skew(-1deg, 0deg) scaleY(0.9);\n  }\n  100% {\n    transform: skew(4deg, 0deg) scaleX(1);\n  }\n}\n.table-edge {\n  width: 274px;\n  opacity: 1;\n  margin: 0 auto 10px auto;\n  background: #ac741c;\n  height: 15px;\n  transform: rotateX(-40deg);\n  transform-origin: top;\n}\n\n.table-edge__leg {\n  width: 24px;\n  height: 10px;\n  background: #84570f;\n  position: absolute;\n  top: 15px;\n}\n\n.table-edge__leg:first-child {\n  left: 20px;\n}\n\n.table-edge__leg:last-child {\n  right: 20px;\n}\n\n.editor {\n  position: relative;\n  text-align: left;\n  width: 90%;\n  margin: 0 auto;\n  border: solid 10px rgba(0, 0, 0, 0.35);\n  border-radius: 4px;\n  overflow: hidden;\n  box-shadow: 0px 5px 6px 5px rgba(255, 255, 255, 0.4);\n  height: 478px;\n  margin-bottom: 65px;\n}\n\n.editor .input-window__numbers {\n  position: absolute;\n  top: 0;\n  left: 0;\n  font-family: menlo, monospace;\n  padding: 10px 10px;\n  height: 100%;\n  line-height: 150%;\n  text-align: right;\n}\n\n.editor .header-input {\n  text-align: left;\n  padding: 10px 15px;\n  background: rgba(0, 0, 0, 0.15);\n  border-top: solid 1px rgba(255, 255, 255, 0.05);\n  border-bottom: solid 1px rgba(255, 255, 255, 0.05);\n  border-radius: 2px 2px 0 0;\n  color: rgba(255, 255, 255, 0.6);\n}\n\n.editor .file-name {\n  float: right;\n  opacity: 0.5;\n}\n\n.editor .css-view {\n  background: #efefef;\n  color: #AAA;\n}\n\n.editor .input-window {\n  padding: 10px 10px 10px 46px;\n  position: relative;\n  min-height: 432px;\n}\n\n.editor * {\n  font-family: menlo, monospace;\n  font-size: 14px;\n  line-height: 150%;\n  padding: 0;\n  margin: 0;\n}\n\n.editor input.input-strobe {\n  background: rgba(62, 203, 255, 0.3);\n  animation: input 0.5s infinite;\n}\n\n.editor input {\n  color: #333;\n  border: none;\n  width: calc(100% - 46px);\n}\n\n.editor-panel {\n  float: left;\n  width: 50%;\n}\n\n.css-view .input-window__numbers {\n  color: #999;\n  background: #DDD;\n}\n\n.input-window__plus {\n  color: #666;\n  padding: 0px 4px;\n  font-size: 40px;\n  display: none;\n}\n\n.input-window__button {\n  background: #ddd;\n  display: block;\n  border-radius: 2px;\n  padding: 2px 7px 2px 7px;\n  color: #666;\n  border: solid 3px #999;\n  border-width: 1px 1px 6px 1px;\n  font-size: 9px;\n  position: absolute;\n  cursor: pointer;\n  top: 7px;\n  right: 7px;\n  z-index: 999999;\n}\n\n.html-view .input-window__numbers {\n  color: #666;\n  border-right: solid 1px #333;\n}\n\n.input-window__markup {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.input-window__strobe {\n  margin-bottom: 10px;\n}\n\nh1 {\n  color: #6c6a66;\n}\n\n.menu-right {\n  display: flex;\n  flex-direction: column;\n  place-items: center;\n}\n\n.menu-right h1:hover {\n  box-shadow: 1px 1px 7px 2px rgba(242, 238, 233, 0.71);\n  transition: 0.2s;\n}\n\n.menu-right h1 {\n  cursor: pointer;\n}\n\nh4 {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.footer-wrapper {\n  display: flex;\n  gap: 100px;\n  place-items: center;\n  justify-content: center;\n}\n\n.footer-wrapper img {\n  cursor: pointer;\n}", "",{"version":3,"sources":["webpack://./src/sass/blocks/_main-block.scss","webpack://./src/index.scss","webpack://./src/sass/blocks/_left-column.scss","webpack://./src/sass/blocks/_right-column.scss","webpack://./src/sass/blocks/_body.scss","webpack://./src/sass/base/_variable.scss","webpack://./src/sass/blocks/_menu-left.scss","webpack://./src/sass/blocks/_selection.scss","webpack://./src/sass/blocks/_button-help.scss","webpack://./src/sass/blocks/_game-wrapper.scss","webpack://./src/sass/blocks/_table-wrapper.scss","webpack://./src/sass/blocks/_table.scss","webpack://./src/sass/blocks/_keyframes.scss","webpack://./src/sass/blocks/_table-edge.scss","webpack://./src/sass/blocks/_editor.scss","webpack://./src/sass/blocks/_editor-panel.scss","webpack://./src/sass/blocks/_input-window.scss","webpack://./src/sass/blocks/_menu-right.scss","webpack://./src/sass/blocks/_footer-contacts.scss","webpack://./src/sass/blocks/_footer-wrapper.scss"],"names":[],"mappings":"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","sourcesContent":[".main-block {\n    display: flex;\n}","@import \"./libs/normalize.css\";\n@import \"./sass/base/variable\";\n@import \"./sass/blocks/main-block\";\n@import \"./sass/blocks/left-column\";\n@import \"./sass/blocks/right-column\";\n@import \"./sass/blocks/body\";\n@import \"./sass/blocks/menu-left\";\n@import \"./sass/blocks/selection\";\n@import \"./sass/blocks/button-help\";\n@import \"./sass/blocks/game-wrapper\";\n@import \"./sass/blocks/table-wrapper\";\n@import \"./sass/blocks/table\";\n@import \"./sass/blocks/keyframes\";\n@import \"./sass/blocks/table-edge\";\n@import \"./sass/blocks/editor\";\n@import \"./sass/blocks/editor-panel\";\n@import \"./sass/blocks/input-window\";\n@import \"./sass/blocks/_menu-right\";\n@import \"./sass/blocks/_footer-contacts\";\n@import \"./sass/blocks/footer-wrapper\";",".left-column {\n  background-color: #2e2a23;\n  height: 100vh;\n  width: 60%;\n  text-align: center;\n  overflow-x: visible;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 2;\n}\n",".right-column {\n  background-color: rgba(0,0,0,.2);\n  height: 115vh;\n  position: fixed;\n  width: 40%;\n  right: 0;\n};","body {\n  background: $main-color;\n}","$main-color: #2e2a23;\n$fonts-color: rgba(255,255,255,.3);",".menu-left {\n    margin-left: 10px;\n    display: flex;\n    gap: 9px;\n}\n\n.menu-left__logo {\n  color: $fonts-color;\n}\n\n.menu-left__reset {\n  width: 91px;\n  height: 31px;\n  border: none;\n  background-color: #711212;\n  color: rgba(255, 255, 255, 0.3);\n  place-items: center;\n  margin-top: 14px;\n  cursor: pointer;\n}\n\n.menu-left__reset:hover {\n  box-shadow: 1px 5px 6px 1px rgba(175, 0, 0, 0.71);\n  transition: 0.5s;\n}",".selection__order {\n    color: $fonts-color;\n    font-size: 45px;\n    margin: 0;\n    font-weight: 400;\n    text-align: center;\n    padding: 20px 30px;\n}\n\n.selection__orders {\n    display: none;\n}",".button-help {\n    background-color: rgba(0,0,0,.2);\n    padding: 8px 15px 10px 15px;\n    border-radius: 22px;\n    cursor: pointer;\n    border: none;\n}\n\n.button-help__help {\n    color: $fonts-color;\n}\n\n.button-help:hover {\n    box-shadow: 1px 5px 6px 1px rgba(244, 241, 238, 0.71);\n    transition: 0.5s;\n}",".game-wrapper {\n  transform: translate3d(0,0,0);\n  perspective: 400px;\n  text-align: center;\n  position: relative;\n  padding-top: 15px;\n  margin-bottom: 50px;\n}",".table-wrapper {\n  min-height: 142px;\n  transform-origin: bottom;\n  z-index: 9999;\n  position: relative;\n  margin: 10px auto 0 auto;\n  transform: rotateX(20deg);\n  width: 274px;\n  opacity: 1;\n}\n\n.table-wrapper__surface {\n  box-shadow: 0px 40px 10px rgba(0,0,0,.2);\n  background: linear-gradient(#dd992d,#cd8c26);\n  position: absolute;\n  height: 100%;\n  bottom: 0;\n  width: 100%;\n}",".table {\n  transform-style: preserve-3d;\n  outline: solid 1px transparent;\n  margin: 0px auto 0px auto;\n  padding: 15px 15px 22px 15px;\n  display: inline-block;\n  z-index: 999;\n  position: relative;\n  white-space: nowrap;\n}\n\n.table__strobe {\n  width: 100px;\n  transform-origin: bottom;\n  animation: strobeStart .5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, .5s;\n  cursor: pointer;\n}\n\n.table__strobe:hover {\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255,.4);\n}\n\nplate:before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 32px);\n  top: calc(50% - 32px);\n  height: 65px;\n  width: 65px;\n  border-radius: 60px;\n  border-top: solid 6px #CCC;\n  opacity: .4;\n  background: rgba(255,255,255,1);\n}\n\nplate {\n  border-bottom: solid 5px #DDD;\n  background: white;\n  border-radius: 100px;\n  border-radius: 100px;\n}\n\nbento, plate {\n  box-shadow: 0px 8px 0px rgba(0,0,0,.1);\n  display: inline-block;\n  width: 100px;\n  height: 100px;\n  margin: 0 10px;\n  position: relative;\n}\n\n","@keyframes strobetart {\n  0% {\n      transform: skew(0deg,0deg) scaleY(1);\n      animation-timing-function: ease-in;\n  } \n  40% {\n      transform: skew(0deg,0deg) scaleY(.9);\n      animation-timing-function: ease-out;\n  }\n  100% {\n      transform: skew(4deg,0deg) scaleX(1);\n  }\n}\n\n@keyframes strobe {\n  00% {\n    transform: skew(4deg,0deg) scaleX(1);\n  }\n  10% {\n    transform: skew(1deg,0deg) scaleY(.9);\n  }\n  50% {\n    transform: skew(-4deg,0deg) scaleX(1);\n  }\n  60% {\n    transform: skew(-1deg,0deg) scaleY(.9);\n  }\n  100% {\n    transform: skew(4deg,0deg) scaleX(1);\n  }\n}",".table-edge {\n  width: 274px;\n  opacity: 1;\n  margin: 0 auto 10px auto;\n  background: #ac741c;\n  height: 15px;\n  transform: rotateX(-40deg);\n  transform-origin: top;\n}\n\n.table-edge__leg {\n  width: 24px;\n  height: 10px;\n  background: #84570f;\n  position: absolute;\n  top: 15px;\n}\n\n.table-edge__leg:first-child {\n  left: 20px;\n}\n\n.table-edge__leg:last-child {\n  right: 20px;\n}",".editor {\n  position: relative;\n  text-align: left;\n  width: 90%;\n  margin: 0 auto;\n  border: solid 10px rgba(0,0,0,.35);\n  border-radius: 4px;\n  overflow: hidden;\n  box-shadow: 0px 5px 6px 5px rgba(255, 255, 255,.4);\n  height: 478px;\n  margin-bottom: 65px;\n}\n\n.editor .input-window__numbers {\n  position: absolute;\n  top: 0;\n  left: 0;\n  font-family: menlo, monospace;\n  padding: 10px 10px;\n  height: 100%;\n  line-height: 150%;\n  text-align: right;\n}\n\n.editor .header-input {\n  text-align: left;\n  padding: 10px 15px;\n  background: rgba(0,0,0,.15);\n  border-top: solid 1px rgba(255,255,255,.05);\n  border-bottom: solid 1px rgba(255,255,255,.05);\n  border-radius: 2px 2px 0 0;\n  color: rgba(255,255,255,.6);\n}\n\n.editor .file-name {\n  float: right;\n  opacity: .5;\n}\n\n.editor .css-view {\n  background: #efefef;\n  color: #AAA;\n}\n\n.editor .input-window {\n  padding: 10px 10px 10px 46px;\n  position: relative;\n  min-height: 432px;\n}\n\n.editor * {\n  font-family: menlo,monospace;\n  font-size: 14px;\n  line-height: 150%;\n  padding: 0;\n  margin: 0;\n}\n.editor input.input-strobe {\n  background: rgba(62,203,255,.3);\n  animation: input .5s infinite;\n}\n\n.editor input {\n  color: #333;\n  border: none;\n  width: calc(100% - 46px);\n  \n}",".editor-panel {\n  float: left;\n  width: 50%;\n}",".css-view .input-window__numbers {\n  color: #999;\n  background: #DDD;\n}\n\n.input-window__plus {\n  color: #666;\n  padding: 0px 4px;\n  font-size: 40px;\n  display: none;\n}\n\n.input-window__button {\n  background: #ddd;\n  display: block;\n  border-radius: 2px;\n  padding: 2px 7px 2px 7px;\n  color: #666;\n  border: solid 3px #999;\n  border-width: 1px 1px 6px 1px;\n  font-size: 9px;\n  position: absolute;\n  cursor: pointer;\n  top: 7px;\n  right: 7px;\n  z-index: 999999;\n}\n\n.html-view .input-window__numbers {\n  color: #666;\n  border-right: solid 1px #333;\n}\n\n.input-window__markup {\n  color: rgba(255,255,255,.3);\n}\n\n.input-window__strobe {\n  margin-bottom: 10px;\n}","h1 {\n  color: #6c6a66;\n}\n\n.menu-right {\n  display: flex;\n  flex-direction: column;\n  place-items: center;\n}\n\n.menu-right h1:hover {\n  box-shadow: 1px 1px 7px 2px rgb(242 238 233 / 71%);\n  transition: 0.2s;\n}\n\n.menu-right h1 {\n  cursor: pointer;\n}","h4 {\n  color: rgba(255, 255, 255, 0.3);\n}",".footer-wrapper {\n  display: flex;\n  gap: 100px;\n  place-items: center;\n  justify-content: center;\n}\n\n.footer-wrapper img {\n  cursor: pointer;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-block {\n  display: flex;\n}\n\n.left-column {\n  background-color: #2e2a23;\n  height: 100vh;\n  width: 60%;\n  text-align: center;\n  overflow-x: visible;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 2;\n}\n\n.right-column {\n  background-color: rgba(0, 0, 0, 0.2);\n  height: 115vh;\n  position: fixed;\n  width: 40%;\n  right: 0;\n}\n\nbody {\n  background: #2e2a23;\n}\n\n.menu-left {\n  margin-left: 10px;\n  display: flex;\n  gap: 9px;\n}\n\n.menu-left__logo {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.menu-left__reset {\n  width: 91px;\n  height: 31px;\n  border: none;\n  background-color: #711212;\n  color: rgba(255, 255, 255, 0.3);\n  place-items: center;\n  margin-top: 14px;\n  cursor: pointer;\n}\n\n.menu-left__reset:hover {\n  box-shadow: 1px 5px 6px 1px rgba(175, 0, 0, 0.71);\n  transition: 0.5s;\n}\n\n.selection__order {\n  color: rgba(255, 255, 255, 0.3);\n  font-size: 40px;\n  margin: 0;\n  font-weight: 400;\n  text-align: center;\n  padding: 20px 30px;\n}\n\n.selection__orders {\n  display: none;\n}\n\n.button-help {\n  background-color: rgba(0, 0, 0, 0.2);\n  padding: 8px 15px 10px 15px;\n  border-radius: 22px;\n  cursor: pointer;\n  border: none;\n}\n\n.button-help__help {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.button-help:hover {\n  box-shadow: 1px 5px 6px 1px rgba(244, 241, 238, 0.71);\n  transition: 0.5s;\n}\n\n.game-wrapper {\n  transform: translate3d(0, 0, 0);\n  perspective: 400px;\n  text-align: center;\n  position: relative;\n  padding-top: 15px;\n  margin-bottom: 50px;\n}\n\n.shake {\n  animation: shake 0.1s 5;\n}\n\n.table-wrapper {\n  min-height: 142px;\n  transform-origin: bottom;\n  z-index: 9999;\n  position: relative;\n  margin: 10px auto 0 auto;\n  transform: rotateX(20deg);\n  width: 274px;\n  opacity: 1;\n}\n\n.table-wrapper__surface {\n  box-shadow: 0px 40px 10px rgba(0, 0, 0, 0.2);\n  background: linear-gradient(#dd992d, #cd8c26);\n  position: absolute;\n  height: 100%;\n  bottom: 0;\n  width: 100%;\n}\n\n#size-one {\n  width: 400px;\n}\n\n#size-six {\n  width: 485px;\n}\n\n#size-seven {\n  width: 610px;\n}\n\n#size-eight {\n  width: 630px;\n}\n\n#size-nine {\n  width: 600px;\n}\n\n#size-ten {\n  width: 635px;\n}\n\n#size {\n  width: 274px;\n}\n\n.table {\n  transform-style: preserve-3d;\n  outline: solid 1px transparent;\n  margin: 0px auto 0px auto;\n  padding: 15px 15px 22px 15px;\n  display: inline-block;\n  z-index: 999;\n  position: relative;\n  white-space: nowrap;\n  display: flex;\n}\n\n.table__strobe {\n  width: 100px;\n  transform-origin: bottom;\n  cursor: pointer;\n}\n\n.table__strobe:hover {\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.4);\n}\n\nplate:before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 32px);\n  top: calc(50% - 32px);\n  height: 65px;\n  width: 65px;\n  border-radius: 60px;\n  border-top: solid 6px #CCC;\n  opacity: 0.4;\n  background: rgb(255, 255, 255);\n}\n\nplate {\n  border-bottom: solid 5px #DDD;\n  background: white;\n  border-radius: 100px;\n  border-radius: 100px;\n}\n\nbento, plate {\n  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.1);\n  display: inline-block;\n  width: 100px;\n  height: 100px;\n  margin: 0 10px;\n  position: relative;\n}\n\n.table img {\n  width: 97px;\n  height: 130px;\n  cursor: pointer;\n}\n\napple {\n  border-radius: 100px;\n  border-style: solid;\n  border-width: 2px 4px 15px 4px;\n  position: relative;\n  background: #e41919;\n  border-color: #ab1212;\n  display: flex;\n  height: 38px;\n  margin: 20px 24px;\n}\n\n#fancy:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 47px);\n  top: calc(50% - 44px);\n  height: 68px;\n  width: 74px;\n  border-radius: 60px;\n  border: solid 10px #009ff2;\n  opacity: 0.4;\n}\n\nbento {\n  height: 100px;\n  background: brown;\n  position: relative;\n  border: solid 3px #711c12;\n}\n\nbento:hover {\n  box-shadow: 0px 0px 0 6px rgba(255, 255, 255, 0.4);\n  cursor: pointer;\n}\n\n.strobe:hover {\n  box-shadow: 0px 0px 0 6px rgba(255, 255, 255, 0.4);\n  cursor: pointer;\n}\n\napple:hover {\n  box-shadow: 0px 0px 0 6px rgba(255, 255, 255, 0.4);\n  cursor: pointer;\n}\n\norange {\n  background: orange;\n  border-color: #bd6e07;\n  border-radius: 100px;\n  border-style: solid;\n  border-width: 2px 4px 15px 4px;\n  position: relative;\n  display: flex;\n  margin: 13px;\n  height: 50px;\n}\n\norange:hover {\n  box-shadow: 0px 0px 0 6px rgba(255, 255, 255, 0.4);\n}\n\npickle {\n  background: #179837;\n  border-radius: 30px;\n  position: relative;\n  border: solid 2px #025a18;\n  border-width: 2px 2px 9px 2px;\n  display: flex;\n  width: 18px;\n  height: 49px;\n  margin: 24px 40px;\n}\n\npickle:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\napple.small {\n  height: 20px;\n  margin: 31px 32px;\n}\n\norange.small {\n  height: 20px;\n  margin: 31px 32px;\n}\n\n.table__strobe apple:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\n.table__strobe pickle:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\n.table__strobe orange:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\n@keyframes strobetart {\n  0% {\n    transform: skew(0deg, 0deg) scaleY(1);\n    animation-timing-function: ease-in;\n  }\n  40% {\n    transform: skew(0deg, 0deg) scaleY(0.9);\n    animation-timing-function: ease-out;\n  }\n  100% {\n    transform: skew(4deg, 0deg) scaleX(1);\n  }\n}\n@keyframes strobe {\n  00% {\n    transform: skew(4deg, 0deg) scaleX(1);\n  }\n  10% {\n    transform: skew(1deg, 0deg) scaleY(0.9);\n  }\n  50% {\n    transform: skew(-4deg, 0deg) scaleX(1);\n  }\n  60% {\n    transform: skew(-1deg, 0deg) scaleY(0.9);\n  }\n  100% {\n    transform: skew(4deg, 0deg) scaleX(1);\n  }\n}\n@keyframes shake {\n  0% {\n    transform: rotate(0deg);\n  }\n  25% {\n    transform: rotate(5deg);\n  }\n  50% {\n    transform: rotate(0eg);\n  }\n  75% {\n    transform: rotate(-5deg);\n  }\n  100% {\n    transform: rotate(0deg);\n  }\n}\n.table-edge {\n  width: 274px;\n  opacity: 1;\n  margin: 0 auto 10px auto;\n  background: #ac741c;\n  height: 15px;\n  transform: rotateX(-40deg);\n  transform-origin: top;\n}\n\n.table-edge__leg {\n  width: 24px;\n  height: 10px;\n  background: #84570f;\n  position: absolute;\n  top: 15px;\n}\n\n.table-edge__leg:first-child {\n  left: 20px;\n}\n\n.table-edge__leg:last-child {\n  right: 20px;\n}\n\n.editor {\n  position: relative;\n  text-align: left;\n  width: 90%;\n  margin: 0 auto;\n  border: solid 10px rgba(0, 0, 0, 0.35);\n  border-radius: 4px;\n  overflow: hidden;\n  box-shadow: 0px 5px 6px 5px rgba(255, 255, 255, 0.4);\n  height: 478px;\n  margin-bottom: 65px;\n}\n\n.editor .input-window__numbers {\n  position: absolute;\n  top: 0;\n  left: 0;\n  font-family: menlo, monospace;\n  padding: 10px 10px;\n  height: 100%;\n  line-height: 150%;\n  text-align: right;\n}\n\n.editor .header-input {\n  text-align: left;\n  padding: 10px 15px;\n  background: rgba(0, 0, 0, 0.15);\n  border-top: solid 1px rgba(255, 255, 255, 0.05);\n  border-bottom: solid 1px rgba(255, 255, 255, 0.05);\n  border-radius: 2px 2px 0 0;\n  color: rgba(255, 255, 255, 0.6);\n}\n\n.editor .file-name {\n  float: right;\n  opacity: 0.5;\n}\n\n.editor .css-view {\n  background: #efefef;\n  color: #AAA;\n}\n\n.editor .input-window {\n  padding: 10px 10px 10px 46px;\n  position: relative;\n  min-height: 432px;\n}\n\n.editor * {\n  font-family: menlo, monospace;\n  font-size: 14px;\n  line-height: 150%;\n  padding: 0;\n  margin: 0;\n}\n\n.editor input.input-strobe {\n  background: rgba(62, 203, 255, 0.3);\n  animation: input 0.5s infinite;\n}\n\n.editor input {\n  color: #333;\n  border: none;\n  width: calc(100% - 46px);\n}\n\n.editor-panel {\n  float: left;\n  width: 50%;\n}\n\n.css-view .input-window__numbers {\n  color: #999;\n  background: #DDD;\n}\n\n.input-window__plus {\n  color: #666;\n  padding: 0px 4px;\n  font-size: 40px;\n  display: none;\n}\n\n.input-window__button {\n  background: #ddd;\n  display: block;\n  border-radius: 2px;\n  padding: 2px 7px 2px 7px;\n  color: #666;\n  border: solid 3px #999;\n  border-width: 1px 1px 6px 1px;\n  font-size: 9px;\n  position: absolute;\n  cursor: pointer;\n  top: 7px;\n  right: 7px;\n  z-index: 999999;\n}\n\n.html-view .input-window__numbers {\n  color: #666;\n  border-right: solid 1px #333;\n}\n\n.input-window__markup {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.input-window__strobe {\n  margin-bottom: 10px;\n}\n\nh1 {\n  color: #6c6a66;\n}\n\n.menu-right {\n  display: flex;\n  flex-direction: column;\n  place-items: center;\n}\n\n.menu-right h1:hover {\n  box-shadow: 1px 1px 7px 2px rgba(242, 238, 233, 0.71);\n  transition: 0.2s;\n}\n\n.menu-right h1 {\n  cursor: pointer;\n}\n\nh4 {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.footer-wrapper {\n  display: flex;\n  gap: 100px;\n  place-items: center;\n  justify-content: center;\n}\n\n.footer-wrapper img {\n  cursor: pointer;\n}\n\na {\n  text-decoration: none;\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.window {\n  position: absolute;\n  background: white;\n  z-index: 1000;\n  font-size: 18px;\n  color: #666;\n  border-bottom: solid 2px #BBB;\n  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);\n  transform: rotateX(20deg);\n  outline: solid 1px transparent;\n  word-wrap: nowrap;\n  white-space: nowrap;\n  left: 26%;\n  top: 24%;\n  border-radius: 10px;\n}", "",{"version":3,"sources":["webpack://./src/sass/blocks/_main-block.scss","webpack://./src/index.scss","webpack://./src/sass/blocks/_left-column.scss","webpack://./src/sass/blocks/_right-column.scss","webpack://./src/sass/blocks/_body.scss","webpack://./src/sass/base/_variable.scss","webpack://./src/sass/blocks/_menu-left.scss","webpack://./src/sass/blocks/_selection.scss","webpack://./src/sass/blocks/_button-help.scss","webpack://./src/sass/blocks/_game-wrapper.scss","webpack://./src/sass/blocks/_table-wrapper.scss","webpack://./src/sass/blocks/_table.scss","webpack://./src/sass/blocks/_keyframes.scss","webpack://./src/sass/blocks/_table-edge.scss","webpack://./src/sass/blocks/_editor.scss","webpack://./src/sass/blocks/_editor-panel.scss","webpack://./src/sass/blocks/_input-window.scss","webpack://./src/sass/blocks/_menu-right.scss","webpack://./src/sass/blocks/_footer-contacts.scss","webpack://./src/sass/blocks/_footer-wrapper.scss","webpack://./src/sass/blocks/_window.scss"],"names":[],"mappings":"AAAA;EACI,aAAA;ACEJ;;ACHA;EACE,yBAAA;EACA,aAAA;EACA,UAAA;EACA,kBAAA;EACA,mBAAA;EACA,MAAA;EACA,SAAA;EACA,OAAA;EACA,UAAA;ADMF;;AEfA;EACE,oCAAA;EACA,aAAA;EACA,eAAA;EACA,UAAA;EACA,QAAA;AFkBF;;AGvBA;EACE,mBCDW;AJ2Bb;;AK3BA;EACI,iBAAA;EACA,aAAA;EACA,QAAA;AL8BJ;;AK3BA;EACE,+BDNY;AJoCd;;AK3BA;EACE,WAAA;EACA,YAAA;EACA,YAAA;EACA,yBAAA;EACA,+BAAA;EACA,mBAAA;EACA,gBAAA;EACA,eAAA;AL8BF;;AK3BA;EACE,iDAAA;EACA,gBAAA;AL8BF;;AMrDA;EACI,+BAAA;EACA,eAAA;EACA,SAAA;EACA,gBAAA;EACA,kBAAA;EACA,kBAAA;ANwDJ;;AMrDA;EACI,aAAA;ANwDJ;;AOlEA;EACI,oCAAA;EACA,2BAAA;EACA,mBAAA;EACA,eAAA;EACA,YAAA;APqEJ;;AOlEA;EACI,+BHRU;AJ6Ed;;AOlEA;EACI,qDAAA;EACA,gBAAA;APqEJ;;AQnFA;EACE,+BAAA;EACA,kBAAA;EACA,kBAAA;EACA,kBAAA;EACA,iBAAA;EACA,mBAAA;ARsFF;;AQnFA;EACE,uBAAA;ARsFF;;AShGA;EACE,iBAAA;EACA,wBAAA;EACA,aAAA;EACA,kBAAA;EACA,wBAAA;EACA,yBAAA;EACA,YAAA;EACA,UAAA;ATmGF;;AShGA;EACE,4CAAA;EACA,6CAAA;EACA,kBAAA;EACA,YAAA;EACA,SAAA;EACA,WAAA;ATmGF;;AShGA;EACE,YAAA;ATmGF;;AShGA;EACE,YAAA;ATmGF;;AShGA;EACE,YAAA;ATmGF;;AShGA;EACE,YAAA;ATmGF;;AShGA;EACE,YAAA;ATmGF;;AShGA;EACE,YAAA;ATmGF;;AShGA;EACE,YAAA;ATmGF;;AUhJA;EACE,4BAAA;EACA,8BAAA;EACA,yBAAA;EACA,4BAAA;EACA,qBAAA;EACA,YAAA;EACA,kBAAA;EACA,mBAAA;EACA,aAAA;AVmJF;;AUhJA;EACE,YAAA;EACA,wBAAA;EAGA,eAAA;AViJF;;AU9IA;EACE,oDAAA;AViJF;;AU9IA;EACE,WAAA;EACA,cAAA;EACA,kBAAA;EACA,sBAAA;EACA,qBAAA;EACA,YAAA;EACA,WAAA;EACA,mBAAA;EACA,0BAAA;EACA,YAAA;EACA,8BAAA;AViJF;;AU9IA;EACE,6BAAA;EACA,iBAAA;EACA,oBAAA;EACA,oBAAA;AViJF;;AU9IA;EACE,0CAAA;EACA,qBAAA;EACA,YAAA;EACA,aAAA;EACA,cAAA;EACA,kBAAA;AViJF;;AU9IA;EACE,WAAA;EACA,aAAA;EACA,eAAA;AViJF;;AU9IA;EACE,oBAAA;EACA,mBAAA;EACA,8BAAA;EACA,kBAAA;EACA,mBAAA;EACA,qBAAA;EACA,aAAA;EACA,YAAA;EACA,iBAAA;AViJF;;AU9IA;EACE,WAAA;EACA,cAAA;EACA,kBAAA;EACA,sBAAA;EACA,qBAAA;EACA,YAAA;EACA,WAAA;EACA,mBAAA;EACA,0BAAA;EACA,YAAA;AViJF;;AU9IA;EACE,aAAA;EACA,iBAAA;EACA,kBAAA;EACA,yBAAA;AViJF;;AU9IA;EACE,kDAAA;EACA,eAAA;AViJF;;AU9IA;EACE,kDAAA;EACA,eAAA;AViJF;;AU9IA;EACE,kDAAA;EACA,eAAA;AViJF;;AU9IA;EACE,kBAAA;EACA,qBAAA;EACA,oBAAA;EACA,mBAAA;EACA,8BAAA;EACA,kBAAA;EACA,aAAA;EACA,YAAA;EACA,YAAA;AViJF;;AU9IA;EACE,kDAAA;AViJF;;AU9IA;EACE,mBAAA;EACA,mBAAA;EACA,kBAAA;EACA,yBAAA;EACA,6BAAA;EACA,aAAA;EACA,WAAA;EACA,YAAA;EACA,iBAAA;AViJF;;AU9IA;EACE,wCAAA;AViJF;;AU9IA;EACE,YAAA;EACA,iBAAA;AViJF;;AU9IA;EACE,YAAA;EACA,iBAAA;AViJF;;AU9IA;EACE,wCAAA;AViJF;;AU9IA;EACE,wCAAA;AViJF;;AU9IA;EACE,wCAAA;AViJF;;AW/SA;EACE;IACI,qCAAA;IACA,kCAAA;EXkTJ;EWhTA;IACI,uCAAA;IACA,mCAAA;EXkTJ;EWhTA;IACI,qCAAA;EXkTJ;AACF;AW/SA;EACE;IACE,qCAAA;EXiTF;EW/SA;IACE,uCAAA;EXiTF;EW/SA;IACE,sCAAA;EXiTF;EW/SA;IACE,wCAAA;EXiTF;EW/SA;IACE,qCAAA;EXiTF;AACF;AW9SA;EACE;IAAK,uBAAA;EXiTL;EWhTA;IAAM,uBAAA;EXmTN;EWlTA;IAAM,sBAAA;EXqTN;EWpTA;IAAM,wBAAA;EXuTN;EWtTA;IAAO,uBAAA;EXyTP;AACF;AY/VA;EACE,YAAA;EACA,UAAA;EACA,wBAAA;EACA,mBAAA;EACA,YAAA;EACA,0BAAA;EACA,qBAAA;AZiWF;;AY9VA;EACE,WAAA;EACA,YAAA;EACA,mBAAA;EACA,kBAAA;EACA,SAAA;AZiWF;;AY9VA;EACE,UAAA;AZiWF;;AY9VA;EACE,WAAA;AZiWF;;AaxXA;EACE,kBAAA;EACA,gBAAA;EACA,UAAA;EACA,cAAA;EACA,sCAAA;EACA,kBAAA;EACA,gBAAA;EACA,oDAAA;EACA,aAAA;EACA,mBAAA;Ab2XF;;AaxXA;EACE,kBAAA;EACA,MAAA;EACA,OAAA;EACA,6BAAA;EACA,kBAAA;EACA,YAAA;EACA,iBAAA;EACA,iBAAA;Ab2XF;;AaxXA;EACE,gBAAA;EACA,kBAAA;EACA,+BAAA;EACA,+CAAA;EACA,kDAAA;EACA,0BAAA;EACA,+BAAA;Ab2XF;;AaxXA;EACE,YAAA;EACA,YAAA;Ab2XF;;AaxXA;EACE,mBAAA;EACA,WAAA;Ab2XF;;AaxXA;EACE,4BAAA;EACA,kBAAA;EACA,iBAAA;Ab2XF;;AaxXA;EACE,6BAAA;EACA,eAAA;EACA,iBAAA;EACA,UAAA;EACA,SAAA;Ab2XF;;AaxXA;EACE,mCAAA;EACA,8BAAA;Ab2XF;;AaxXA;EACE,WAAA;EACA,YAAA;EACA,wBAAA;Ab2XF;;Ac7bA;EACE,WAAA;EACA,UAAA;AdgcF;;AelcA;EACE,WAAA;EACA,gBAAA;AfqcF;;AelcA;EACE,WAAA;EACA,gBAAA;EACA,eAAA;EACA,aAAA;AfqcF;;AelcA;EACE,gBAAA;EACA,cAAA;EACA,kBAAA;EACA,wBAAA;EACA,WAAA;EACA,sBAAA;EACA,6BAAA;EACA,cAAA;EACA,kBAAA;EACA,eAAA;EACA,QAAA;EACA,UAAA;EACA,eAAA;AfqcF;;AelcA;EACE,WAAA;EACA,4BAAA;AfqcF;;AelcA;EACE,+BAAA;AfqcF;;AelcA;EACE,mBAAA;AfqcF;;AgB3eA;EACE,cAAA;AhB8eF;;AgB3eA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;AhB8eF;;AgB3eA;EACE,qDAAA;EACA,gBAAA;AhB8eF;;AgB3eA;EACE,eAAA;AhB8eF;;AiB9fA;EACE,+BAAA;AjBigBF;;AkBlgBA;EACE,aAAA;EACA,UAAA;EACA,mBAAA;EACA,uBAAA;AlBqgBF;;AkBlgBA;EACE,eAAA;AlBqgBF;;AkBlgBA;EACE,qBAAA;EACA,+BAAA;AlBqgBF;;AmBlhBA;EACE,kBAAA;EACA,iBAAA;EACA,aAAA;EACA,eAAA;EACA,WAAA;EACA,6BAAA;EACA,0CAAA;EACA,yBAAA;EACA,8BAAA;EACA,iBAAA;EACA,mBAAA;EACA,SAAA;EACA,QAAA;EACA,mBAAA;AnBqhBF","sourcesContent":[".main-block {\n    display: flex;\n}","@import \"./libs/normalize.css\";\n@import \"./sass/base/variable\";\n@import \"./sass/blocks/main-block\";\n@import \"./sass/blocks/left-column\";\n@import \"./sass/blocks/right-column\";\n@import \"./sass/blocks/body\";\n@import \"./sass/blocks/menu-left\";\n@import \"./sass/blocks/selection\";\n@import \"./sass/blocks/button-help\";\n@import \"./sass/blocks/game-wrapper\";\n@import \"./sass/blocks/table-wrapper\";\n@import \"./sass/blocks/table\";\n@import \"./sass/blocks/keyframes\";\n@import \"./sass/blocks/table-edge\";\n@import \"./sass/blocks/editor\";\n@import \"./sass/blocks/editor-panel\";\n@import \"./sass/blocks/input-window\";\n@import \"./sass/blocks/_menu-right\";\n@import \"./sass/blocks/_footer-contacts\";\n@import \"./sass/blocks/footer-wrapper\";\n@import \"./sass/blocks/_window\";\n",".left-column {\n  background-color: #2e2a23;\n  height: 100vh;\n  width: 60%;\n  text-align: center;\n  overflow-x: visible;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 2;\n}\n",".right-column {\n  background-color: rgba(0,0,0,.2);\n  height: 115vh;\n  position: fixed;\n  width: 40%;\n  right: 0;\n};","body {\n  background: $main-color;\n}","$main-color: #2e2a23;\n$fonts-color: rgba(255,255,255,.3);",".menu-left {\n    margin-left: 10px;\n    display: flex;\n    gap: 9px;\n}\n\n.menu-left__logo {\n  color: $fonts-color;\n}\n\n.menu-left__reset {\n  width: 91px;\n  height: 31px;\n  border: none;\n  background-color: #711212;\n  color: rgba(255, 255, 255, 0.3);\n  place-items: center;\n  margin-top: 14px;\n  cursor: pointer;\n}\n\n.menu-left__reset:hover {\n  box-shadow: 1px 5px 6px 1px rgba(175, 0, 0, 0.71);\n  transition: 0.5s;\n}",".selection__order {\n    color: $fonts-color;\n    font-size: 40px;\n    margin: 0;\n    font-weight: 400;\n    text-align: center;\n    padding: 20px 30px;\n}\n\n.selection__orders {\n    display: none;\n}",".button-help {\n    background-color: rgba(0,0,0,.2);\n    padding: 8px 15px 10px 15px;\n    border-radius: 22px;\n    cursor: pointer;\n    border: none;\n}\n\n.button-help__help {\n    color: $fonts-color;\n}\n\n.button-help:hover {\n    box-shadow: 1px 5px 6px 1px rgba(244, 241, 238, 0.71);\n    transition: 0.5s;\n}",".game-wrapper {\n  transform: translate3d(0,0,0);\n  perspective: 400px;\n  text-align: center;\n  position: relative;\n  padding-top: 15px;\n  margin-bottom: 50px;\n}\n\n.shake {\n  animation: shake .1s 5;\n}",".table-wrapper {\n  min-height: 142px;\n  transform-origin: bottom;\n  z-index: 9999;\n  position: relative;\n  margin: 10px auto 0 auto;\n  transform: rotateX(20deg);\n  width: 274px;\n  opacity: 1;\n}\n\n.table-wrapper__surface {\n  box-shadow: 0px 40px 10px rgba(0,0,0,.2);\n  background: linear-gradient(#dd992d,#cd8c26);\n  position: absolute;\n  height: 100%;\n  bottom: 0;\n  width: 100%;\n}\n\n#size-one {\n  width: 400px;\n}\n\n#size-six {\n  width: 485px;\n}\n\n#size-seven {\n  width: 610px;\n}\n\n#size-eight {\n  width: 630px;\n}\n\n#size-nine {\n  width: 600px;\n}\n\n#size-ten {\n  width: 635px;\n}\n\n#size {\n  width: 274px;\n}",".table {\n  transform-style: preserve-3d;\n  outline: solid 1px transparent;\n  margin: 0px auto 0px auto;\n  padding: 15px 15px 22px 15px;\n  display: inline-block;\n  z-index: 999;\n  position: relative;\n  white-space: nowrap;\n  display: flex;\n}\n\n.table__strobe {\n  width: 100px;\n  transform-origin: bottom;\n  // animation: strobeStart .5s ease-out, strobe 1s infinite;\n  // animation-delay: 0s, .5s;\n  cursor: pointer;\n}\n\n.table__strobe:hover {\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255,.4);\n}\n\nplate:before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 32px);\n  top: calc(50% - 32px);\n  height: 65px;\n  width: 65px;\n  border-radius: 60px;\n  border-top: solid 6px #CCC;\n  opacity: .4;\n  background: rgba(255,255,255,1);\n}\n\nplate {\n  border-bottom: solid 5px #DDD;\n  background: white;\n  border-radius: 100px;\n  border-radius: 100px;\n}\n\nbento, plate {\n  box-shadow: 0px 8px 0px rgba(0,0,0,.1);\n  display: inline-block;\n  width: 100px;\n  height: 100px;\n  margin: 0 10px;\n  position: relative;\n}\n\n.table img {\n  width: 97px;\n  height: 130px;\n  cursor: pointer;\n}\n\napple {\n  border-radius: 100px;\n  border-style: solid;\n  border-width: 2px 4px 15px 4px;\n  position: relative;\n  background: #e41919;\n  border-color: #ab1212;\n  display: flex;\n  height: 38px;\n  margin: 20px 24px;\n}\n\n#fancy:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 47px);\n  top: calc(50% - 44px);\n  height: 68px;\n  width: 74px;\n  border-radius: 60px;\n  border: solid 10px #009ff2;\n  opacity: .4;\n}\n\nbento {\n  height: 100px;\n  background: brown;\n  position: relative;\n  border: solid 3px #711c12;\n}\n\nbento:hover {\n  box-shadow: 0px 0px 0 6px rgba(255,255,255,.4);\n  cursor: pointer;\n}\n\n.strobe:hover {\n  box-shadow: 0px 0px 0 6px rgba(255,255,255,.4);\n  cursor: pointer;\n}\n\napple:hover {\n  box-shadow: 0px 0px 0 6px rgba(255,255,255,.4);\n  cursor: pointer;\n}\n\norange {\n  background: orange;\n  border-color: #bd6e07;\n  border-radius: 100px;\n  border-style: solid;\n  border-width: 2px 4px 15px 4px;\n  position: relative;\n  display: flex;\n  margin: 13px;\n  height: 50px;\n}\n\norange:hover {\n  box-shadow: 0px 0px 0 6px rgba(255,255,255,.4);\n}\n\npickle {\n  background: #179837;\n  border-radius: 30px;\n  position: relative;\n  border: solid 2px #025a18;\n  border-width: 2px 2px 9px 2px;\n  display: flex;\n  width: 18px;\n  height: 49px;\n  margin: 24px 40px;\n}\n\npickle:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\napple.small {\n  height: 20px;\n  margin: 31px 32px;\n}\n\norange.small {\n  height: 20px;\n  margin: 31px 32px;\n}\n\n.table__strobe apple:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\n.table__strobe pickle:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\n.table__strobe orange:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\n\n\n\n","@keyframes strobetart {\n  0% {\n      transform: skew(0deg,0deg) scaleY(1);\n      animation-timing-function: ease-in;\n  } \n  40% {\n      transform: skew(0deg,0deg) scaleY(.9);\n      animation-timing-function: ease-out;\n  }\n  100% {\n      transform: skew(4deg,0deg) scaleX(1);\n  }\n}\n\n@keyframes strobe {\n  00% {\n    transform: skew(4deg,0deg) scaleX(1);\n  }\n  10% {\n    transform: skew(1deg,0deg) scaleY(.9);\n  }\n  50% {\n    transform: skew(-4deg,0deg) scaleX(1);\n  }\n  60% {\n    transform: skew(-1deg,0deg) scaleY(.9);\n  }\n  100% {\n    transform: skew(4deg,0deg) scaleX(1);\n  }\n}\n\n@keyframes shake {\n  0% { transform: rotate(0deg); }\n  25% { transform: rotate(5deg); }\n  50% { transform: rotate(0eg); }\n  75% { transform: rotate(-5deg); }\n  100% { transform: rotate(0deg); }\n}",".table-edge {\n  width: 274px;\n  opacity: 1;\n  margin: 0 auto 10px auto;\n  background: #ac741c;\n  height: 15px;\n  transform: rotateX(-40deg);\n  transform-origin: top;\n}\n\n.table-edge__leg {\n  width: 24px;\n  height: 10px;\n  background: #84570f;\n  position: absolute;\n  top: 15px;\n}\n\n.table-edge__leg:first-child {\n  left: 20px;\n}\n\n.table-edge__leg:last-child {\n  right: 20px;\n}",".editor {\n  position: relative;\n  text-align: left;\n  width: 90%;\n  margin: 0 auto;\n  border: solid 10px rgba(0,0,0,.35);\n  border-radius: 4px;\n  overflow: hidden;\n  box-shadow: 0px 5px 6px 5px rgba(255, 255, 255,.4);\n  height: 478px;\n  margin-bottom: 65px;\n}\n\n.editor .input-window__numbers {\n  position: absolute;\n  top: 0;\n  left: 0;\n  font-family: menlo, monospace;\n  padding: 10px 10px;\n  height: 100%;\n  line-height: 150%;\n  text-align: right;\n}\n\n.editor .header-input {\n  text-align: left;\n  padding: 10px 15px;\n  background: rgba(0,0,0,.15);\n  border-top: solid 1px rgba(255,255,255,.05);\n  border-bottom: solid 1px rgba(255,255,255,.05);\n  border-radius: 2px 2px 0 0;\n  color: rgba(255,255,255,.6);\n}\n\n.editor .file-name {\n  float: right;\n  opacity: .5;\n}\n\n.editor .css-view {\n  background: #efefef;\n  color: #AAA;\n}\n\n.editor .input-window {\n  padding: 10px 10px 10px 46px;\n  position: relative;\n  min-height: 432px;\n}\n\n.editor * {\n  font-family: menlo,monospace;\n  font-size: 14px;\n  line-height: 150%;\n  padding: 0;\n  margin: 0;\n}\n\n.editor input.input-strobe {\n  background: rgba(62,203,255,.3);\n  animation: input .5s infinite;\n}\n\n.editor input {\n  color: #333;\n  border: none;\n  width: calc(100% - 46px);\n  \n}",".editor-panel {\n  float: left;\n  width: 50%;\n}",".css-view .input-window__numbers {\n  color: #999;\n  background: #DDD;\n}\n\n.input-window__plus {\n  color: #666;\n  padding: 0px 4px;\n  font-size: 40px;\n  display: none;\n}\n\n.input-window__button {\n  background: #ddd;\n  display: block;\n  border-radius: 2px;\n  padding: 2px 7px 2px 7px;\n  color: #666;\n  border: solid 3px #999;\n  border-width: 1px 1px 6px 1px;\n  font-size: 9px;\n  position: absolute;\n  cursor: pointer;\n  top: 7px;\n  right: 7px;\n  z-index: 999999;\n}\n\n.html-view .input-window__numbers {\n  color: #666;\n  border-right: solid 1px #333;\n}\n\n.input-window__markup {\n  color: rgba(255,255,255,.3);\n}\n\n.input-window__strobe {\n  margin-bottom: 10px;\n}","h1 {\n  color: #6c6a66;\n}\n\n.menu-right {\n  display: flex;\n  flex-direction: column;\n  place-items: center;\n}\n\n.menu-right h1:hover {\n  box-shadow: 1px 1px 7px 2px rgb(242 238 233 / 71%);\n  transition: 0.2s;\n}\n\n.menu-right h1 {\n  cursor: pointer;\n}","h4 {\n  color: rgba(255, 255, 255, 0.3);\n}",".footer-wrapper {\n  display: flex;\n  gap: 100px;\n  place-items: center;\n  justify-content: center;\n}\n\n.footer-wrapper img {\n  cursor: pointer;\n}\n\na {\n  text-decoration: none;\n  color: rgba(255, 255, 255, 0.3);\n}",".window {\n  position: absolute;\n  background: white;\n  z-index: 1000;\n  font-size: 18px;\n  color: #666;\n  border-bottom: solid 2px #BBB;\n  box-shadow: 0px 5px 0px rgba(0,0,0,.2);\n  transform: rotateX(20deg);\n  outline: solid 1px transparent;\n  word-wrap: nowrap;\n  white-space: nowrap;\n  left: 26%; \n  top: 24%;\n  border-radius: 10px;\n}\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -9285,54 +9285,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/html-loader/dist/runtime/getUrl.js */ "./node_modules/html-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);
-// Imports
-
-var ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./img/github.png */ "./src/img/github.png"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ./img/rsschool.svg */ "./src/img/rsschool.svg"), __webpack_require__.b);
 // Module
-var ___HTML_LOADER_REPLACEMENT_0___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);
-var ___HTML_LOADER_REPLACEMENT_1___ = _node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_1___);
-var code = "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n  <div class=\"main-block\">\n    <div class=\"left-column\">\n      <div class=\"wrapper-left\">\n        <header class=\"menu-left\">\n          <h3>🍽️</h3>\n          <h3 class=\"menu-left__logo\">CSS Dinner</h3>\n          <button class=\"menu-left__reset\">Reset game</button>\n        </header>\n        <main class=\"selection\">\n          <h2 class=\"selection__order\">Select the plates</h2>\n          <h2 class=\"selection__orders\">Select the bento boxes</h2>\n          <h2 class=\"selection__orders\">Select the fancy plate</h2>\n          <h2 class=\"selection__orders\">Select the apple on the plate</h2>\n          <h2 class=\"selection__orders\">Select the pickle on the fancy plate</h2>\n          <h2 class=\"selection__orders\">Select the small apples</h2>\n          <h2 class=\"selection__orders\">Select the small oranges</h2>\n          <h2 class=\"selection__orders\">Select the small oranges in the bentos</h2>\n          <h2 class=\"selection__orders\">Select all the plates and bentos</h2>\n          <h2 class=\"selection__orders\">Select all the things!</h2>\n          <button class=\"button-help\">\n            <div class=\"button-help__help\">Help, I'm stuck!</div>\n          </button>\n          <div class=\"game-wrapper\">\n            <div class=\"table-wrapper\">\n              <div class=\"table-wrapper__surface\"></div>\n              <div class=\"table\">\n                <plate class=\"table__strobe\"></plate>\n                <plate class=\"table__strobe\"></plate>\n              </div>\n            </div>\n            <div class=\"table-edge\">\n              <div class=\"table-edge__leg\"></div>\n              <div class=\"table-edge__leg\"></div>\n            </div>\n          </div>\n          <div class=\"editor\">\n            <div class=\"editor-panel\">\n              <div class=\"header-input\">\n                <div class=\"header-input__name\">CSS Editor style.css</div>\n              </div>\n              <div class=\"input-window css-view\">\n                <div class=\"input-window__numbers\">1 <br> 2<br> 3<br> 4<br> 5<br> 6<br> 7<br> 8<br> 9<br> 10<br> 11<br> 12<br> 13<br> 14<br> 15<br> 16<br> 17<br> 18<br> 19<br> 20<br></div>\n                <input class=\"input-window__strobe\" type=\"text\" placeholder=\"Type in a CSS selector\">\n                <span class=\"input-window__plus\">+</span>\n                <div class=\"input-window__button\">enter</div>\n                <div> {<br> /*Styles would go here */<br> }</div>\n              </div>\n            </div>\n            <div class=\"editor-panel html-view\">\n              <div class=\"header-input\">\n                <div class=\"header-input__name\">HTML Viewer table.html</div>\n              </div>\n              <div class=\"input-window\">\n                <div class=\"input-window__numbers\">1 <br> 2<br> 3<br> 4<br> 5<br> 6<br> 7<br> 8<br> 9<br> 10<br> 11<br> 12<br> 13<br> 14<br> 15<br> 16<br> 17<br> 18<br> 19<br> 20<br></div>\n                <div class=\"input-window__markup\"></div>\n              </div>\n            </div>\n          </div>\n          <div class=\"footer-contacts\">\n            <div class=\"footer-wrapper\">\n              <p><a href=\"https://github.com/Alexandra376\"><img src=\"" + ___HTML_LOADER_REPLACEMENT_0___ + "\" alt=\"github__logo\" width=\"50\" height=\"50\"></a></p>\n              <h4>Made by Alexandra376</h4>\n              <p><a href=\"https://rs.school/\"><img src=\"" + ___HTML_LOADER_REPLACEMENT_1___ + "\" alt=\"rsschool__logo\" width=\"50\" height=\"50\"></a></p>\n            </div>\n          </div>\n        </main>\n      </div>\n    </div>\n    <div class=\"right-column\">\n      <div class=\"wrapper-right\">\n        <div class=\"menu-right\">\n          <h1 data text=\"Select the plates\">Level 1</h1>\n          <h1 data text=\"Select the bento boxes\">Level 2</h1>\n          <h1 data text=\"Select the fancy plate\">Level 3</h1>\n          <h1 data text=\"Select the apple on the plate\">Level 4</h1>\n          <h1 data text=\"Select the pickle on the fancy plate\">Level 5</h1>\n          <h1 data text=\"Select the small apples\">Level 6</h1>\n          <h1 data text=\"Select the small oranges\">Level 7</h1>\n          <h1 data text=\"Select the small oranges in the bentos\">Level 8</h1>\n          <h1 data text=\"Select all the plates and bentos\">Level 9</h1>\n          <h1 data text=\"Select all the things!\">Level 10</h1>\n        </div>\n      </div>\n    </div>\n  </div>\n</body>\n</html>";
+var code = "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n</head>\n<body>\n  <div class=\"main-block\">\n    <div class=\"left-column\">\n      <div class=\"wrapper-left\">\n        <header class=\"menu-left\">\n          <h3>🍽️</h3>\n          <h3 class=\"menu-left__logo\">CSS Dinner</h3>\n          <button class=\"menu-left__reset\">Reset game</button>\n        </header>\n        <main class=\"selection\">\n          <h2 class=\"selection__order\">Select the plates by type</h2>\n          <button class=\"button-help\">\n            <div class=\"button-help__help\">Help, I'm stuck!</div>\n          </button>\n          <div class=\"game-wrapper\">\n            <div class=\"table-wrapper\">\n              <div class=\"table-wrapper__surface\"></div>\n              <div class=\"table\"></div>\n            </div>\n            <div class=\"table-edge\">\n              <div class=\"table-edge__leg\"></div>\n              <div class=\"table-edge__leg\"></div>\n            </div>\n          </div>\n          <div class=\"editor\">\n            <div class=\"editor-panel\">\n              <div class=\"header-input\">\n                <div class=\"header-input__name\">CSS Editor style.css</div>\n              </div>\n              <div class=\"input-window css-view\">\n                <div class=\"input-window__numbers\">1 <br> 2<br> 3<br> 4<br> 5<br> 6<br> 7<br> 8<br> 9<br> 10<br> 11<br> 12<br> 13<br> 14<br> 15<br> 16<br> 17<br> 18<br> 19<br> 20<br></div>\n                <input class=\"input-window__strobe\" type=\"text\" placeholder=\"Type in a CSS selector\">\n                <span class=\"input-window__plus\">+</span>\n                <div class=\"input-window__button\">enter</div>\n                <div> {<br> /*Styles would go here */<br> }</div>\n              </div>\n            </div>\n            <div class=\"editor-panel html-view\">\n              <div class=\"header-input\">\n                <div class=\"header-input__name\">HTML Viewer table.html</div>\n              </div>\n              <div class=\"input-window\">\n                <div class=\"input-window__numbers\">1 <br> 2<br> 3<br> 4<br> 5<br> 6<br> 7<br> 8<br> 9<br> 10<br> 11<br> 12<br> 13<br> 14<br> 15<br> 16<br> 17<br> 18<br> 19<br> 20<br></div>\n                <div class=\"input-window__markup\"></div>\n              </div>\n            </div>\n          </div>\n          <div class=\"window\"></div>\n          <div class=\"footer-contacts\">\n            <div class=\"footer-wrapper\">\n              <p><a href=\"https://github.com/Alexandra376\">GitHub</a></p>\n              <h4>Learn and enjoy!</h4>\n              <p><a href=\"https://rs.school/\">RS School</a></p>\n            </div>\n          </div>\n        </main>\n      </div>\n    </div>\n    <div class=\"right-column\">\n      <div class=\"wrapper-right\">\n        <div class=\"menu-right\">\n          <h1 data-text=\"Select the plates by type\" id=\"one\">Level 1</h1>\n          <h1 data-text=\"Select the bento boxes by their type\" id=\"two\">Level 2</h1>\n          <h1 data-text=\"Select the fancy plate by ID\" id=\"three\">Level 3</h1>\n          <h1 data-text=\"Select the apple on the plate\" id=\"four\">Level 4</h1>\n          <h1 data-text=\"Select the pickle on the fancy plate by combining the Descendant & ID Selectors\" id=\"five\">Level 5</h1>\n          <h1 data-text=\"Select the small apples by their class\" id=\"six\">Level 6</h1>\n          <h1 data-text=\"Select the small oranges by combining the Class Selector\" id=\"seven\">Level 7</h1>\n          <h1 data-text=\"Select the small oranges in the bentos by combining what you learned in the last few levels to solve this one!\" id=\"eight\">Level 8</h1>\n          <h1 data-text=\"Select all the plates and bentos by combining, selectors, with... commas!\" id=\"nine\">Level 9</h1>\n          <h1 data-text=\"Select all the things! By the Universal Selector *\" id=\"ten\">Level 10</h1>\n        </div>\n      </div>\n    </div>\n  </div>\n</body>\n</html>";
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);
-
-/***/ }),
-
-/***/ "./node_modules/html-loader/dist/runtime/getUrl.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/html-loader/dist/runtime/getUrl.js ***!
-  \*********************************************************/
-/***/ ((module) => {
-
-"use strict";
-
-
-module.exports = function (url, options) {
-  if (!options) {
-    // eslint-disable-next-line no-param-reassign
-    options = {};
-  }
-
-  if (!url) {
-    return url;
-  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
-
-
-  url = String(url.__esModule ? url.default : url);
-
-  if (options.hash) {
-    // eslint-disable-next-line no-param-reassign
-    url += options.hash;
-  }
-
-  if (options.maybeNeedQuotes && /[\t\n\f\r "'=<>`]/.test(url)) {
-    return "\"".concat(url, "\"");
-  }
-
-  return url;
-};
 
 /***/ }),
 
@@ -10443,18 +10399,561 @@ module.exports = styleTagTransform;
 
 "use strict";
 
+//Часть кода 1 - отвечает за смену столов и загаловков при клике на Level 1 и т.д.
 const menuItems = document.querySelectorAll('.menu-right h1');
+const table = document.querySelector('.table');
+const tableWrapper = document.querySelector('.table-wrapper');
+const windowModal = document.querySelector('.window');
+const inputWindow = document.querySelector('.input-window__markup');
+const input = document.querySelector('.input-window__strobe');
+const editor = document.querySelector('.editor');
+input.id = 'one';
+// const inputWindow = document.querySelector('.input-window__murkup') as HTMLElement;
+const figures = [];
+//Создание стола по умолчанию
+tableWrapper.id = "size";
+const plateOne = document.createElement('plate');
+plateOne.className = "table__strobe";
+table.appendChild(plateOne);
+figures.push(plateOne);
+const plateTwo = document.createElement('plate');
+plateTwo.className = "table__strobe";
+table.appendChild(plateTwo);
+figures.push(plateTwo);
+const markup = "<div class=\"table\">\n<plate />\n<plate />\n</div>";
+inputWindow.innerText = '';
+inputWindow.innerText = markup;
 function handleClick(event) {
-    const selectionText = document.querySelector('.selection__orders');
+    const selectionText = document.querySelector('.selection__order');
     const text = event.target.getAttribute('data-text');
+    console.log(event);
     if (text) {
         selectionText.textContent = text;
     }
+    figures.forEach((figure) => {
+        if (table.contains(figure)) {
+            table.removeChild(figure);
+        }
+    });
+    figures.length = 0;
+    if (event.target instanceof HTMLElement) {
+        if (event.target.id === 'one') {
+            tableWrapper.id = "size";
+            const plateOne = document.createElement('plate');
+            plateOne.className = "table__strobe";
+            table.appendChild(plateOne);
+            figures.push(plateOne);
+            const plateTwo = document.createElement('plate');
+            plateTwo.className = "table__strobe";
+            table.appendChild(plateTwo);
+            figures.push(plateTwo);
+            const markup = "<div class=\"table\">\n<plate />\n<plate />\n</div>";
+            inputWindow.innerText = '';
+            inputWindow.innerText = markup;
+            return; //Прерывает выполнение кода 
+        }
+    }
+    ;
+    if (event.target instanceof HTMLElement) {
+        if (event.target.id === 'two') {
+            tableWrapper.id = "size-one";
+            const bentoOne = document.createElement('bento');
+            bentoOne.classList.add('strobe');
+            table.appendChild(bentoOne);
+            figures.push(bentoOne);
+            const plateTwo = document.createElement('plate');
+            plateTwo.className = "table__strobe";
+            table.appendChild(plateTwo);
+            figures.push(plateTwo);
+            const bentoTwo = document.createElement('bento');
+            bentoTwo.classList.add('strobe');
+            table.appendChild(bentoTwo);
+            figures.push(bentoTwo);
+            const markup = `<div class="table"> \n <bento /> \n <plate /> \n <bento /> \n </div>`;
+            inputWindow.innerText = '';
+            inputWindow.innerText = markup;
+            return; //Прерывает выполнение кода    
+        }
+    }
+    ;
+    if (event.target instanceof HTMLElement) {
+        if (event.target.id === 'three') {
+            tableWrapper.id = "size-one";
+            const plateOne = document.createElement('plate');
+            plateOne.className = "strobe";
+            plateOne.id = "fancy";
+            table.appendChild(plateOne);
+            figures.push(plateOne);
+            const plateTwo = document.createElement('plate');
+            plateTwo.className = "table__strobe";
+            table.appendChild(plateTwo);
+            figures.push(plateTwo);
+            const bentoTwo = document.createElement('bento');
+            bentoTwo.classList.add('strobe');
+            table.appendChild(bentoTwo);
+            figures.push(bentoTwo);
+            const markup = `<div class="table"> \n<plate id="fancy" /> \n<plate /> \n<bento /> \n</div>`;
+            inputWindow.innerText = '';
+            inputWindow.innerText = markup;
+            return; //Прерывает выполнение кода    
+        }
+    }
+    ;
+    if (event.target instanceof HTMLElement) {
+        if (event.target.id === 'four') {
+            tableWrapper.id = "size-one";
+            const bentoOne = document.createElement('bento');
+            bentoOne.classList.add('strobe');
+            table.appendChild(bentoOne);
+            figures.push(bentoOne);
+            const plateOne = document.createElement('plate');
+            plateOne.className = "table__strobe";
+            table.appendChild(plateOne);
+            figures.push(plateOne);
+            const apple = document.createElement('apple');
+            apple.className = "strobe";
+            apple.style.width = "46px";
+            plateOne.appendChild(apple);
+            figures.push(apple);
+            const appleTwo = document.createElement('apple');
+            appleTwo.style.width = "46px";
+            table.appendChild(appleTwo);
+            figures.push(appleTwo);
+            const markup = `<div class="table"> \n<bento" /> \n<plate> \n<apple /> \n</plate> \n<apple /> \n</div>`;
+            inputWindow.innerText = '';
+            inputWindow.innerText = markup;
+            return; //Прерывает выполнение кода    
+        }
+    }
+    ;
+    if (event.target instanceof HTMLElement) {
+        if (event.target.id === 'five') {
+            tableWrapper.id = "size-one";
+            const bentoOne = document.createElement('bento');
+            bentoOne.classList.add('strobe');
+            table.appendChild(bentoOne);
+            figures.push(bentoOne);
+            const orange = document.createElement('orange');
+            orange.style.width = "60px";
+            bentoOne.appendChild(orange);
+            figures.push(bentoOne);
+            const plateOne = document.createElement('plate');
+            plateOne.className = "table__strobe";
+            plateOne.id = "fancy";
+            table.appendChild(plateOne);
+            figures.push(plateOne);
+            const pickle = document.createElement('pickle');
+            plateOne.appendChild(pickle);
+            figures.push(pickle);
+            const plateTwo = document.createElement('plate');
+            plateTwo.className = "table__strobe";
+            table.appendChild(plateTwo);
+            figures.push(plateTwo);
+            const pickleTwo = document.createElement('pickle');
+            plateTwo.appendChild(pickleTwo);
+            figures.push(pickleTwo);
+            const markup = `<div class="table"> \n<bento> \n<orange /> \n</bento> \n<plate id="fancy" /> \n<pickle /> \n</plate> \n <plate> \n<pickle /> \n<plate /> \n</div>`;
+            inputWindow.innerText = '';
+            inputWindow.innerText = markup;
+            return; //Прерывает выполнение кода    
+        }
+    }
+    ;
+    if (event.target instanceof HTMLElement) {
+        if (event.target.id === 'six') {
+            tableWrapper.id = "size-six";
+            const appleTwo = document.createElement('apple');
+            appleTwo.style.width = "47px";
+            table.appendChild(appleTwo);
+            figures.push(appleTwo);
+            const appleSmall = document.createElement('apple');
+            appleSmall.style.width = "30px";
+            appleSmall.className = "small strobe";
+            table.appendChild(appleSmall);
+            figures.push(appleSmall);
+            const plateOne = document.createElement('plate');
+            plateOne.className = "table__strobe";
+            table.appendChild(plateOne);
+            figures.push(plateOne);
+            const apple = document.createElement('apple');
+            apple.style.width = "30px";
+            apple.className = "small strobe";
+            plateOne.appendChild(apple);
+            figures.push(apple);
+            const plateTwo = document.createElement('plate');
+            plateTwo.className = "table__strobe";
+            table.appendChild(plateTwo);
+            figures.push(plateTwo);
+            const markup = `<div class="table"> \n <apple" /> \n <apple class="small" /> \n <plate> \n <apple class="small" /> \n </plate> \n <plate /> \n </div>`;
+            inputWindow.innerText = '';
+            inputWindow.innerText = markup;
+            return; //Прерывает выполнение кода    
+        }
+    }
+    ;
+    if (event.target instanceof HTMLElement) {
+        if (event.target.id === 'seven') {
+            tableWrapper.id = "size-seven";
+            const appleTwo = document.createElement('apple');
+            appleTwo.style.width = "47px";
+            table.appendChild(appleTwo);
+            figures.push(appleTwo);
+            const appleSmall = document.createElement('apple');
+            appleSmall.style.width = "30px";
+            appleSmall.className = "small strobe";
+            table.appendChild(appleSmall);
+            figures.push(appleSmall);
+            const bentoOne = document.createElement('bento');
+            table.appendChild(bentoOne);
+            figures.push(bentoOne);
+            const orange = document.createElement('orange');
+            orange.style.width = "30px";
+            orange.className = "small strobe";
+            bentoOne.appendChild(orange);
+            figures.push(orange);
+            const plateOne = document.createElement('plate');
+            plateOne.className = "table__strobe";
+            table.appendChild(plateOne);
+            figures.push(plateOne);
+            const orangeTwo = document.createElement('orange');
+            orangeTwo.style.width = "60px";
+            plateOne.appendChild(orangeTwo);
+            figures.push(orangeTwo);
+            const plateTwo = document.createElement('plate');
+            plateTwo.className = "table__strobe";
+            table.appendChild(plateTwo);
+            figures.push(plateTwo);
+            const orangeThree = document.createElement('orange');
+            orangeThree.style.width = "30px";
+            orangeThree.className = "small strobe";
+            plateTwo.appendChild(orangeThree);
+            figures.push(orangeThree);
+            const markup = `<div class="table"> \n <apple /> \n <apple class="small" /> \n <bento> \n <orange class="small" /> \n <plate> \n <orange /> \n </plate> \n <plate> \n <orange class="small" /> \n </plate> \n </div>`;
+            inputWindow.innerText = '';
+            inputWindow.innerText = markup;
+            return; //Прерывает выполнение кода    
+        }
+    }
+    ;
+    if (event.target instanceof HTMLElement) {
+        if (event.target.id === 'eight') {
+            tableWrapper.id = "size-eight";
+            const bentoOne = document.createElement('bento');
+            bentoOne.classList.add('strobe');
+            table.appendChild(bentoOne);
+            figures.push(bentoOne);
+            const orange = document.createElement('orange');
+            orange.style.width = "60px";
+            bentoOne.appendChild(orange);
+            figures.push(bentoOne);
+            const orangeThree = document.createElement('orange');
+            orangeThree.style.width = "30px";
+            orangeThree.className = "small strobe";
+            table.appendChild(orangeThree);
+            figures.push(orangeThree);
+            const bentoTwo = document.createElement('bento');
+            table.appendChild(bentoTwo);
+            figures.push(bentoTwo);
+            const orangeTwo = document.createElement('orange');
+            orangeTwo.style.width = "30px";
+            orangeTwo.className = "small strobe";
+            bentoTwo.appendChild(orangeTwo);
+            figures.push(orangeTwo);
+            const bentoThree = document.createElement('bento');
+            table.appendChild(bentoThree);
+            figures.push(bentoThree);
+            const appleSmall = document.createElement('apple');
+            appleSmall.style.width = "30px";
+            appleSmall.className = "small strobe";
+            bentoThree.appendChild(appleSmall);
+            figures.push(appleSmall);
+            const bentoFive = document.createElement('bento');
+            table.appendChild(bentoFive);
+            figures.push(bentoFive);
+            const orangeFour = document.createElement('orange');
+            orangeFour.style.width = "30px";
+            orangeFour.className = "small strobe";
+            bentoFive.appendChild(orangeFour);
+            figures.push(orangeFour);
+            const markup = `<div class="table"> \n <bento> \n <orange /> \n </bento> \n <orange class="small" /> \n <bento> \n <orange class="small" /> \n </bento> \n <bento> \n <orange class="small" /> \n </bento> \n </div>`;
+            inputWindow.innerText = '';
+            inputWindow.innerText = markup;
+            return; //Прерывает выполнение кода    
+        }
+    }
+    ;
+    if (event.target instanceof HTMLElement) {
+        if (event.target.id === 'nine') {
+            tableWrapper.id = "size-nine";
+            const pickle = document.createElement('pickle');
+            pickle.style.width = "18px";
+            pickle.className = "strobe";
+            table.appendChild(pickle);
+            figures.push(pickle);
+            const plateOne = document.createElement('plate');
+            plateOne.className = "table__strobe";
+            table.appendChild(plateOne);
+            figures.push(plateOne);
+            const pickleOne = document.createElement('pickle');
+            pickleOne.style.width = "18px";
+            pickleOne.className = "strobe";
+            plateOne.appendChild(pickleOne);
+            figures.push(pickleOne);
+            const bentoOne = document.createElement('bento');
+            bentoOne.classList.add('strobe');
+            table.appendChild(bentoOne);
+            figures.push(bentoOne);
+            const pickleFive = document.createElement('pickle');
+            pickleFive.style.width = "18px";
+            pickleFive.className = "strobe";
+            bentoOne.appendChild(pickleFive);
+            figures.push(pickle);
+            const plateTwo = document.createElement('plate');
+            plateTwo.className = "table__strobe";
+            table.appendChild(plateTwo);
+            figures.push(plateTwo);
+            const pickleTwo = document.createElement('pickle');
+            pickleTwo.style.width = "18px";
+            pickleTwo.className = "strobe";
+            plateTwo.appendChild(pickleTwo);
+            figures.push(pickleTwo);
+            const pickleThree = document.createElement('pickle');
+            pickleThree.style.width = "18px";
+            pickleThree.className = "strobe";
+            table.appendChild(pickleThree);
+            figures.push(pickleThree);
+            const markup = `<div class="table"> \n <pickle class="small" /> \n <pickle /> \n <plate> \n <pickle /> \n </plate> \n <bento> \n <pickle /> \n </bento> \n <plate> \n <pickle /> \n </plate> \n <pickle /> \n <pickle class="small" /> \n </div>`;
+            inputWindow.innerText = '';
+            inputWindow.innerText = markup;
+            return; //Прерывает выполнение кода    
+        }
+    }
+    ;
+    if (event.target instanceof HTMLElement) {
+        if (event.target.id === 'ten') {
+            tableWrapper.id = "size-ten";
+            const appleTwo = document.createElement('apple');
+            appleTwo.style.width = "47px";
+            table.appendChild(appleTwo);
+            figures.push(appleTwo);
+            const plateTwo = document.createElement('plate');
+            plateTwo.className = "table__strobe";
+            table.appendChild(plateTwo);
+            figures.push(plateTwo);
+            const orangeThree = document.createElement('orange');
+            orangeThree.style.width = "30px";
+            orangeThree.className = "small strobe";
+            plateTwo.appendChild(orangeThree);
+            figures.push(orangeThree);
+            const bentoOne = document.createElement('bento');
+            bentoOne.classList.add('strobe');
+            table.appendChild(bentoOne);
+            figures.push(bentoOne);
+            const bentoTwo = document.createElement('bento');
+            bentoTwo.classList.add('strobe');
+            table.appendChild(bentoTwo);
+            figures.push(bentoTwo);
+            const orange = document.createElement('orange');
+            orange.style.width = "60px";
+            bentoTwo.appendChild(orange);
+            figures.push(bentoOne);
+            const plateOne = document.createElement('plate');
+            plateOne.className = "strobe";
+            plateOne.id = "fancy";
+            table.appendChild(plateOne);
+            figures.push(plateOne);
+            const markup = `<div class="table"> \n <apple /> \n <plate> \n <orange class="small" /> \n </plate>\n  <bento /> \n <bento> \n <orange /> \n </bento> \n <plate id="fancy" /> \n </div>`;
+            inputWindow.innerText = '';
+            inputWindow.innerText = markup;
+            return; //Прерывает выполнение кода  
+        }
+    }
+    ;
 }
 menuItems.forEach(function (item) {
     item.addEventListener('click', handleClick);
 });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL3NyYy9tYWluLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxNQUFNLFNBQVMsR0FBRyxRQUFRLENBQUMsZ0JBQWdCLENBQUMsZ0JBQWdCLENBQUMsQ0FBQztBQUU5RCxTQUFTLFdBQVcsQ0FBQyxLQUFZO0lBQy9CLE1BQU0sYUFBYSxHQUFHLFFBQVEsQ0FBQyxhQUFhLENBQUMsb0JBQW9CLENBQWdCLENBQUM7SUFDbEYsTUFBTSxJQUFJLEdBQUksS0FBSyxDQUFDLE1BQXNCLENBQUMsWUFBWSxDQUFDLFdBQVcsQ0FBQyxDQUFDO0lBQ3JFLElBQUksSUFBSSxFQUFFO1FBQ1IsYUFBYSxDQUFDLFdBQVcsR0FBRyxJQUFJLENBQUM7S0FDbEM7QUFDSCxDQUFDO0FBRUQsU0FBUyxDQUFDLE9BQU8sQ0FBQyxVQUFTLElBQUk7SUFDN0IsSUFBSSxDQUFDLGdCQUFnQixDQUFDLE9BQU8sRUFBRSxXQUFXLENBQUMsQ0FBQztBQUM5QyxDQUFDLENBQUMsQ0FBQyJ9
+//Часть кода 2 - отвечает за создание подсказок над элементами 
+const tableStrobe = document.querySelectorAll('.table');
+const tableWindow = document.querySelector(".window");
+tableStrobe.forEach((element) => {
+    element.addEventListener('mouseover', (e) => {
+        const targetElement = e.target;
+        if (targetElement && targetElement.tagName !== "DIV") {
+            if (targetElement.tagName === "PLATE") {
+                tableWindow.textContent = "<plate></plate>";
+            }
+            if (targetElement.tagName === "BENTO") {
+                tableWindow.textContent = "<bento></bento>";
+            }
+            if (targetElement.tagName === "APPLE") {
+                tableWindow.textContent = "<apple></apple>";
+            }
+            if (targetElement.id === "fancy") {
+                tableWindow.textContent = `<plate id="fancy"></plate>`;
+            }
+            if (targetElement.tagName === "ORANGE") {
+                tableWindow.textContent = "<orange></orange>";
+            }
+            if (targetElement.tagName === "PICKLE") {
+                tableWindow.textContent = "<pickle></pickle>";
+            }
+            if (targetElement.tagName === "APPLE" && targetElement.className === "small strobe") {
+                tableWindow.textContent = `<apple class="small"></apple>`;
+            }
+            if (targetElement.tagName === "ORANGE" && targetElement.className === "small strobe") {
+                tableWindow.textContent = `<orange class="small"></orange>`;
+            }
+        }
+    });
+    element.addEventListener('mouseout', (e) => {
+        const targetElement = e.target;
+        if (targetElement) {
+            tableWindow.textContent = "";
+        }
+    });
+});
+const targetElementOne = document.getElementById('one');
+const targetElementTwo = document.getElementById('two');
+const targetElementThree = document.getElementById('three');
+const targetElementFour = document.getElementById('four');
+const targetElementFive = document.getElementById('five');
+const targetElementSix = document.getElementById('six');
+const targetElementSeven = document.getElementById('seven');
+const targetElementEight = document.getElementById('eight');
+const targetElementNine = document.getElementById('nine');
+const targetElementTen = document.getElementById('ten');
+const targetElementEleven = document.getElementById('eleven');
+input.addEventListener('keydown', function (event) {
+    if (event.target instanceof HTMLElement) {
+        if (event.target.id === 'one') {
+            if (event.key === 'Enter') {
+                const inputValue = input.value.toLowerCase();
+                if (inputValue === 'plate') {
+                    const customEvent = new PointerEvent('click');
+                    Object.defineProperty(customEvent, 'target', { value: targetElementTwo });
+                    handleClick(customEvent);
+                    input.value = '';
+                }
+                else {
+                    editor.classList.add('shake');
+                    setTimeout(() => {
+                        editor.classList.remove('shake');
+                    }, 500);
+                }
+                if (inputValue === "bento") {
+                    const customEvent = new PointerEvent('click');
+                    Object.defineProperty(customEvent, 'target', { value: targetElementThree });
+                    handleClick(customEvent);
+                    input.value = '';
+                }
+                else {
+                    editor.classList.add('shake');
+                    setTimeout(() => {
+                        editor.classList.remove('shake');
+                    }, 500);
+                }
+                if (inputValue === "#fancy") {
+                    const customEvent = new PointerEvent('click');
+                    Object.defineProperty(customEvent, 'target', { value: targetElementFour });
+                    handleClick(customEvent);
+                    input.value = '';
+                }
+                else {
+                    editor.classList.add('shake');
+                    setTimeout(() => {
+                        editor.classList.remove('shake');
+                    }, 500);
+                }
+                if (inputValue === "plate apple") {
+                    const customEvent = new PointerEvent('click');
+                    Object.defineProperty(customEvent, 'target', { value: targetElementFive });
+                    handleClick(customEvent);
+                    input.value = '';
+                }
+                else {
+                    editor.classList.add('shake');
+                    setTimeout(() => {
+                        editor.classList.remove('shake');
+                    }, 500);
+                }
+                if (inputValue === "#fancy pickle") {
+                    const customEvent = new PointerEvent('click');
+                    Object.defineProperty(customEvent, 'target', { value: targetElementSix });
+                    handleClick(customEvent);
+                    input.value = '';
+                }
+                else {
+                    editor.classList.add('shake');
+                    setTimeout(() => {
+                        editor.classList.remove('shake');
+                    }, 500);
+                }
+                if (inputValue === ".small") {
+                    const customEvent = new PointerEvent('click');
+                    Object.defineProperty(customEvent, 'target', { value: targetElementSeven });
+                    handleClick(customEvent);
+                    input.value = '';
+                }
+                else {
+                    editor.classList.add('shake');
+                    setTimeout(() => {
+                        editor.classList.remove('shake');
+                    }, 500);
+                }
+                if (inputValue === "orange.small") {
+                    const customEvent = new PointerEvent('click');
+                    Object.defineProperty(customEvent, 'target', { value: targetElementEight });
+                    handleClick(customEvent);
+                    input.value = '';
+                }
+                else {
+                    editor.classList.add('shake');
+                    setTimeout(() => {
+                        editor.classList.remove('shake');
+                    }, 500);
+                }
+                if (inputValue === "bento orange.small") {
+                    const customEvent = new PointerEvent('click');
+                    Object.defineProperty(customEvent, 'target', { value: targetElementNine });
+                    handleClick(customEvent);
+                    input.value = '';
+                }
+                else {
+                    editor.classList.add('shake');
+                    setTimeout(() => {
+                        editor.classList.remove('shake');
+                    }, 500);
+                }
+                if (inputValue === "bento, plate") {
+                    const customEvent = new PointerEvent('click');
+                    Object.defineProperty(customEvent, 'target', { value: targetElementTen });
+                    handleClick(customEvent);
+                    input.value = '';
+                }
+                else {
+                    editor.classList.add('shake');
+                    setTimeout(() => {
+                        editor.classList.remove('shake');
+                    }, 500);
+                }
+                if (inputValue === "*") {
+                    const customEvent = new PointerEvent('click');
+                    Object.defineProperty(customEvent, 'target', { value: targetElementOne });
+                    handleClick(customEvent);
+                    input.value = '';
+                }
+                else {
+                    editor.classList.add('shake');
+                    setTimeout(() => {
+                        editor.classList.remove('shake');
+                    }, 500);
+                }
+            }
+        }
+    }
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL3NyYy9tYWluLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxrRkFBa0Y7QUFFbEYsTUFBTSxTQUFTLEdBQUcsUUFBUSxDQUFDLGdCQUFnQixDQUFDLGdCQUFnQixDQUFDLENBQUM7QUFDOUQsTUFBTSxLQUFLLEdBQUcsUUFBUSxDQUFDLGFBQWEsQ0FBQyxRQUFRLENBQXFCLENBQUM7QUFDbkUsTUFBTSxZQUFZLEdBQUcsUUFBUSxDQUFDLGFBQWEsQ0FBQyxnQkFBZ0IsQ0FBcUIsQ0FBQztBQUNsRixNQUFNLFdBQVcsR0FBRyxRQUFRLENBQUMsYUFBYSxDQUFDLFNBQVMsQ0FBZ0IsQ0FBQztBQUNyRSxNQUFNLFdBQVcsR0FBRyxRQUFRLENBQUMsYUFBYSxDQUFDLHVCQUF1QixDQUFnQixDQUFDO0FBQ25GLE1BQU0sS0FBSyxHQUFHLFFBQVEsQ0FBQyxhQUFhLENBQUMsdUJBQXVCLENBQXFCLENBQUM7QUFDbEYsTUFBTSxNQUFNLEdBQUcsUUFBUSxDQUFDLGFBQWEsQ0FBQyxTQUFTLENBQXFCLENBQUM7QUFDckUsS0FBSyxDQUFDLEVBQUUsR0FBRyxLQUFLLENBQUM7QUFFakIsc0ZBQXNGO0FBQ3RGLE1BQU0sT0FBTyxHQUFrQixFQUFFLENBQUM7QUFFbEMsNkJBQTZCO0FBQzdCLFlBQVksQ0FBQyxFQUFFLEdBQUcsTUFBTSxDQUFDO0FBQ3pCLE1BQU0sUUFBUSxHQUFHLFFBQVEsQ0FBQyxhQUFhLENBQUMsT0FBTyxDQUFDLENBQUM7QUFDakQsUUFBUSxDQUFDLFNBQVMsR0FBRyxlQUFlLENBQUM7QUFDckMsS0FBSyxDQUFDLFdBQVcsQ0FBQyxRQUFRLENBQUMsQ0FBQztBQUM1QixPQUFPLENBQUMsSUFBSSxDQUFDLFFBQVEsQ0FBQyxDQUFDO0FBRXZCLE1BQU0sUUFBUSxHQUFHLFFBQVEsQ0FBQyxhQUFhLENBQUMsT0FBTyxDQUFDLENBQUM7QUFDakQsUUFBUSxDQUFDLFNBQVMs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
 
 /***/ }),
 
@@ -10462,10 +10961,14 @@ menuItems.forEach(function (item) {
 /*!****************************!*\
   !*** ./src/img/github.png ***!
   \****************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "5ec29478d25c8d924e2f.png";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFiklEQVR4nO2cW4hVVRjHfzMem5maRmjsxoRGFwLLKSsty4rKhIisHkqMDLpoZZGXtCR68KGiJKIiH6Kil160i+kImb4EZnSXTKgeisQysxpHmGhqxtmx4AsOhzlz1nXvtWfWD9bLMHuv7/uftdflW99akEgkEolEIpFIJBIJbSYAM4F7gHXAe8Ae4AegF/hHSq/8bY/8z7PyzMXyjsQInAYsB3qAI0DmWPqALcAyoItxThuwCNgBHPUgbr0yBGwH7gBaGUe0S0v7JaC49cohYC0wiTHMRGA18GcBAtcWZcMjYtOY4grgmwgEri3fAXMZA6g+cT0wHIGo9Yqy7SWghZJyOvBJBEJmmuVL4CxKxlxP07Qs56KmhddQEm4B/o5AtMyyqMXQAiJnSeA5cZZTUT4sJlJulsVB0SJlHsW+jchQ/dpABOJkAbqReUTC2SUd+DKDAfLMokVukWlRNsbLF0XPs9cbGrwfOBE4GbgEWAnsylm0XVKvqv8U4CTgZ43n1KKmEK6yWPGtrPOuGRJhCynwdqlnJFZpPK98nUPOqGDMXgtnpzd47zIZgHwKrN73cIN6z9d8l9pkqJAjqy2dbtd49+VVg+tB4B1gDTAf6AY6gePkf9X7JotQNwGPA5skHJrJe9T7GtFh4MMKcuJ4h1BnRbOOC4FZQLOljeq52cBFBl+org+/azYYZx51+Iw7iJNJhn6oWHbwsOcBB6HPI066Df34VbbignGn48B0A3Ey38KX20MatMNR6FXEic3gvi2UMV0egkabiJMtlkGnIKkMyx1FzmTnO0YOWvrzUAhjejwI/SBxYrsueNe3ISrF6rCjyBuIlybp1kx9Ouw7/Wymo8hHZEUXM6cCf1n4prso0uJeR6GfoBw8Y+HbXT4NWOcgcr8s28vACRZBLfXjeGOzg9BvUy7eL3JA/NpB6EWUi/sN/dvts/KfHISeTrmYbejfjz4rd8kA7aRcTDH0T4VNvWG76zHsEFMuimMNfVRpFt74N7Vo6gmttPFGn0PXMY1yMctidegNl2MQ11MuFhj6p1IVopjePUm5eMPQv69iWbB8T3lotgiZeo2xv+AgdAZcTTm40cI3pY037nMU+iMJRcZMRboBU9/u9mnEDEehM2ApcfOYpV8qecfrr93vKPSAZtZQEVwHDFr41B8iRWybh1bdB1xGfEn0to1Ibep6Z6kHoTM5SOS1X7OkSTZXXVa9D4S6gcDnwcwe4FyK4QIPOSpHRZMgfOhR6Ex+uB7Zk8xL4I2eGswHIQ1d6FnorKqos+JPSzzYV8RvgpxDV1tx33q2N2hKWEtV7nHI0gvsBF6RxB3dwNQ0OVXwKvCxYzCsUXzjGAKzRsOQa4FzgOccB5sMeNkgc7NVzpqEbgi55BC2a7Tq16rml90OW2FPWdq4NqDIh/LM816hYdDGqmV3l+ytmTj0loN9TVJ/CKGDTOlGO4qgc9HJ4pr+s8+g1ahjci50yn6eT5H35n1YCBnNhzUGjbaqZ+Zp7j+q4xt5fXm6ZUhmRIXwvIaBS0bYKtoqrW2wapahdnE+lYSUDo/jiWty5v9FDeyFMVHjlpmdRRoIvO5B5N2hz6zooK7H+WMUI4dlqlcUtzqKrL68qUTCnAbXSLxYoG1nOAbAriTC3eN6Z1wGfOcRG9DmMPipy16iZOEoAfT9BY7apiIPho5l+OoTB0Zx4E05bzglx5sUTbsLde6wFKhdlN8sP9kQmJyIjW0HqCFTZV6clUToz0IG8kNTkQDPUMRCD8rxiOBhzzy4VO4lik3oz3Pc3cmNZlmON7odIQS1dRyQgFfZcreNaJUTtPsKEHqf7HyPq5vRKzKN2lwz924JkMG/VerKPcQZG5Pl9NYGWTInEolEIpFIJBKJRCLB2OI/bOLhdXH1ONAAAAAASUVORK5CYII=");
 
 /***/ }),
 
@@ -10473,10 +10976,14 @@ module.exports = __webpack_require__.p + "5ec29478d25c8d924e2f.png";
 /*!******************************!*\
   !*** ./src/img/rsschool.svg ***!
   \******************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "ae959fe2f5d7ddb0a545.svg";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/rsschool.svg");
 
 /***/ })
 
@@ -10505,9 +11012,6 @@ module.exports = __webpack_require__.p + "ae959fe2f5d7ddb0a545.svg";
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -10585,32 +11089,6 @@ module.exports = __webpack_require__.p + "ae959fe2f5d7ddb0a545.svg";
 /******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"main": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// no jsonp function
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
@@ -10650,6 +11128,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.html */ "./src/index.html");
 /* harmony import */ var _main_ts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./main.ts */ "./src/main.ts");
 /* harmony import */ var _main_ts__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_main_ts__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _img_github_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/github.png */ "./src/img/github.png");
+/* harmony import */ var _img_rsschool_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/rsschool.svg */ "./src/img/rsschool.svg");
+
 
 
 
@@ -10658,4 +11139,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=index.256fe96f88867463ea55.js.map
+//# sourceMappingURL=index.c878d7a46211eb2af1aa.js.map

@@ -6,6 +6,7 @@ const tableWrapper = document.querySelector('.table-wrapper') as HTMLTableElemen
 const windowModal = document.querySelector('.window') as HTMLElement;
 const inputWindow = document.querySelector('.input-window__markup') as HTMLElement;
 const input = document.querySelector('.input-window__strobe') as HTMLInputElement;
+const editor = document.querySelector('.editor') as HTMLInputElement;
 input.id = 'one';
 
 // const inputWindow = document.querySelector('.input-window__murkup') as HTMLElement;
@@ -503,60 +504,110 @@ input.addEventListener('keydown', function(event) {
           Object.defineProperty(customEvent, 'target', { value: targetElementTwo });
           handleClick(customEvent);
           input.value = '';
+        } else {
+          editor.classList.add('shake');
+          setTimeout(() => {
+            editor.classList.remove('shake');
+          }, 500);
         }
         if (inputValue === "bento") {
           const customEvent = new PointerEvent('click');
           Object.defineProperty(customEvent, 'target', { value: targetElementThree });
           handleClick(customEvent);
           input.value = '';
+        } else {
+          editor.classList.add('shake');
+          setTimeout(() => {
+            editor.classList.remove('shake');
+          }, 500);
         }
         if (inputValue === "#fancy") {
           const customEvent = new PointerEvent('click');
           Object.defineProperty(customEvent, 'target', { value: targetElementFour });
           handleClick(customEvent);
           input.value = '';
+        } else {
+          editor.classList.add('shake');
+          setTimeout(() => {
+            editor.classList.remove('shake');
+          }, 500);
         }
         if (inputValue === "plate apple") {
           const customEvent = new PointerEvent('click');
           Object.defineProperty(customEvent, 'target', { value: targetElementFive });
           handleClick(customEvent);
           input.value = '';
+        } else {
+          editor.classList.add('shake');
+          setTimeout(() => {
+            editor.classList.remove('shake');
+          }, 500);
         }
         if (inputValue === "#fancy pickle") {
           const customEvent = new PointerEvent('click');
           Object.defineProperty(customEvent, 'target', { value: targetElementSix });
           handleClick(customEvent);
           input.value = '';
+        } else {
+          editor.classList.add('shake');
+          setTimeout(() => {
+            editor.classList.remove('shake');
+          }, 500);
         }
         if (inputValue === ".small") {
           const customEvent = new PointerEvent('click');
           Object.defineProperty(customEvent, 'target', { value: targetElementSeven });
           handleClick(customEvent);
           input.value = '';
+        } else {
+          editor.classList.add('shake');
+          setTimeout(() => {
+            editor.classList.remove('shake');
+          }, 500);
         }
         if (inputValue === "orange.small") {
           const customEvent = new PointerEvent('click');
           Object.defineProperty(customEvent, 'target', { value: targetElementEight });
           handleClick(customEvent);
           input.value = '';
+        } else {
+          editor.classList.add('shake');
+          setTimeout(() => {
+            editor.classList.remove('shake');
+          }, 500);
         }
         if (inputValue === "bento orange.small") {
           const customEvent = new PointerEvent('click');
           Object.defineProperty(customEvent, 'target', { value: targetElementNine });
           handleClick(customEvent);
           input.value = '';
+        } else {
+          editor.classList.add('shake');
+          setTimeout(() => {
+            editor.classList.remove('shake');
+          }, 500);
         }
         if (inputValue === "bento, plate") {
           const customEvent = new PointerEvent('click');
           Object.defineProperty(customEvent, 'target', { value: targetElementTen });
           handleClick(customEvent);
           input.value = '';
+        } else {
+          editor.classList.add('shake');
+          setTimeout(() => {
+            editor.classList.remove('shake');
+          }, 500);
         }
         if (inputValue === "*") {
           const customEvent = new PointerEvent('click');
           Object.defineProperty(customEvent, 'target', { value: targetElementOne });
           handleClick(customEvent);
           input.value = '';
+        } else {
+          editor.classList.add('shake');
+          setTimeout(() => {
+            editor.classList.remove('shake');
+          }, 500);
         }
       }
     }
