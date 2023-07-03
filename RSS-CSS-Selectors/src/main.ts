@@ -4,6 +4,11 @@ const menuItems = document.querySelectorAll('.menu-right h1');
 const table = document.querySelector('.table') as HTMLTableElement;
 const tableWrapper = document.querySelector('.table-wrapper') as HTMLTableElement;
 const windowModal = document.querySelector('.window') as HTMLElement;
+const inputWindow = document.querySelector('.input-window__markup') as HTMLElement;
+const input = document.querySelector('.input-window__strobe') as HTMLInputElement;
+input.id = 'one';
+
+// const inputWindow = document.querySelector('.input-window__murkup') as HTMLElement;
 const figures: HTMLElement[] = [];
 
 //Создание стола по умолчанию
@@ -18,20 +23,15 @@ plateTwo.className = "table__strobe";
 table.appendChild(plateTwo);
 figures.push(plateTwo);
 
+const markup = "<div class=\"table\">\n<plate />\n<plate />\n</div>";
+inputWindow.innerText = '';
+inputWindow.innerText = markup;
+
 function handleClick(event: Event) {
   const selectionText = document.querySelector('.selection__order') as HTMLElement;
   const text = (event.target as HTMLElement).getAttribute('data-text');
 
-  const one = document.getElementById('one');
-  const two = document.getElementById('two');
-  const three = document.getElementById('three');
-  const four = document.getElementById('four');
-  const five = document.getElementById('five');
-  const six = document.getElementById('six');
-  const seven = document.getElementById('seven');
-  const eight = document.getElementById('eight');
-  const nine = document.getElementById('nine');
-  const ten = document.getElementById('ten');
+  console.log(event)
 
   if (text) {
     selectionText.textContent = text;
@@ -57,6 +57,10 @@ function handleClick(event: Event) {
       table.appendChild(plateTwo);
       figures.push(plateTwo);
 
+      const markup = "<div class=\"table\">\n<plate />\n<plate />\n</div>";
+      inputWindow.innerText = '';
+      inputWindow.innerText = markup;
+
       return; //Прерывает выполнение кода 
     }     
   };
@@ -77,6 +81,10 @@ function handleClick(event: Event) {
       bentoTwo.classList.add('strobe');
       table.appendChild(bentoTwo);
       figures.push(bentoTwo);
+
+      const markup = `<div class="table"> \n <bento /> \n <plate /> \n <bento /> \n </div>`;
+      inputWindow.innerText = '';
+      inputWindow.innerText = markup;
 
       return; //Прерывает выполнение кода    
     }     
@@ -99,6 +107,10 @@ function handleClick(event: Event) {
       bentoTwo.classList.add('strobe');
       table.appendChild(bentoTwo);
       figures.push(bentoTwo);
+
+      const markup = `<div class="table"> \n<plate id="fancy" /> \n<plate /> \n<bento /> \n</div>`;
+      inputWindow.innerText = '';
+      inputWindow.innerText = markup;
 
       return; //Прерывает выполнение кода    
     }     
@@ -126,6 +138,10 @@ function handleClick(event: Event) {
       appleTwo.style.width="46px";
       table.appendChild(appleTwo);
       figures.push(appleTwo);
+
+      const markup = `<div class="table"> \n<bento" /> \n<plate> \n<apple /> \n</plate> \n<apple /> \n</div>`;
+      inputWindow.innerText = '';
+      inputWindow.innerText = markup;
 
       return; //Прерывает выполнение кода    
     }     
@@ -161,6 +177,11 @@ function handleClick(event: Event) {
       const pickleTwo = document.createElement('pickle');
       plateTwo.appendChild(pickleTwo);
       figures.push(pickleTwo);
+
+      const markup = `<div class="table"> \n<bento> \n<orange /> \n</bento> \n<plate id="fancy" /> \n<pickle /> \n</plate> \n <plate> \n<pickle /> \n<plate /> \n</div>`;
+      inputWindow.innerText = '';
+      inputWindow.innerText = markup;
+
       return; //Прерывает выполнение кода    
     }     
   };
@@ -193,6 +214,10 @@ function handleClick(event: Event) {
       plateTwo.className = "table__strobe";
       table.appendChild(plateTwo);
       figures.push(plateTwo);
+
+      const markup = `<div class="table"> \n <apple" /> \n <apple class="small" /> \n <plate> \n <apple class="small" /> \n </plate> \n <plate /> \n </div>`;
+      inputWindow.innerText = '';
+      inputWindow.innerText = markup;
 
       return; //Прерывает выполнение кода    
     }     
@@ -241,6 +266,11 @@ function handleClick(event: Event) {
       orangeThree.className = "small strobe";
       plateTwo.appendChild(orangeThree);
       figures.push(orangeThree);
+
+      const markup = `<div class="table"> \n <apple /> \n <apple class="small" /> \n <bento> \n <orange class="small" /> \n <plate> \n <orange /> \n </plate> \n <plate> \n <orange class="small" /> \n </plate> \n </div>`;
+      inputWindow.innerText = '';
+      inputWindow.innerText = markup;
+
       return; //Прерывает выполнение кода    
     }     
   };
@@ -293,6 +323,10 @@ function handleClick(event: Event) {
       bentoFive.appendChild(orangeFour);
       figures.push(orangeFour);
 
+      const markup = `<div class="table"> \n <bento> \n <orange /> \n </bento> \n <orange class="small" /> \n <bento> \n <orange class="small" /> \n </bento> \n <bento> \n <orange class="small" /> \n </bento> \n </div>`;
+      inputWindow.innerText = '';
+      inputWindow.innerText = markup;
+
       return; //Прерывает выполнение кода    
     }     
   };
@@ -344,6 +378,10 @@ function handleClick(event: Event) {
       table.appendChild(pickleThree);
       figures.push(pickleThree);
 
+      const markup = `<div class="table"> \n <pickle class="small" /> \n <pickle /> \n <plate> \n <pickle /> \n </plate> \n <bento> \n <pickle /> \n </bento> \n <plate> \n <pickle /> \n </plate> \n <pickle /> \n <pickle class="small" /> \n </div>`;
+      inputWindow.innerText = '';
+      inputWindow.innerText = markup;
+
       return; //Прерывает выполнение кода    
     }     
   };
@@ -387,7 +425,12 @@ function handleClick(event: Event) {
       table.appendChild(plateOne);
       figures.push(plateOne);
 
-      return; //Прерывает выполнение кода    
+      const markup = `<div class="table"> \n <apple /> \n <plate> \n <orange class="small" /> \n </plate>\n  <bento /> \n <bento> \n <orange /> \n </bento> \n <plate id="fancy" /> \n </div>`;
+      inputWindow.innerText = '';
+      inputWindow.innerText = markup;
+
+      return; //Прерывает выполнение кода  
+        
     }     
   };
 }
@@ -396,6 +439,7 @@ menuItems.forEach(function(item) {
   item.addEventListener('click', handleClick);
 });
 
+//Часть кода 2 - отвечает за создание подсказок над элементами 
 
 const tableStrobe = document.querySelectorAll('.table') as NodeListOf<HTMLElement>;
 const tableWindow = document.querySelector(".window") as HTMLElement;
@@ -422,6 +466,12 @@ tableStrobe.forEach((element) => {
       if (targetElement.tagName === "PICKLE") {
         tableWindow.textContent = "<pickle></pickle>";
       }
+      if (targetElement.tagName === "APPLE" && targetElement.className === "small strobe") {
+        tableWindow.textContent = `<apple class="small"></apple>`;
+      }
+      if (targetElement.tagName === "ORANGE" && targetElement.className === "small strobe") {
+        tableWindow.textContent = `<orange class="small"></orange>`;
+      }
     }
   });
   element.addEventListener('mouseout', (e) => {
@@ -430,6 +480,87 @@ tableStrobe.forEach((element) => {
       tableWindow.textContent = "";
     }
   });
+});
+const targetElementOne = document.getElementById('one');
+const targetElementTwo = document.getElementById('two');
+const targetElementThree = document.getElementById('three');
+const targetElementFour = document.getElementById('four');
+const targetElementFive = document.getElementById('five');
+const targetElementSix = document.getElementById('six');
+const targetElementSeven = document.getElementById('seven');
+const targetElementEight = document.getElementById('eight');
+const targetElementNine = document.getElementById('nine');
+const targetElementTen = document.getElementById('ten');
+const targetElementEleven = document.getElementById('eleven');
+
+input.addEventListener('keydown', function(event) {
+  if (event.target instanceof HTMLElement) {
+    if (event.target.id === 'one') {
+      if (event.key === 'Enter') {
+        const inputValue = input.value.toLowerCase();
+        if (inputValue === 'plate') {
+          const customEvent = new PointerEvent('click');
+          Object.defineProperty(customEvent, 'target', { value: targetElementTwo });
+          handleClick(customEvent);
+          input.value = '';
+        }
+        if (inputValue === "bento") {
+          const customEvent = new PointerEvent('click');
+          Object.defineProperty(customEvent, 'target', { value: targetElementThree });
+          handleClick(customEvent);
+          input.value = '';
+        }
+        if (inputValue === "#fancy") {
+          const customEvent = new PointerEvent('click');
+          Object.defineProperty(customEvent, 'target', { value: targetElementFour });
+          handleClick(customEvent);
+          input.value = '';
+        }
+        if (inputValue === "plate apple") {
+          const customEvent = new PointerEvent('click');
+          Object.defineProperty(customEvent, 'target', { value: targetElementFive });
+          handleClick(customEvent);
+          input.value = '';
+        }
+        if (inputValue === "#fancy pickle") {
+          const customEvent = new PointerEvent('click');
+          Object.defineProperty(customEvent, 'target', { value: targetElementSix });
+          handleClick(customEvent);
+          input.value = '';
+        }
+        if (inputValue === ".small") {
+          const customEvent = new PointerEvent('click');
+          Object.defineProperty(customEvent, 'target', { value: targetElementSeven });
+          handleClick(customEvent);
+          input.value = '';
+        }
+        if (inputValue === "orange.small") {
+          const customEvent = new PointerEvent('click');
+          Object.defineProperty(customEvent, 'target', { value: targetElementEight });
+          handleClick(customEvent);
+          input.value = '';
+        }
+        if (inputValue === "bento orange.small") {
+          const customEvent = new PointerEvent('click');
+          Object.defineProperty(customEvent, 'target', { value: targetElementNine });
+          handleClick(customEvent);
+          input.value = '';
+        }
+        if (inputValue === "bento, plate") {
+          const customEvent = new PointerEvent('click');
+          Object.defineProperty(customEvent, 'target', { value: targetElementTen });
+          handleClick(customEvent);
+          input.value = '';
+        }
+        if (inputValue === "*") {
+          const customEvent = new PointerEvent('click');
+          Object.defineProperty(customEvent, 'target', { value: targetElementOne });
+          handleClick(customEvent);
+          input.value = '';
+        }
+      }
+    }
+  }
 });
 
 
