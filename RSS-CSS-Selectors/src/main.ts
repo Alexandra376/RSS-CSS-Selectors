@@ -1,4 +1,4 @@
-//Часть кода 1 - отвечает за смену столов и загаловков при клике на Level 1 и т.д.
+///Часть кода 1 - отвечает за смену столов и загаловков при клике на Level 1 и т.д.
 
 const menuItems = document.querySelectorAll('.menu-right h1');
 const table = document.querySelector('.table') as HTMLTableElement;
@@ -7,6 +7,7 @@ const windowModal = document.querySelector('.window') as HTMLElement;
 const inputWindow = document.querySelector('.input-window__markup') as HTMLElement;
 const input = document.querySelector('.input-window__strobe') as HTMLInputElement;
 const editor = document.querySelector('.editor') as HTMLInputElement;
+const button = document.querySelector('.button-help') as HTMLButtonElement;
 input.id = 'text';
 
 // const inputWindow = document.querySelector('.input-window__murkup') as HTMLElement;
@@ -548,5 +549,6 @@ elements.forEach((id) => {
   const element = document.getElementById(id) as HTMLElement;
   element.addEventListener('click', handleClickElem);
 });
+
 
 
