@@ -13,9 +13,18 @@
 .table__strobe {
   width: 100px;
   transform-origin: bottom;
-  // animation: strobeStart .5s ease-out, strobe 1s infinite;
-  // animation-delay: 0s, .5s;
+  animation: strobeStart .5s ease-out, strobe 1s infinite;
+  animation-delay: 0s, .5s;
   cursor: pointer;
+}
+.strobe {
+  animation: strobeStart .5s ease-out, strobe 1s infinite;
+  animation-delay: 0s, .5s;
+}
+
+#fancy pickle {
+  animation: strobeStart .5s ease-out, strobe 1s infinite;
+  animation-delay: 0s, .5s;
 }
 
 .table__strobe:hover {
@@ -104,6 +113,10 @@ apple:hover {
   box-shadow: 0px 0px 0 6px rgba(255,255,255,.4);
   cursor: pointer;
 }
+plate:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255,.4);
+}
 
 orange {
   background: orange;
@@ -115,6 +128,7 @@ orange {
   display: flex;
   margin: 13px;
   height: 50px;
+  cursor: pointer;
 }
 
 orange:hover {
@@ -137,6 +151,18 @@ pickle:hover {
   box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);
 }
 
+#fancy:hover pickle {
+  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);
+}
+
+plate orange:hover {
+  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);
+}
+
+plate orange.small:hover {
+  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);
+}
+
 apple.small {
   height: 20px;
   margin: 31px 32px;
@@ -147,7 +173,7 @@ orange.small {
   margin: 31px 32px;
 }
 
-.table__strobe apple:hover {
+apple.strobe:hover {
   box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);
 }
 
@@ -158,6 +184,11 @@ orange.small {
 .table__strobe orange:hover {
   box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);
 }
+
+apple.color:hover {
+  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255,.4);
+}
+
 
 
 

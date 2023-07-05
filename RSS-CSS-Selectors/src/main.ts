@@ -7,7 +7,7 @@ const windowModal = document.querySelector('.window') as HTMLElement;
 const inputWindow = document.querySelector('.input-window__markup') as HTMLElement;
 const input = document.querySelector('.input-window__strobe') as HTMLInputElement;
 const editor = document.querySelector('.editor') as HTMLInputElement;
-input.id = 'one';
+input.id = 'text';
 
 // const inputWindow = document.querySelector('.input-window__murkup') as HTMLElement;
 const figures: HTMLElement[] = [];
@@ -74,7 +74,6 @@ function handleClick(event: Event) {
       figures.push(bentoOne);
 
       const plateTwo = document.createElement('plate');
-      plateTwo.className = "table__strobe";
       table.appendChild(plateTwo);
       figures.push(plateTwo);
 
@@ -100,12 +99,10 @@ function handleClick(event: Event) {
       figures.push(plateOne);
 
       const plateTwo = document.createElement('plate');
-      plateTwo.className = "table__strobe";
       table.appendChild(plateTwo);
       figures.push(plateTwo);
 
       const bentoTwo = document.createElement('bento');
-      bentoTwo.classList.add('strobe');
       table.appendChild(bentoTwo);
       figures.push(bentoTwo);
 
@@ -120,12 +117,10 @@ function handleClick(event: Event) {
     if (event.target.id === 'four') {
       tableWrapper.id = "size-one";
       const bentoOne = document.createElement('bento');
-      bentoOne.classList.add('strobe');
       table.appendChild(bentoOne);
       figures.push(bentoOne);
 
       const plateOne = document.createElement('plate');
-      plateOne.className = "table__strobe";
       table.appendChild(plateOne);
       figures.push(plateOne);
 
@@ -151,7 +146,6 @@ function handleClick(event: Event) {
     if (event.target.id === 'five') {
       tableWrapper.id = "size-one";
       const bentoOne = document.createElement('bento');
-      bentoOne.classList.add('strobe');
       table.appendChild(bentoOne);
       figures.push(bentoOne);
 
@@ -161,7 +155,6 @@ function handleClick(event: Event) {
       figures.push(bentoOne);
 
       const plateOne = document.createElement('plate');
-      plateOne.className = "table__strobe";
       plateOne.id = "fancy";
       table.appendChild(plateOne);
       figures.push(plateOne);
@@ -171,7 +164,6 @@ function handleClick(event: Event) {
       figures.push(pickle);
 
       const plateTwo = document.createElement('plate');
-      plateTwo.className = "table__strobe";
       table.appendChild(plateTwo);
       figures.push(plateTwo);
 
@@ -201,7 +193,6 @@ function handleClick(event: Event) {
       figures.push(appleSmall);
 
       const plateOne = document.createElement('plate');
-      plateOne.className = "table__strobe";
       table.appendChild(plateOne);
       figures.push(plateOne);
 
@@ -212,7 +203,6 @@ function handleClick(event: Event) {
       figures.push(apple);
 
       const plateTwo = document.createElement('plate');
-      plateTwo.className = "table__strobe";
       table.appendChild(plateTwo);
       figures.push(plateTwo);
 
@@ -233,7 +223,7 @@ function handleClick(event: Event) {
 
       const appleSmall = document.createElement('apple');
       appleSmall.style.width="30px";
-      appleSmall.className = "small strobe";
+      appleSmall.className = "small";
       table.appendChild(appleSmall);
       figures.push(appleSmall);
 
@@ -248,7 +238,6 @@ function handleClick(event: Event) {
       figures.push(orange);
 
       const plateOne = document.createElement('plate');
-      plateOne.className = "table__strobe";
       table.appendChild(plateOne);
       figures.push(plateOne);
 
@@ -258,7 +247,6 @@ function handleClick(event: Event) {
       figures.push(orangeTwo);
 
       const plateTwo = document.createElement('plate');
-      plateTwo.className = "table__strobe";
       table.appendChild(plateTwo);
       figures.push(plateTwo);
 
@@ -279,7 +267,6 @@ function handleClick(event: Event) {
     if (event.target.id === 'eight') {
       tableWrapper.id = "size-eight";
       const bentoOne = document.createElement('bento');
-      bentoOne.classList.add('strobe');
       table.appendChild(bentoOne);
       figures.push(bentoOne);
 
@@ -290,7 +277,7 @@ function handleClick(event: Event) {
 
       const orangeThree = document.createElement('orange');
       orangeThree.style.width="30px";
-      orangeThree.className = "small strobe";
+      orangeThree.className = "small";
       table.appendChild(orangeThree);
       figures.push(orangeThree);
 
@@ -310,7 +297,7 @@ function handleClick(event: Event) {
 
       const appleSmall = document.createElement('apple');
       appleSmall.style.width="30px";
-      appleSmall.className = "small strobe";
+      appleSmall.className = "small";
       bentoThree.appendChild(appleSmall);
       figures.push(appleSmall);
 
@@ -336,7 +323,6 @@ function handleClick(event: Event) {
       tableWrapper.id = "size-nine";
       const pickle = document.createElement('pickle');
       pickle.style.width="18px";
-      pickle.className = "strobe";
       table.appendChild(pickle);
       figures.push(pickle);
 
@@ -375,7 +361,6 @@ function handleClick(event: Event) {
 
       const pickleThree = document.createElement('pickle');
       pickleThree.style.width="18px";
-      pickleThree.className = "strobe";
       table.appendChild(pickleThree);
       figures.push(pickleThree);
 
@@ -390,6 +375,7 @@ function handleClick(event: Event) {
     if (event.target.id === 'ten') {
       tableWrapper.id = "size-ten";
       const appleTwo = document.createElement('apple');
+      appleTwo.className = "strobe color";
       appleTwo.style.width="47px";
       table.appendChild(appleTwo);
       figures.push(appleTwo);
@@ -430,8 +416,7 @@ function handleClick(event: Event) {
       inputWindow.innerText = '';
       inputWindow.innerText = markup;
 
-      return; //Прерывает выполнение кода  
-        
+      return; //Прерывает выполнение кода        
     }     
   };
 }
@@ -482,6 +467,7 @@ tableStrobe.forEach((element) => {
     }
   });
 });
+
 const targetElementOne = document.getElementById('one');
 const targetElementTwo = document.getElementById('two');
 const targetElementThree = document.getElementById('three');
@@ -492,11 +478,10 @@ const targetElementSeven = document.getElementById('seven');
 const targetElementEight = document.getElementById('eight');
 const targetElementNine = document.getElementById('nine');
 const targetElementTen = document.getElementById('ten');
-const targetElementEleven = document.getElementById('eleven');
 
 input.addEventListener('keydown', function(event) {
   if (event.target instanceof HTMLElement) {
-    if (event.target.id === 'one') {
+    if (event.target.id === 'text') {
       if (event.key === 'Enter') {
         const inputValue = input.value.toLowerCase();
         if (inputValue === 'plate') {
@@ -614,10 +599,23 @@ input.addEventListener('keydown', function(event) {
   }
 });
 
+// Код отвечает за подсветку выбранного уровня
 
+const elements = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
 
+function handleClickElem(event: MouseEvent) {
+  elements.forEach((id) => {
+    const element = document.getElementById(id) as HTMLElement;
+    element.classList.remove('selected');
+  });
 
+  const clickedElement = event.currentTarget as HTMLElement;
+  clickedElement.classList.add('selected');
+}
 
-
+elements.forEach((id) => {
+  const element = document.getElementById(id) as HTMLElement;
+  element.addEventListener('click', handleClickElem);
+});
 
 

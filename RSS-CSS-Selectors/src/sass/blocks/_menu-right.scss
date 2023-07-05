@@ -9,10 +9,14 @@ h1 {
 }
 
 .menu-right h1:hover {
-  box-shadow: 1px 1px 7px 2px rgb(242 238 233 / 71%);
+  background-color: rgba(255, 166, 0, 0.59);
   transition: 0.2s;
 }
 
 .menu-right h1 {
   cursor: pointer;
+}
+
+.selected {
+  background-color: rgba(255, 166, 0, 0.59);
 }
