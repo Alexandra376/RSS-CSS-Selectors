@@ -9119,7 +9119,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.i(_node_modules_css_loader_dist_cjs_js_libs_normalize_css__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".main-block {\n  display: flex;\n}\n\n.left-column {\n  background-color: #2e2a23;\n  height: 100vh;\n  width: 60%;\n  text-align: center;\n  overflow-x: visible;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 2;\n}\n\n.right-column {\n  background-color: rgba(0, 0, 0, 0.2);\n  height: 115vh;\n  position: fixed;\n  width: 40%;\n  right: 0;\n}\n\nbody {\n  background: #2e2a23;\n}\n\n.menu-left {\n  margin-left: 10px;\n  display: flex;\n  gap: 9px;\n}\n\n.menu-left__logo {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.menu-left__reset {\n  width: 91px;\n  height: 31px;\n  border: none;\n  background-color: #711212;\n  color: rgba(255, 255, 255, 0.3);\n  place-items: center;\n  margin-top: 14px;\n  cursor: pointer;\n}\n\n.menu-left__reset:hover {\n  box-shadow: 1px 5px 6px 1px rgba(175, 0, 0, 0.71);\n  transition: 0.5s;\n}\n\n.selection__order {\n  color: rgba(255, 255, 255, 0.3);\n  font-size: 40px;\n  margin: 0;\n  font-weight: 400;\n  text-align: center;\n  padding: 20px 30px;\n}\n\n.selection__orders {\n  display: none;\n}\n\n.button-help {\n  background-color: rgba(0, 0, 0, 0.2);\n  padding: 8px 15px 10px 15px;\n  border-radius: 22px;\n  cursor: pointer;\n  border: none;\n}\n\n.button-help__help {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.button-help:hover {\n  box-shadow: 1px 5px 6px 1px rgba(244, 241, 238, 0.71);\n  transition: 0.5s;\n}\n\n.game-wrapper {\n  transform: translate3d(0, 0, 0);\n  perspective: 400px;\n  text-align: center;\n  position: relative;\n  padding-top: 15px;\n  margin-bottom: 50px;\n}\n\n.shake {\n  animation: shake 0.1s 5;\n}\n\n.table-wrapper {\n  min-height: 142px;\n  transform-origin: bottom;\n  z-index: 9999;\n  position: relative;\n  margin: 10px auto 0 auto;\n  transform: rotateX(20deg);\n  width: 274px;\n  opacity: 1;\n}\n\n.table-wrapper__surface {\n  box-shadow: 0px 40px 10px rgba(0, 0, 0, 0.2);\n  background: linear-gradient(#dd992d, #cd8c26);\n  position: absolute;\n  height: 100%;\n  bottom: 0;\n  width: 100%;\n}\n\n#size-one {\n  width: 400px;\n}\n\n#size-six {\n  width: 485px;\n}\n\n#size-seven {\n  width: 610px;\n}\n\n#size-eight {\n  width: 630px;\n}\n\n#size-nine {\n  width: 600px;\n}\n\n#size-ten {\n  width: 635px;\n}\n\n#size {\n  width: 274px;\n}\n\n.table {\n  transform-style: preserve-3d;\n  outline: solid 1px transparent;\n  margin: 0px auto 0px auto;\n  padding: 15px 15px 22px 15px;\n  display: inline-block;\n  z-index: 999;\n  position: relative;\n  white-space: nowrap;\n  display: flex;\n}\n\n.table__strobe {\n  width: 100px;\n  transform-origin: bottom;\n  animation: strobeStart 0.5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, 0.5s;\n  cursor: pointer;\n}\n\n.strobe {\n  animation: strobeStart 0.5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, 0.5s;\n}\n\n#fancy pickle {\n  animation: strobeStart 0.5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, 0.5s;\n}\n\n.table__strobe:hover {\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.4);\n}\n\nplate:before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 32px);\n  top: calc(50% - 32px);\n  height: 65px;\n  width: 65px;\n  border-radius: 60px;\n  border-top: solid 6px #CCC;\n  opacity: 0.4;\n  background: rgb(255, 255, 255);\n}\n\nplate {\n  border-bottom: solid 5px #DDD;\n  background: white;\n  border-radius: 100px;\n  border-radius: 100px;\n}\n\nbento, plate {\n  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.1);\n  display: inline-block;\n  width: 100px;\n  height: 100px;\n  margin: 0 10px;\n  position: relative;\n}\n\n.table img {\n  width: 97px;\n  height: 130px;\n  cursor: pointer;\n}\n\napple {\n  border-radius: 100px;\n  border-style: solid;\n  border-width: 2px 4px 15px 4px;\n  position: relative;\n  background: #e41919;\n  border-color: #ab1212;\n  display: flex;\n  height: 38px;\n  margin: 20px 24px;\n}\n\n#fancy:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 47px);\n  top: calc(50% - 44px);\n  height: 68px;\n  width: 74px;\n  border-radius: 60px;\n  border: solid 10px #009ff2;\n  opacity: 0.4;\n}\n\nbento {\n  height: 100px;\n  background: brown;\n  position: relative;\n  border: solid 3px #711c12;\n}\n\nbento:hover {\n  box-shadow: 0px 0px 0 6px rgba(255, 255, 255, 0.4);\n  cursor: pointer;\n}\n\n.strobe:hover {\n  box-shadow: 0px 0px 0 6px rgba(255, 255, 255, 0.4);\n  cursor: pointer;\n}\n\napple:hover {\n  box-shadow: 0px 0px 0 6px rgba(255, 255, 255, 0.4);\n  cursor: pointer;\n}\n\nplate:hover {\n  cursor: pointer;\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.4);\n}\n\norange {\n  background: orange;\n  border-color: #bd6e07;\n  border-radius: 100px;\n  border-style: solid;\n  border-width: 2px 4px 15px 4px;\n  position: relative;\n  display: flex;\n  margin: 13px;\n  height: 50px;\n  cursor: pointer;\n}\n\norange:hover {\n  box-shadow: 0px 0px 0 6px rgba(255, 255, 255, 0.4);\n}\n\npickle {\n  background: #179837;\n  border-radius: 30px;\n  position: relative;\n  border: solid 2px #025a18;\n  border-width: 2px 2px 9px 2px;\n  display: flex;\n  width: 18px;\n  height: 49px;\n  margin: 24px 40px;\n}\n\npickle:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\n#fancy:hover pickle {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\nplate orange:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\nplate orange.small:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\napple.small {\n  height: 20px;\n  margin: 31px 32px;\n}\n\norange.small {\n  height: 20px;\n  margin: 31px 32px;\n}\n\napple.strobe:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\n.table__strobe pickle:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\n.table__strobe orange:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\napple.color:hover {\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.4);\n}\n\n@keyframes strobetart {\n  0% {\n    transform: skew(0deg, 0deg) scaleY(1);\n    animation-timing-function: ease-in;\n  }\n  40% {\n    transform: skew(0deg, 0deg) scaleY(0.9);\n    animation-timing-function: ease-out;\n  }\n  100% {\n    transform: skew(4deg, 0deg) scaleX(1);\n  }\n}\n@keyframes strobe {\n  00% {\n    transform: skew(4deg, 0deg) scaleX(1);\n  }\n  10% {\n    transform: skew(1deg, 0deg) scaleY(0.9);\n  }\n  50% {\n    transform: skew(-4deg, 0deg) scaleX(1);\n  }\n  60% {\n    transform: skew(-1deg, 0deg) scaleY(0.9);\n  }\n  100% {\n    transform: skew(4deg, 0deg) scaleX(1);\n  }\n}\n@keyframes shake {\n  0% {\n    transform: rotate(0deg);\n  }\n  25% {\n    transform: rotate(5deg);\n  }\n  50% {\n    transform: rotate(0eg);\n  }\n  75% {\n    transform: rotate(-5deg);\n  }\n  100% {\n    transform: rotate(0deg);\n  }\n}\n.table-edge {\n  width: 274px;\n  opacity: 1;\n  margin: 0 auto 10px auto;\n  background: #ac741c;\n  height: 15px;\n  transform: rotateX(-40deg);\n  transform-origin: top;\n}\n\n.table-edge__leg {\n  width: 24px;\n  height: 10px;\n  background: #84570f;\n  position: absolute;\n  top: 15px;\n}\n\n.table-edge__leg:first-child {\n  left: 20px;\n}\n\n.table-edge__leg:last-child {\n  right: 20px;\n}\n\n.editor {\n  position: relative;\n  text-align: left;\n  width: 90%;\n  margin: 0 auto;\n  border: solid 10px rgba(0, 0, 0, 0.35);\n  border-radius: 4px;\n  overflow: hidden;\n  box-shadow: 0px 5px 6px 5px rgba(255, 255, 255, 0.4);\n  height: 478px;\n  margin-bottom: 65px;\n}\n\n.editor .input-window__numbers {\n  position: absolute;\n  top: 0;\n  left: 0;\n  font-family: menlo, monospace;\n  padding: 10px 10px;\n  height: 100%;\n  line-height: 150%;\n  text-align: right;\n}\n\n.editor .header-input {\n  text-align: left;\n  padding: 10px 15px;\n  background: rgba(0, 0, 0, 0.15);\n  border-top: solid 1px rgba(255, 255, 255, 0.05);\n  border-bottom: solid 1px rgba(255, 255, 255, 0.05);\n  border-radius: 2px 2px 0 0;\n  color: rgba(255, 255, 255, 0.6);\n}\n\n.editor .file-name {\n  float: right;\n  opacity: 0.5;\n}\n\n.editor .css-view {\n  background: #efefef;\n  color: #AAA;\n}\n\n.editor .input-window {\n  padding: 10px 10px 10px 46px;\n  position: relative;\n  min-height: 432px;\n}\n\n.editor * {\n  font-family: menlo, monospace;\n  font-size: 14px;\n  line-height: 150%;\n  padding: 0;\n  margin: 0;\n}\n\n.editor input.input-strobe {\n  background: rgba(62, 203, 255, 0.3);\n  animation: input 0.5s infinite;\n}\n\n.editor input {\n  color: #333;\n  border: none;\n  width: calc(100% - 46px);\n}\n\n.editor-panel {\n  float: left;\n  width: 50%;\n}\n\n.css-view .input-window__numbers {\n  color: #999;\n  background: #DDD;\n}\n\n.input-window__plus {\n  color: #666;\n  padding: 0px 4px;\n  font-size: 40px;\n  display: none;\n}\n\n.input-window__button {\n  background: #ddd;\n  display: block;\n  border-radius: 2px;\n  padding: 2px 7px 2px 7px;\n  color: #666;\n  border: solid 3px #999;\n  border-width: 1px 1px 6px 1px;\n  font-size: 9px;\n  position: absolute;\n  cursor: pointer;\n  top: 7px;\n  right: 7px;\n  z-index: 999999;\n}\n\n.html-view .input-window__numbers {\n  color: #666;\n  border-right: solid 1px #333;\n}\n\n.input-window__markup {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.input-window__strobe {\n  margin-bottom: 10px;\n}\n\nh1 {\n  color: #6c6a66;\n}\n\n.menu-right {\n  display: flex;\n  flex-direction: column;\n  place-items: center;\n}\n\n.menu-right h1:hover {\n  background-color: rgba(255, 166, 0, 0.59);\n  transition: 0.2s;\n}\n\n.menu-right h1 {\n  cursor: pointer;\n}\n\n.selected {\n  background-color: rgba(255, 166, 0, 0.59);\n}\n\nh4 {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.footer-wrapper {\n  display: flex;\n  gap: 100px;\n  place-items: center;\n  justify-content: center;\n}\n\n.footer-wrapper img {\n  cursor: pointer;\n}\n\na {\n  text-decoration: none;\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.window {\n  position: absolute;\n  background: white;\n  z-index: 1000;\n  font-size: 18px;\n  color: #666;\n  border-bottom: solid 2px #BBB;\n  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);\n  transform: rotateX(20deg);\n  outline: solid 1px transparent;\n  word-wrap: nowrap;\n  white-space: nowrap;\n  left: 26%;\n  top: 24%;\n  border-radius: 10px;\n}", "",{"version":3,"sources":["webpack://./src/sass/blocks/_main-block.scss","webpack://./src/index.scss","webpack://./src/sass/blocks/_left-column.scss","webpack://./src/sass/blocks/_right-column.scss","webpack://./src/sass/blocks/_body.scss","webpack://./src/sass/base/_variable.scss","webpack://./src/sass/blocks/_menu-left.scss","webpack://./src/sass/blocks/_selection.scss","webpack://./src/sass/blocks/_button-help.scss","webpack://./src/sass/blocks/_game-wrapper.scss","webpack://./src/sass/blocks/_table-wrapper.scss","webpack://./src/sass/blocks/_table.scss","webpack://./src/sass/blocks/_keyframes.scss","webpack://./src/sass/blocks/_table-edge.scss","webpack://./src/sass/blocks/_editor.scss","webpack://./src/sass/blocks/_editor-panel.scss","webpack://./src/sass/blocks/_input-window.scss","webpack://./src/sass/blocks/_menu-right.scss","webpack://./src/sass/blocks/_footer-contacts.scss","webpack://./src/sass/blocks/_footer-wrapper.scss","webpack://./src/sass/blocks/_window.scss"],"names":[],"mappings":"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","sourcesContent":[".main-block {\n    display: flex;\n}","@import \"./libs/normalize.css\";\n@import \"./sass/base/variable\";\n@import \"./sass/blocks/main-block\";\n@import \"./sass/blocks/left-column\";\n@import \"./sass/blocks/right-column\";\n@import \"./sass/blocks/body\";\n@import \"./sass/blocks/menu-left\";\n@import \"./sass/blocks/selection\";\n@import \"./sass/blocks/button-help\";\n@import \"./sass/blocks/game-wrapper\";\n@import \"./sass/blocks/table-wrapper\";\n@import \"./sass/blocks/table\";\n@import \"./sass/blocks/keyframes\";\n@import \"./sass/blocks/table-edge\";\n@import \"./sass/blocks/editor\";\n@import \"./sass/blocks/editor-panel\";\n@import \"./sass/blocks/input-window\";\n@import \"./sass/blocks/_menu-right\";\n@import \"./sass/blocks/_footer-contacts\";\n@import \"./sass/blocks/footer-wrapper\";\n@import \"./sass/blocks/_window\";\n",".left-column {\n  background-color: #2e2a23;\n  height: 100vh;\n  width: 60%;\n  text-align: center;\n  overflow-x: visible;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 2;\n}\n",".right-column {\n  background-color: rgba(0,0,0,.2);\n  height: 115vh;\n  position: fixed;\n  width: 40%;\n  right: 0;\n};","body {\n  background: $main-color;\n}","$main-color: #2e2a23;\n$fonts-color: rgba(255,255,255,.3);",".menu-left {\n    margin-left: 10px;\n    display: flex;\n    gap: 9px;\n}\n\n.menu-left__logo {\n  color: $fonts-color;\n}\n\n.menu-left__reset {\n  width: 91px;\n  height: 31px;\n  border: none;\n  background-color: #711212;\n  color: rgba(255, 255, 255, 0.3);\n  place-items: center;\n  margin-top: 14px;\n  cursor: pointer;\n}\n\n.menu-left__reset:hover {\n  box-shadow: 1px 5px 6px 1px rgba(175, 0, 0, 0.71);\n  transition: 0.5s;\n}",".selection__order {\n    color: $fonts-color;\n    font-size: 40px;\n    margin: 0;\n    font-weight: 400;\n    text-align: center;\n    padding: 20px 30px;\n}\n\n.selection__orders {\n    display: none;\n}",".button-help {\n    background-color: rgba(0,0,0,.2);\n    padding: 8px 15px 10px 15px;\n    border-radius: 22px;\n    cursor: pointer;\n    border: none;\n}\n\n.button-help__help {\n    color: $fonts-color;\n}\n\n.button-help:hover {\n    box-shadow: 1px 5px 6px 1px rgba(244, 241, 238, 0.71);\n    transition: 0.5s;\n}",".game-wrapper {\n  transform: translate3d(0,0,0);\n  perspective: 400px;\n  text-align: center;\n  position: relative;\n  padding-top: 15px;\n  margin-bottom: 50px;\n}\n\n.shake {\n  animation: shake .1s 5;\n}",".table-wrapper {\n  min-height: 142px;\n  transform-origin: bottom;\n  z-index: 9999;\n  position: relative;\n  margin: 10px auto 0 auto;\n  transform: rotateX(20deg);\n  width: 274px;\n  opacity: 1;\n}\n\n.table-wrapper__surface {\n  box-shadow: 0px 40px 10px rgba(0,0,0,.2);\n  background: linear-gradient(#dd992d,#cd8c26);\n  position: absolute;\n  height: 100%;\n  bottom: 0;\n  width: 100%;\n}\n\n#size-one {\n  width: 400px;\n}\n\n#size-six {\n  width: 485px;\n}\n\n#size-seven {\n  width: 610px;\n}\n\n#size-eight {\n  width: 630px;\n}\n\n#size-nine {\n  width: 600px;\n}\n\n#size-ten {\n  width: 635px;\n}\n\n#size {\n  width: 274px;\n}",".table {\n  transform-style: preserve-3d;\n  outline: solid 1px transparent;\n  margin: 0px auto 0px auto;\n  padding: 15px 15px 22px 15px;\n  display: inline-block;\n  z-index: 999;\n  position: relative;\n  white-space: nowrap;\n  display: flex;\n}\n\n.table__strobe {\n  width: 100px;\n  transform-origin: bottom;\n  animation: strobeStart .5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, .5s;\n  cursor: pointer;\n}\n.strobe {\n  animation: strobeStart .5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, .5s;\n}\n\n#fancy pickle {\n  animation: strobeStart .5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, .5s;\n}\n\n.table__strobe:hover {\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255,.4);\n}\n\nplate:before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 32px);\n  top: calc(50% - 32px);\n  height: 65px;\n  width: 65px;\n  border-radius: 60px;\n  border-top: solid 6px #CCC;\n  opacity: .4;\n  background: rgba(255,255,255,1);\n}\n\nplate {\n  border-bottom: solid 5px #DDD;\n  background: white;\n  border-radius: 100px;\n  border-radius: 100px;\n}\n\nbento, plate {\n  box-shadow: 0px 8px 0px rgba(0,0,0,.1);\n  display: inline-block;\n  width: 100px;\n  height: 100px;\n  margin: 0 10px;\n  position: relative;\n}\n\n.table img {\n  width: 97px;\n  height: 130px;\n  cursor: pointer;\n}\n\napple {\n  border-radius: 100px;\n  border-style: solid;\n  border-width: 2px 4px 15px 4px;\n  position: relative;\n  background: #e41919;\n  border-color: #ab1212;\n  display: flex;\n  height: 38px;\n  margin: 20px 24px;\n}\n\n#fancy:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 47px);\n  top: calc(50% - 44px);\n  height: 68px;\n  width: 74px;\n  border-radius: 60px;\n  border: solid 10px #009ff2;\n  opacity: .4;\n}\n\nbento {\n  height: 100px;\n  background: brown;\n  position: relative;\n  border: solid 3px #711c12;\n}\n\nbento:hover {\n  box-shadow: 0px 0px 0 6px rgba(255,255,255,.4);\n  cursor: pointer;\n}\n\n.strobe:hover {\n  box-shadow: 0px 0px 0 6px rgba(255,255,255,.4);\n  cursor: pointer;\n}\n\napple:hover {\n  box-shadow: 0px 0px 0 6px rgba(255,255,255,.4);\n  cursor: pointer;\n}\nplate:hover {\n  cursor: pointer;\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255,.4);\n}\n\norange {\n  background: orange;\n  border-color: #bd6e07;\n  border-radius: 100px;\n  border-style: solid;\n  border-width: 2px 4px 15px 4px;\n  position: relative;\n  display: flex;\n  margin: 13px;\n  height: 50px;\n  cursor: pointer;\n}\n\norange:hover {\n  box-shadow: 0px 0px 0 6px rgba(255,255,255,.4);\n}\n\npickle {\n  background: #179837;\n  border-radius: 30px;\n  position: relative;\n  border: solid 2px #025a18;\n  border-width: 2px 2px 9px 2px;\n  display: flex;\n  width: 18px;\n  height: 49px;\n  margin: 24px 40px;\n}\n\npickle:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\n#fancy:hover pickle {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\nplate orange:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\nplate orange.small:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\napple.small {\n  height: 20px;\n  margin: 31px 32px;\n}\n\norange.small {\n  height: 20px;\n  margin: 31px 32px;\n}\n\napple.strobe:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\n.table__strobe pickle:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\n.table__strobe orange:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\napple.color:hover {\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255,.4);\n}\n\n\n\n\n\n","@keyframes strobetart {\n  0% {\n      transform: skew(0deg,0deg) scaleY(1);\n      animation-timing-function: ease-in;\n  } \n  40% {\n      transform: skew(0deg,0deg) scaleY(.9);\n      animation-timing-function: ease-out;\n  }\n  100% {\n      transform: skew(4deg,0deg) scaleX(1);\n  }\n}\n\n@keyframes strobe {\n  00% {\n    transform: skew(4deg,0deg) scaleX(1);\n  }\n  10% {\n    transform: skew(1deg,0deg) scaleY(.9);\n  }\n  50% {\n    transform: skew(-4deg,0deg) scaleX(1);\n  }\n  60% {\n    transform: skew(-1deg,0deg) scaleY(.9);\n  }\n  100% {\n    transform: skew(4deg,0deg) scaleX(1);\n  }\n}\n\n@keyframes shake {\n  0% { transform: rotate(0deg); }\n  25% { transform: rotate(5deg); }\n  50% { transform: rotate(0eg); }\n  75% { transform: rotate(-5deg); }\n  100% { transform: rotate(0deg); }\n}",".table-edge {\n  width: 274px;\n  opacity: 1;\n  margin: 0 auto 10px auto;\n  background: #ac741c;\n  height: 15px;\n  transform: rotateX(-40deg);\n  transform-origin: top;\n}\n\n.table-edge__leg {\n  width: 24px;\n  height: 10px;\n  background: #84570f;\n  position: absolute;\n  top: 15px;\n}\n\n.table-edge__leg:first-child {\n  left: 20px;\n}\n\n.table-edge__leg:last-child {\n  right: 20px;\n}",".editor {\n  position: relative;\n  text-align: left;\n  width: 90%;\n  margin: 0 auto;\n  border: solid 10px rgba(0,0,0,.35);\n  border-radius: 4px;\n  overflow: hidden;\n  box-shadow: 0px 5px 6px 5px rgba(255, 255, 255,.4);\n  height: 478px;\n  margin-bottom: 65px;\n}\n\n.editor .input-window__numbers {\n  position: absolute;\n  top: 0;\n  left: 0;\n  font-family: menlo, monospace;\n  padding: 10px 10px;\n  height: 100%;\n  line-height: 150%;\n  text-align: right;\n}\n\n.editor .header-input {\n  text-align: left;\n  padding: 10px 15px;\n  background: rgba(0,0,0,.15);\n  border-top: solid 1px rgba(255,255,255,.05);\n  border-bottom: solid 1px rgba(255,255,255,.05);\n  border-radius: 2px 2px 0 0;\n  color: rgba(255,255,255,.6);\n}\n\n.editor .file-name {\n  float: right;\n  opacity: .5;\n}\n\n.editor .css-view {\n  background: #efefef;\n  color: #AAA;\n}\n\n.editor .input-window {\n  padding: 10px 10px 10px 46px;\n  position: relative;\n  min-height: 432px;\n}\n\n.editor * {\n  font-family: menlo,monospace;\n  font-size: 14px;\n  line-height: 150%;\n  padding: 0;\n  margin: 0;\n}\n\n.editor input.input-strobe {\n  background: rgba(62,203,255,.3);\n  animation: input .5s infinite;\n}\n\n.editor input {\n  color: #333;\n  border: none;\n  width: calc(100% - 46px);\n  \n}",".editor-panel {\n  float: left;\n  width: 50%;\n}",".css-view .input-window__numbers {\n  color: #999;\n  background: #DDD;\n}\n\n.input-window__plus {\n  color: #666;\n  padding: 0px 4px;\n  font-size: 40px;\n  display: none;\n}\n\n.input-window__button {\n  background: #ddd;\n  display: block;\n  border-radius: 2px;\n  padding: 2px 7px 2px 7px;\n  color: #666;\n  border: solid 3px #999;\n  border-width: 1px 1px 6px 1px;\n  font-size: 9px;\n  position: absolute;\n  cursor: pointer;\n  top: 7px;\n  right: 7px;\n  z-index: 999999;\n}\n\n.html-view .input-window__numbers {\n  color: #666;\n  border-right: solid 1px #333;\n}\n\n.input-window__markup {\n  color: rgba(255,255,255,.3);\n}\n\n.input-window__strobe {\n  margin-bottom: 10px;\n}","h1 {\n  color: #6c6a66;\n}\n\n.menu-right {\n  display: flex;\n  flex-direction: column;\n  place-items: center;\n}\n\n.menu-right h1:hover {\n  background-color: rgba(255, 166, 0, 0.59);\n  transition: 0.2s;\n}\n\n.menu-right h1 {\n  cursor: pointer;\n}\n\n.selected {\n  background-color: rgba(255, 166, 0, 0.59);\n}\n","h4 {\n  color: rgba(255, 255, 255, 0.3);\n}",".footer-wrapper {\n  display: flex;\n  gap: 100px;\n  place-items: center;\n  justify-content: center;\n}\n\n.footer-wrapper img {\n  cursor: pointer;\n}\n\na {\n  text-decoration: none;\n  color: rgba(255, 255, 255, 0.3);\n}",".window {\n  position: absolute;\n  background: white;\n  z-index: 1000;\n  font-size: 18px;\n  color: #666;\n  border-bottom: solid 2px #BBB;\n  box-shadow: 0px 5px 0px rgba(0,0,0,.2);\n  transform: rotateX(20deg);\n  outline: solid 1px transparent;\n  word-wrap: nowrap;\n  white-space: nowrap;\n  left: 26%; \n  top: 24%;\n  border-radius: 10px;\n}\n\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".main-block {\n  display: flex;\n}\n\n.left-column {\n  background-color: #2e2a23;\n  height: 100vh;\n  width: 60%;\n  text-align: center;\n  overflow-x: visible;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 2;\n}\n\n.right-column {\n  background-color: rgba(0, 0, 0, 0.2);\n  height: 115vh;\n  position: fixed;\n  width: 40%;\n  right: 0;\n}\n\nbody {\n  background: #2e2a23;\n}\n\n.menu-left {\n  margin-left: 10px;\n  display: flex;\n  gap: 9px;\n}\n\n.menu-left__logo {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.menu-left__reset {\n  width: 91px;\n  height: 31px;\n  border: none;\n  background-color: #711212;\n  color: rgba(255, 255, 255, 0.3);\n  place-items: center;\n  margin-top: 14px;\n  cursor: pointer;\n}\n\n.menu-left__reset:hover {\n  box-shadow: 1px 5px 6px 1px rgba(175, 0, 0, 0.71);\n  transition: 0.5s;\n}\n\n.selection__order {\n  color: rgba(255, 255, 255, 0.3);\n  font-size: 40px;\n  margin: 0;\n  font-weight: 400;\n  text-align: center;\n  padding: 20px 30px;\n}\n\n.selection__orders {\n  display: none;\n}\n\n.button-help {\n  background-color: rgba(0, 0, 0, 0.2);\n  padding: 8px 15px 10px 15px;\n  border-radius: 22px;\n  cursor: pointer;\n  border: none;\n}\n\n.button-help__help {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.button-help:hover {\n  box-shadow: 1px 5px 6px 1px rgba(244, 241, 238, 0.71);\n  transition: 0.5s;\n}\n\n.game-wrapper {\n  transform: translate3d(0, 0, 0);\n  perspective: 400px;\n  text-align: center;\n  position: relative;\n  padding-top: 15px;\n  margin-bottom: 50px;\n}\n\n.shake {\n  animation: shake 0.1s 5;\n}\n\n.table-wrapper {\n  min-height: 142px;\n  transform-origin: bottom;\n  z-index: 9999;\n  position: relative;\n  margin: 10px auto 0 auto;\n  transform: rotateX(20deg);\n  width: 274px;\n  opacity: 1;\n}\n\n.table-wrapper__surface {\n  box-shadow: 0px 40px 10px rgba(0, 0, 0, 0.2);\n  background: linear-gradient(#dd992d, #cd8c26);\n  position: absolute;\n  height: 100%;\n  bottom: 0;\n  width: 100%;\n}\n\n#size-one {\n  width: 400px;\n}\n\n#size-six {\n  width: 485px;\n}\n\n#size-seven {\n  width: 610px;\n}\n\n#size-eight {\n  width: 630px;\n}\n\n#size-nine {\n  width: 600px;\n}\n\n#size-ten {\n  width: 635px;\n}\n\n#size {\n  width: 274px;\n}\n\n.table {\n  transform-style: preserve-3d;\n  outline: solid 1px transparent;\n  margin: 0px auto 0px auto;\n  padding: 15px 15px 22px 15px;\n  display: inline-block;\n  z-index: 999;\n  position: relative;\n  white-space: nowrap;\n  display: flex;\n}\n\n.table__strobe {\n  width: 100px;\n  transform-origin: bottom;\n  animation: strobeStart 0.5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, 0.5s;\n  cursor: pointer;\n}\n\n.strobe {\n  animation: strobeStart 0.5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, 0.5s;\n}\n\n#fancy pickle {\n  animation: strobeStart 0.5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, 0.5s;\n}\n\n.table__strobe:hover {\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.4);\n}\n\nplate:before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 32px);\n  top: calc(50% - 32px);\n  height: 65px;\n  width: 65px;\n  border-radius: 60px;\n  border-top: solid 6px #CCC;\n  opacity: 0.4;\n  background: rgb(255, 255, 255);\n}\n\nplate {\n  border-bottom: solid 5px #DDD;\n  background: white;\n  border-radius: 100px;\n  border-radius: 100px;\n}\n\nbento, plate {\n  box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.1);\n  display: inline-block;\n  width: 100px;\n  height: 100px;\n  margin: 0 10px;\n  position: relative;\n}\n\n.table img {\n  width: 97px;\n  height: 130px;\n  cursor: pointer;\n}\n\napple {\n  border-radius: 100px;\n  border-style: solid;\n  border-width: 2px 4px 15px 4px;\n  position: relative;\n  background: #e41919;\n  border-color: #ab1212;\n  display: flex;\n  height: 38px;\n  margin: 20px 24px;\n}\n\n#fancy:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 47px);\n  top: calc(50% - 44px);\n  height: 68px;\n  width: 74px;\n  border-radius: 60px;\n  border: solid 10px #009ff2;\n  opacity: 0.4;\n}\n\nbento {\n  height: 100px;\n  background: brown;\n  position: relative;\n  border: solid 3px #711c12;\n}\n\nbento:hover {\n  box-shadow: 0px 0px 0 6px rgba(255, 255, 255, 0.4);\n  cursor: pointer;\n}\n\n.strobe:hover {\n  box-shadow: 0px 0px 0 6px rgba(255, 255, 255, 0.4);\n  cursor: pointer;\n}\n\napple:hover {\n  box-shadow: 0px 0px 0 6px rgba(255, 255, 255, 0.4);\n  cursor: pointer;\n}\n\nplate:hover {\n  cursor: pointer;\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.4);\n}\n\norange {\n  background: orange;\n  border-color: #bd6e07;\n  border-radius: 100px;\n  border-style: solid;\n  border-width: 2px 4px 15px 4px;\n  position: relative;\n  display: flex;\n  margin: 13px;\n  height: 50px;\n  cursor: pointer;\n}\n\norange:hover {\n  box-shadow: 0px 0px 0 6px rgba(255, 255, 255, 0.4);\n}\n\npickle {\n  background: #179837;\n  border-radius: 30px;\n  position: relative;\n  border: solid 2px #025a18;\n  border-width: 2px 2px 9px 2px;\n  display: flex;\n  width: 18px;\n  height: 49px;\n  margin: 24px 40px;\n}\n\npickle:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\n#fancy:hover pickle {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\nplate orange:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\nplate orange.small:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\napple.small {\n  height: 20px;\n  margin: 31px 32px;\n}\n\norange.small {\n  height: 20px;\n  margin: 31px 32px;\n}\n\napple.strobe:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\n.table__strobe pickle:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\n.table__strobe orange:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);\n}\n\napple.color:hover {\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255, 0.4);\n}\n\n@keyframes strobetart {\n  0% {\n    transform: skew(0deg, 0deg) scaleY(1);\n    animation-timing-function: ease-in;\n  }\n  40% {\n    transform: skew(0deg, 0deg) scaleY(0.9);\n    animation-timing-function: ease-out;\n  }\n  100% {\n    transform: skew(4deg, 0deg) scaleX(1);\n  }\n}\n@keyframes strobe {\n  00% {\n    transform: skew(4deg, 0deg) scaleX(1);\n  }\n  10% {\n    transform: skew(1deg, 0deg) scaleY(0.9);\n  }\n  50% {\n    transform: skew(-4deg, 0deg) scaleX(1);\n  }\n  60% {\n    transform: skew(-1deg, 0deg) scaleY(0.9);\n  }\n  100% {\n    transform: skew(4deg, 0deg) scaleX(1);\n  }\n}\n@keyframes shake {\n  0% {\n    transform: rotate(0deg);\n  }\n  25% {\n    transform: rotate(5deg);\n  }\n  50% {\n    transform: rotate(0eg);\n  }\n  75% {\n    transform: rotate(-5deg);\n  }\n  100% {\n    transform: rotate(0deg);\n  }\n}\n.table-edge {\n  width: 274px;\n  opacity: 1;\n  margin: 0 auto 10px auto;\n  background: #ac741c;\n  height: 15px;\n  transform: rotateX(-40deg);\n  transform-origin: top;\n}\n\n.table-edge__leg {\n  width: 24px;\n  height: 10px;\n  background: #84570f;\n  position: absolute;\n  top: 15px;\n}\n\n.table-edge__leg:first-child {\n  left: 20px;\n}\n\n.table-edge__leg:last-child {\n  right: 20px;\n}\n\n.editor {\n  position: relative;\n  text-align: left;\n  width: 90%;\n  margin: 0 auto;\n  border: solid 10px rgba(0, 0, 0, 0.35);\n  border-radius: 4px;\n  overflow: hidden;\n  box-shadow: 0px 5px 6px 5px rgba(255, 255, 255, 0.4);\n  height: 478px;\n  margin-bottom: 65px;\n}\n\n.editor .input-window__numbers {\n  position: absolute;\n  top: 0;\n  left: 0;\n  font-family: menlo, monospace;\n  padding: 10px 10px;\n  height: 100%;\n  line-height: 150%;\n  text-align: right;\n}\n\n.editor .header-input {\n  text-align: left;\n  padding: 10px 15px;\n  background: rgba(0, 0, 0, 0.15);\n  border-top: solid 1px rgba(255, 255, 255, 0.05);\n  border-bottom: solid 1px rgba(255, 255, 255, 0.05);\n  border-radius: 2px 2px 0 0;\n  color: rgba(255, 255, 255, 0.6);\n}\n\n.editor .file-name {\n  float: right;\n  opacity: 0.5;\n}\n\n.editor .css-view {\n  background: #efefef;\n  color: #AAA;\n}\n\n.editor .input-window {\n  padding: 10px 10px 10px 46px;\n  position: relative;\n  min-height: 432px;\n}\n\n.editor * {\n  font-family: menlo, monospace;\n  font-size: 14px;\n  line-height: 150%;\n  padding: 0;\n  margin: 0;\n}\n\n.editor input.input-strobe {\n  background: rgba(62, 203, 255, 0.3);\n  animation: input 0.5s infinite;\n}\n\n.editor input {\n  color: #333;\n  border: none;\n  width: calc(100% - 46px);\n}\n\n.editor-panel {\n  float: left;\n  width: 50%;\n}\n\n.css-view .input-window__numbers {\n  color: #999;\n  background: #DDD;\n}\n\n.input-window__plus {\n  color: #666;\n  padding: 0px 4px;\n  font-size: 40px;\n  display: none;\n}\n\n.input-window__button {\n  background: #ddd;\n  display: block;\n  border-radius: 2px;\n  padding: 2px 7px 2px 7px;\n  color: #666;\n  border: solid 3px #999;\n  border-width: 1px 1px 6px 1px;\n  font-size: 9px;\n  position: absolute;\n  cursor: pointer;\n  top: 7px;\n  right: 7px;\n  z-index: 999999;\n}\n\n.html-view .input-window__numbers {\n  color: #666;\n  border-right: solid 1px #333;\n}\n\n.input-window__markup {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.input-window__strobe {\n  margin-bottom: 10px;\n}\n\nh1 {\n  color: #6c6a66;\n}\n\n.menu-right {\n  display: flex;\n  flex-direction: column;\n  place-items: center;\n}\n\n.menu-right h1:hover {\n  background-color: rgba(255, 166, 0, 0.59);\n  transition: 0.2s;\n}\n\n.menu-right h1 {\n  cursor: pointer;\n}\n\n.selected {\n  background-color: rgba(255, 166, 0, 0.59);\n}\n\n#one {\n  text-decoration: underline;\n  text-decoration-color: rgba(255, 165, 0, 0.5294117647);\n}\n\nh4 {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.footer-wrapper {\n  display: flex;\n  gap: 100px;\n  place-items: center;\n  justify-content: center;\n}\n\n.footer-wrapper img {\n  cursor: pointer;\n}\n\na {\n  text-decoration: none;\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.window {\n  position: absolute;\n  background: white;\n  z-index: 1000;\n  font-size: 18px;\n  color: #666;\n  border-bottom: solid 2px #BBB;\n  box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);\n  transform: rotateX(20deg);\n  outline: solid 1px transparent;\n  word-wrap: nowrap;\n  white-space: nowrap;\n  left: 26%;\n  top: 24%;\n  border-radius: 10px;\n}", "",{"version":3,"sources":["webpack://./src/sass/blocks/_main-block.scss","webpack://./src/index.scss","webpack://./src/sass/blocks/_left-column.scss","webpack://./src/sass/blocks/_right-column.scss","webpack://./src/sass/blocks/_body.scss","webpack://./src/sass/base/_variable.scss","webpack://./src/sass/blocks/_menu-left.scss","webpack://./src/sass/blocks/_selection.scss","webpack://./src/sass/blocks/_button-help.scss","webpack://./src/sass/blocks/_game-wrapper.scss","webpack://./src/sass/blocks/_table-wrapper.scss","webpack://./src/sass/blocks/_table.scss","webpack://./src/sass/blocks/_keyframes.scss","webpack://./src/sass/blocks/_table-edge.scss","webpack://./src/sass/blocks/_editor.scss","webpack://./src/sass/blocks/_editor-panel.scss","webpack://./src/sass/blocks/_input-window.scss","webpack://./src/sass/blocks/_menu-right.scss","webpack://./src/sass/blocks/_footer-contacts.scss","webpack://./src/sass/blocks/_footer-wrapper.scss","webpack://./src/sass/blocks/_window.scss"],"names":[],"mappings":"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","sourcesContent":[".main-block {\n    display: flex;\n}","@import \"./libs/normalize.css\";\n@import \"./sass/base/variable\";\n@import \"./sass/blocks/main-block\";\n@import \"./sass/blocks/left-column\";\n@import \"./sass/blocks/right-column\";\n@import \"./sass/blocks/body\";\n@import \"./sass/blocks/menu-left\";\n@import \"./sass/blocks/selection\";\n@import \"./sass/blocks/button-help\";\n@import \"./sass/blocks/game-wrapper\";\n@import \"./sass/blocks/table-wrapper\";\n@import \"./sass/blocks/table\";\n@import \"./sass/blocks/keyframes\";\n@import \"./sass/blocks/table-edge\";\n@import \"./sass/blocks/editor\";\n@import \"./sass/blocks/editor-panel\";\n@import \"./sass/blocks/input-window\";\n@import \"./sass/blocks/_menu-right\";\n@import \"./sass/blocks/_footer-contacts\";\n@import \"./sass/blocks/footer-wrapper\";\n@import \"./sass/blocks/_window\";\n",".left-column {\n  background-color: #2e2a23;\n  height: 100vh;\n  width: 60%;\n  text-align: center;\n  overflow-x: visible;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  z-index: 2;\n}\n",".right-column {\n  background-color: rgba(0,0,0,.2);\n  height: 115vh;\n  position: fixed;\n  width: 40%;\n  right: 0;\n};","body {\n  background: $main-color;\n}","$main-color: #2e2a23;\n$fonts-color: rgba(255,255,255,.3);",".menu-left {\n    margin-left: 10px;\n    display: flex;\n    gap: 9px;\n}\n\n.menu-left__logo {\n  color: $fonts-color;\n}\n\n.menu-left__reset {\n  width: 91px;\n  height: 31px;\n  border: none;\n  background-color: #711212;\n  color: rgba(255, 255, 255, 0.3);\n  place-items: center;\n  margin-top: 14px;\n  cursor: pointer;\n}\n\n.menu-left__reset:hover {\n  box-shadow: 1px 5px 6px 1px rgba(175, 0, 0, 0.71);\n  transition: 0.5s;\n}",".selection__order {\n    color: $fonts-color;\n    font-size: 40px;\n    margin: 0;\n    font-weight: 400;\n    text-align: center;\n    padding: 20px 30px;\n}\n\n.selection__orders {\n    display: none;\n}",".button-help {\n    background-color: rgba(0,0,0,.2);\n    padding: 8px 15px 10px 15px;\n    border-radius: 22px;\n    cursor: pointer;\n    border: none;\n}\n\n.button-help__help {\n    color: $fonts-color;\n}\n\n.button-help:hover {\n    box-shadow: 1px 5px 6px 1px rgba(244, 241, 238, 0.71);\n    transition: 0.5s;\n}",".game-wrapper {\n  transform: translate3d(0,0,0);\n  perspective: 400px;\n  text-align: center;\n  position: relative;\n  padding-top: 15px;\n  margin-bottom: 50px;\n}\n\n.shake {\n  animation: shake .1s 5;\n}",".table-wrapper {\n  min-height: 142px;\n  transform-origin: bottom;\n  z-index: 9999;\n  position: relative;\n  margin: 10px auto 0 auto;\n  transform: rotateX(20deg);\n  width: 274px;\n  opacity: 1;\n}\n\n.table-wrapper__surface {\n  box-shadow: 0px 40px 10px rgba(0,0,0,.2);\n  background: linear-gradient(#dd992d,#cd8c26);\n  position: absolute;\n  height: 100%;\n  bottom: 0;\n  width: 100%;\n}\n\n#size-one {\n  width: 400px;\n}\n\n#size-six {\n  width: 485px;\n}\n\n#size-seven {\n  width: 610px;\n}\n\n#size-eight {\n  width: 630px;\n}\n\n#size-nine {\n  width: 600px;\n}\n\n#size-ten {\n  width: 635px;\n}\n\n#size {\n  width: 274px;\n}",".table {\n  transform-style: preserve-3d;\n  outline: solid 1px transparent;\n  margin: 0px auto 0px auto;\n  padding: 15px 15px 22px 15px;\n  display: inline-block;\n  z-index: 999;\n  position: relative;\n  white-space: nowrap;\n  display: flex;\n}\n\n.table__strobe {\n  width: 100px;\n  transform-origin: bottom;\n  animation: strobeStart .5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, .5s;\n  cursor: pointer;\n}\n.strobe {\n  animation: strobeStart .5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, .5s;\n}\n\n#fancy pickle {\n  animation: strobeStart .5s ease-out, strobe 1s infinite;\n  animation-delay: 0s, .5s;\n}\n\n.table__strobe:hover {\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255,.4);\n}\n\nplate:before {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 32px);\n  top: calc(50% - 32px);\n  height: 65px;\n  width: 65px;\n  border-radius: 60px;\n  border-top: solid 6px #CCC;\n  opacity: .4;\n  background: rgba(255,255,255,1);\n}\n\nplate {\n  border-bottom: solid 5px #DDD;\n  background: white;\n  border-radius: 100px;\n  border-radius: 100px;\n}\n\nbento, plate {\n  box-shadow: 0px 8px 0px rgba(0,0,0,.1);\n  display: inline-block;\n  width: 100px;\n  height: 100px;\n  margin: 0 10px;\n  position: relative;\n}\n\n.table img {\n  width: 97px;\n  height: 130px;\n  cursor: pointer;\n}\n\napple {\n  border-radius: 100px;\n  border-style: solid;\n  border-width: 2px 4px 15px 4px;\n  position: relative;\n  background: #e41919;\n  border-color: #ab1212;\n  display: flex;\n  height: 38px;\n  margin: 20px 24px;\n}\n\n#fancy:after {\n  content: \"\";\n  display: block;\n  position: absolute;\n  left: calc(50% - 47px);\n  top: calc(50% - 44px);\n  height: 68px;\n  width: 74px;\n  border-radius: 60px;\n  border: solid 10px #009ff2;\n  opacity: .4;\n}\n\nbento {\n  height: 100px;\n  background: brown;\n  position: relative;\n  border: solid 3px #711c12;\n}\n\nbento:hover {\n  box-shadow: 0px 0px 0 6px rgba(255,255,255,.4);\n  cursor: pointer;\n}\n\n.strobe:hover {\n  box-shadow: 0px 0px 0 6px rgba(255,255,255,.4);\n  cursor: pointer;\n}\n\napple:hover {\n  box-shadow: 0px 0px 0 6px rgba(255,255,255,.4);\n  cursor: pointer;\n}\nplate:hover {\n  cursor: pointer;\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255,.4);\n}\n\norange {\n  background: orange;\n  border-color: #bd6e07;\n  border-radius: 100px;\n  border-style: solid;\n  border-width: 2px 4px 15px 4px;\n  position: relative;\n  display: flex;\n  margin: 13px;\n  height: 50px;\n  cursor: pointer;\n}\n\norange:hover {\n  box-shadow: 0px 0px 0 6px rgba(255,255,255,.4);\n}\n\npickle {\n  background: #179837;\n  border-radius: 30px;\n  position: relative;\n  border: solid 2px #025a18;\n  border-width: 2px 2px 9px 2px;\n  display: flex;\n  width: 18px;\n  height: 49px;\n  margin: 24px 40px;\n}\n\npickle:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\n#fancy:hover pickle {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\nplate orange:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\nplate orange.small:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\napple.small {\n  height: 20px;\n  margin: 31px 32px;\n}\n\norange.small {\n  height: 20px;\n  margin: 31px 32px;\n}\n\napple.strobe:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\n.table__strobe pickle:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\n.table__strobe orange:hover {\n  box-shadow: 0 0 0 6px rgba(0, 0, 0, .3);\n}\n\napple.color:hover {\n  box-shadow: 0px 0px 0px 6px rgba(255, 255, 255,.4);\n}\n\n\n\n\n\n","@keyframes strobetart {\n  0% {\n      transform: skew(0deg,0deg) scaleY(1);\n      animation-timing-function: ease-in;\n  } \n  40% {\n      transform: skew(0deg,0deg) scaleY(.9);\n      animation-timing-function: ease-out;\n  }\n  100% {\n      transform: skew(4deg,0deg) scaleX(1);\n  }\n}\n\n@keyframes strobe {\n  00% {\n    transform: skew(4deg,0deg) scaleX(1);\n  }\n  10% {\n    transform: skew(1deg,0deg) scaleY(.9);\n  }\n  50% {\n    transform: skew(-4deg,0deg) scaleX(1);\n  }\n  60% {\n    transform: skew(-1deg,0deg) scaleY(.9);\n  }\n  100% {\n    transform: skew(4deg,0deg) scaleX(1);\n  }\n}\n\n@keyframes shake {\n  0% { transform: rotate(0deg); }\n  25% { transform: rotate(5deg); }\n  50% { transform: rotate(0eg); }\n  75% { transform: rotate(-5deg); }\n  100% { transform: rotate(0deg); }\n}",".table-edge {\n  width: 274px;\n  opacity: 1;\n  margin: 0 auto 10px auto;\n  background: #ac741c;\n  height: 15px;\n  transform: rotateX(-40deg);\n  transform-origin: top;\n}\n\n.table-edge__leg {\n  width: 24px;\n  height: 10px;\n  background: #84570f;\n  position: absolute;\n  top: 15px;\n}\n\n.table-edge__leg:first-child {\n  left: 20px;\n}\n\n.table-edge__leg:last-child {\n  right: 20px;\n}",".editor {\n  position: relative;\n  text-align: left;\n  width: 90%;\n  margin: 0 auto;\n  border: solid 10px rgba(0,0,0,.35);\n  border-radius: 4px;\n  overflow: hidden;\n  box-shadow: 0px 5px 6px 5px rgba(255, 255, 255,.4);\n  height: 478px;\n  margin-bottom: 65px;\n}\n\n.editor .input-window__numbers {\n  position: absolute;\n  top: 0;\n  left: 0;\n  font-family: menlo, monospace;\n  padding: 10px 10px;\n  height: 100%;\n  line-height: 150%;\n  text-align: right;\n}\n\n.editor .header-input {\n  text-align: left;\n  padding: 10px 15px;\n  background: rgba(0,0,0,.15);\n  border-top: solid 1px rgba(255,255,255,.05);\n  border-bottom: solid 1px rgba(255,255,255,.05);\n  border-radius: 2px 2px 0 0;\n  color: rgba(255,255,255,.6);\n}\n\n.editor .file-name {\n  float: right;\n  opacity: .5;\n}\n\n.editor .css-view {\n  background: #efefef;\n  color: #AAA;\n}\n\n.editor .input-window {\n  padding: 10px 10px 10px 46px;\n  position: relative;\n  min-height: 432px;\n}\n\n.editor * {\n  font-family: menlo,monospace;\n  font-size: 14px;\n  line-height: 150%;\n  padding: 0;\n  margin: 0;\n}\n\n.editor input.input-strobe {\n  background: rgba(62,203,255,.3);\n  animation: input .5s infinite;\n}\n\n.editor input {\n  color: #333;\n  border: none;\n  width: calc(100% - 46px);\n  \n}",".editor-panel {\n  float: left;\n  width: 50%;\n}",".css-view .input-window__numbers {\n  color: #999;\n  background: #DDD;\n}\n\n.input-window__plus {\n  color: #666;\n  padding: 0px 4px;\n  font-size: 40px;\n  display: none;\n}\n\n.input-window__button {\n  background: #ddd;\n  display: block;\n  border-radius: 2px;\n  padding: 2px 7px 2px 7px;\n  color: #666;\n  border: solid 3px #999;\n  border-width: 1px 1px 6px 1px;\n  font-size: 9px;\n  position: absolute;\n  cursor: pointer;\n  top: 7px;\n  right: 7px;\n  z-index: 999999;\n}\n\n.html-view .input-window__numbers {\n  color: #666;\n  border-right: solid 1px #333;\n}\n\n.input-window__markup {\n  color: rgba(255,255,255,.3);\n}\n\n.input-window__strobe {\n  margin-bottom: 10px;\n}\n","h1 {\n  color: #6c6a66;\n}\n\n.menu-right {\n  display: flex;\n  flex-direction: column;\n  place-items: center;\n}\n\n.menu-right h1:hover {\n  background-color: rgba(255, 166, 0, 0.59);\n  transition: 0.2s;\n}\n\n.menu-right h1 {\n  cursor: pointer;\n}\n\n.selected {\n  background-color: rgba(255, 166, 0, 0.59);\n}\n\n#one {\n  text-decoration: underline;\n  text-decoration-color: #ffa50087;\n}\n","h4 {\n  color: rgba(255, 255, 255, 0.3);\n}",".footer-wrapper {\n  display: flex;\n  gap: 100px;\n  place-items: center;\n  justify-content: center;\n}\n\n.footer-wrapper img {\n  cursor: pointer;\n}\n\na {\n  text-decoration: none;\n  color: rgba(255, 255, 255, 0.3);\n}",".window {\n  position: absolute;\n  background: white;\n  z-index: 1000;\n  font-size: 18px;\n  color: #666;\n  border-bottom: solid 2px #BBB;\n  box-shadow: 0px 5px 0px rgba(0,0,0,.2);\n  transform: rotateX(20deg);\n  outline: solid 1px transparent;\n  word-wrap: nowrap;\n  white-space: nowrap;\n  left: 26%; \n  top: 24%;\n  border-radius: 10px;\n}\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -10395,522 +10395,660 @@ module.exports = styleTagTransform;
 /*!*********************!*\
   !*** ./src/main.ts ***!
   \*********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
 
-//Часть кода 1 - отвечает за смену столов и загаловков при клике на Level 1 и т.д.
-const menuItems = document.querySelectorAll('.menu-right h1');
-const table = document.querySelector('.table');
-const tableWrapper = document.querySelector('.table-wrapper');
-const windowModal = document.querySelector('.window');
-const inputWindow = document.querySelector('.input-window__markup');
-const input = document.querySelector('.input-window__strobe');
-const editor = document.querySelector('.editor');
-input.id = 'text';
-// const inputWindow = document.querySelector('.input-window__murkup') as HTMLElement;
-const figures = [];
-//Создание стола по умолчанию
-tableWrapper.id = "size";
-const plateOne = document.createElement('plate');
-plateOne.className = "table__strobe";
-table.appendChild(plateOne);
-figures.push(plateOne);
-const plateTwo = document.createElement('plate');
-plateTwo.className = "table__strobe";
-table.appendChild(plateTwo);
-figures.push(plateTwo);
-const markup = "<div class=\"table\">\n<plate />\n<plate />\n</div>";
-inputWindow.innerText = '';
-inputWindow.innerText = markup;
-function handleClick(event) {
-    const selectionText = document.querySelector('.selection__order');
-    const text = event.target.getAttribute('data-text');
-    console.log(event);
-    if (text) {
-        selectionText.textContent = text;
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+const selectors_1 = __webpack_require__(/*! ./modules/selectors */ "./src/modules/selectors.ts");
+const menuItems = (0, selectors_1.getMenuItems)();
+const table = (0, selectors_1.getTable)();
+const tableWrapper = (0, selectors_1.getTableWrapper)();
+const windowModal = (0, selectors_1.getWindowModal)();
+const inputWindow = (0, selectors_1.getInputWindow)();
+const input = (0, selectors_1.getInput)();
+const editor = (0, selectors_1.getEditor)();
+const button = (0, selectors_1.getButton)();
+const tableStrobe = (0, selectors_1.getTableStrobe)();
+const tableWindow = (0, selectors_1.getTableWindow)();
+const targetElementOne = (0, selectors_1.getTargetElementOne)();
+const targetElementTwo = (0, selectors_1.getTargetElementTwo)();
+const targetElementThree = (0, selectors_1.getTargetElementThree)();
+const targetElementFour = (0, selectors_1.getTargetElementFour)();
+const targetElementFive = (0, selectors_1.getTargetElementFive)();
+const targetElementSix = (0, selectors_1.getTargetElementSix)();
+const targetElementSeven = (0, selectors_1.getTargetElementSeven)();
+const targetElementEight = (0, selectors_1.getTargetElementEight)();
+const targetElementNine = (0, selectors_1.getTargetElementNine)();
+const targetElementTen = (0, selectors_1.getTargetElementTen)();
+const button_light_1 = __webpack_require__(/*! ./modules/button-light */ "./src/modules/button-light.ts");
+(0, button_light_1.initializeButtonLight)();
+const selectors_over_elements_1 = __webpack_require__(/*! ./modules/selectors-over-elements */ "./src/modules/selectors-over-elements.ts");
+(0, selectors_over_elements_1.initializeSelectorsOverElements)();
+const dom_elements_1 = __webpack_require__(/*! ./modules/dom-elements */ "./src/modules/dom-elements.ts");
+(0, dom_elements_1.initializeDOMElements)();
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL3NyYy9tYWluLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsbURBcUI2QjtBQUU3QixNQUFNLFNBQVMsR0FBRyxJQUFBLHdCQUFZLEdBQUUsQ0FBQztBQUNqQyxNQUFNLEtBQUssR0FBRyxJQUFBLG9CQUFRLEdBQUUsQ0FBQztBQUN6QixNQUFNLFlBQVksR0FBRyxJQUFBLDJCQUFlLEdBQUUsQ0FBQztBQUN2QyxNQUFNLFdBQVcsR0FBRyxJQUFBLDBCQUFjLEdBQUUsQ0FBQztBQUNyQyxNQUFNLFdBQVcsR0FBRyxJQUFBLDBCQUFjLEdBQUUsQ0FBQztBQUNyQyxNQUFNLEtBQUssR0FBRyxJQUFBLG9CQUFRLEdBQUUsQ0FBQztBQUN6QixNQUFNLE1BQU0sR0FBRyxJQUFBLHFCQUFTLEdBQUUsQ0FBQztBQUMzQixNQUFNLE1BQU0sR0FBRyxJQUFBLHFCQUFTLEdBQUUsQ0FBQztBQUMzQixNQUFNLFdBQVcsR0FBRyxJQUFBLDBCQUFjLEdBQUUsQ0FBQztBQUNyQyxNQUFNLFdBQVcsR0FBRyxJQUFBLDBCQUFjLEdBQUUsQ0FBQztBQUNyQyxNQUFNLGdCQUFnQixHQUFHLElBQUEsK0JBQW1CLEdBQUUsQ0FBQztBQUMvQyxNQUFNLGdCQUFnQixHQUFHLElBQUEsK0JBQW1CLEdBQUUsQ0FBQztBQUMvQyxNQUFNLGtCQUFrQixHQUFHLElBQUEsaUNBQXFCLEdBQUUsQ0FBQztBQUNuRCxNQUFNLGlCQUFpQixHQUFHLElBQUEsZ0NBQW9CLEdBQUUsQ0FBQztBQUNqRCxNQUFNLGlCQUFpQixHQUFHLElBQUEsZ0NBQW9CLEdBQUUsQ0FBQztBQUNqRCxNQUFNLGdCQUFnQixHQUFHLElBQUEsK0JBQW1CLEdBQUUsQ0FBQztBQUMvQyxNQUFNLGtCQUFrQixHQUFHLElBQUEsaUNBQXFCLEdBQUUsQ0FBQztBQUNuRCxNQUFNLGtCQUFrQixHQUFHLElBQUEsaUNBQXFCLEdBQUUsQ0FBQztBQUNuRCxNQUFNLGlCQUFpQixHQUFHLElBQUEsZ0NBQW9CLEdBQUUsQ0FBQztBQUNqRCxNQUFNLGdCQUFnQixHQUFHLElBQUEsK0JBQW1CLEdBQUUsQ0FBQztBQUUvQyx5REFBK0Q7QUFDL0QsSUFBQSxvQ0FBcUIsR0FBRSxDQUFDO0FBRXhCLCtFQUFvRjtBQUNwRixJQUFBLHlEQUErQixHQUFFLENBQUM7QUFFbEMseURBQStEO0FBQy9ELElBQUEsb0NBQXFCLEdBQUUsQ0FBQyJ9
+
+/***/ }),
+
+/***/ "./src/modules/button-light.ts":
+/*!*************************************!*\
+  !*** ./src/modules/button-light.ts ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.initializeButtonLight = void 0;
+function initializeButtonLight() {
+    const elements = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+    function handleClickElem(event) {
+        elements.forEach((id) => {
+            const element = document.getElementById(id);
+            element.classList.remove('selected');
+        });
+        const clickedElement = event.currentTarget;
+        clickedElement.classList.add('selected');
     }
-    figures.forEach((figure) => {
-        if (table.contains(figure)) {
-            table.removeChild(figure);
-        }
-    });
-    figures.length = 0;
-    if (event.target instanceof HTMLElement) {
-        if (event.target.id === 'one') {
-            tableWrapper.id = "size";
-            const plateOne = document.createElement('plate');
-            plateOne.className = "table__strobe";
-            table.appendChild(plateOne);
-            figures.push(plateOne);
-            const plateTwo = document.createElement('plate');
-            plateTwo.className = "table__strobe";
-            table.appendChild(plateTwo);
-            figures.push(plateTwo);
-            const markup = "<div class=\"table\">\n<plate />\n<plate />\n</div>";
-            inputWindow.innerText = '';
-            inputWindow.innerText = markup;
-            return; //Прерывает выполнение кода 
-        }
-    }
-    ;
-    if (event.target instanceof HTMLElement) {
-        if (event.target.id === 'two') {
-            tableWrapper.id = "size-one";
-            const bentoOne = document.createElement('bento');
-            bentoOne.classList.add('strobe');
-            table.appendChild(bentoOne);
-            figures.push(bentoOne);
-            const plateTwo = document.createElement('plate');
-            table.appendChild(plateTwo);
-            figures.push(plateTwo);
-            const bentoTwo = document.createElement('bento');
-            bentoTwo.classList.add('strobe');
-            table.appendChild(bentoTwo);
-            figures.push(bentoTwo);
-            const markup = `<div class="table"> \n <bento /> \n <plate /> \n <bento /> \n </div>`;
-            inputWindow.innerText = '';
-            inputWindow.innerText = markup;
-            return; //Прерывает выполнение кода    
-        }
-    }
-    ;
-    if (event.target instanceof HTMLElement) {
-        if (event.target.id === 'three') {
-            tableWrapper.id = "size-one";
-            const plateOne = document.createElement('plate');
-            plateOne.className = "strobe";
-            plateOne.id = "fancy";
-            table.appendChild(plateOne);
-            figures.push(plateOne);
-            const plateTwo = document.createElement('plate');
-            table.appendChild(plateTwo);
-            figures.push(plateTwo);
-            const bentoTwo = document.createElement('bento');
-            table.appendChild(bentoTwo);
-            figures.push(bentoTwo);
-            const markup = `<div class="table"> \n<plate id="fancy" /> \n<plate /> \n<bento /> \n</div>`;
-            inputWindow.innerText = '';
-            inputWindow.innerText = markup;
-            return; //Прерывает выполнение кода    
-        }
-    }
-    ;
-    if (event.target instanceof HTMLElement) {
-        if (event.target.id === 'four') {
-            tableWrapper.id = "size-one";
-            const bentoOne = document.createElement('bento');
-            table.appendChild(bentoOne);
-            figures.push(bentoOne);
-            const plateOne = document.createElement('plate');
-            table.appendChild(plateOne);
-            figures.push(plateOne);
-            const apple = document.createElement('apple');
-            apple.className = "strobe";
-            apple.style.width = "46px";
-            plateOne.appendChild(apple);
-            figures.push(apple);
-            const appleTwo = document.createElement('apple');
-            appleTwo.style.width = "46px";
-            table.appendChild(appleTwo);
-            figures.push(appleTwo);
-            const markup = `<div class="table"> \n<bento" /> \n<plate> \n<apple /> \n</plate> \n<apple /> \n</div>`;
-            inputWindow.innerText = '';
-            inputWindow.innerText = markup;
-            return; //Прерывает выполнение кода    
-        }
-    }
-    ;
-    if (event.target instanceof HTMLElement) {
-        if (event.target.id === 'five') {
-            tableWrapper.id = "size-one";
-            const bentoOne = document.createElement('bento');
-            table.appendChild(bentoOne);
-            figures.push(bentoOne);
-            const orange = document.createElement('orange');
-            orange.style.width = "60px";
-            bentoOne.appendChild(orange);
-            figures.push(bentoOne);
-            const plateOne = document.createElement('plate');
-            plateOne.id = "fancy";
-            table.appendChild(plateOne);
-            figures.push(plateOne);
-            const pickle = document.createElement('pickle');
-            plateOne.appendChild(pickle);
-            figures.push(pickle);
-            const plateTwo = document.createElement('plate');
-            table.appendChild(plateTwo);
-            figures.push(plateTwo);
-            const pickleTwo = document.createElement('pickle');
-            plateTwo.appendChild(pickleTwo);
-            figures.push(pickleTwo);
-            const markup = `<div class="table"> \n<bento> \n<orange /> \n</bento> \n<plate id="fancy" /> \n<pickle /> \n</plate> \n <plate> \n<pickle /> \n<plate /> \n</div>`;
-            inputWindow.innerText = '';
-            inputWindow.innerText = markup;
-            return; //Прерывает выполнение кода    
-        }
-    }
-    ;
-    if (event.target instanceof HTMLElement) {
-        if (event.target.id === 'six') {
-            tableWrapper.id = "size-six";
-            const appleTwo = document.createElement('apple');
-            appleTwo.style.width = "47px";
-            table.appendChild(appleTwo);
-            figures.push(appleTwo);
-            const appleSmall = document.createElement('apple');
-            appleSmall.style.width = "30px";
-            appleSmall.className = "small strobe";
-            table.appendChild(appleSmall);
-            figures.push(appleSmall);
-            const plateOne = document.createElement('plate');
-            table.appendChild(plateOne);
-            figures.push(plateOne);
-            const apple = document.createElement('apple');
-            apple.style.width = "30px";
-            apple.className = "small strobe";
-            plateOne.appendChild(apple);
-            figures.push(apple);
-            const plateTwo = document.createElement('plate');
-            table.appendChild(plateTwo);
-            figures.push(plateTwo);
-            const markup = `<div class="table"> \n <apple" /> \n <apple class="small" /> \n <plate> \n <apple class="small" /> \n </plate> \n <plate /> \n </div>`;
-            inputWindow.innerText = '';
-            inputWindow.innerText = markup;
-            return; //Прерывает выполнение кода    
-        }
-    }
-    ;
-    if (event.target instanceof HTMLElement) {
-        if (event.target.id === 'seven') {
-            tableWrapper.id = "size-seven";
-            const appleTwo = document.createElement('apple');
-            appleTwo.style.width = "47px";
-            table.appendChild(appleTwo);
-            figures.push(appleTwo);
-            const appleSmall = document.createElement('apple');
-            appleSmall.style.width = "30px";
-            appleSmall.className = "small";
-            table.appendChild(appleSmall);
-            figures.push(appleSmall);
-            const bentoOne = document.createElement('bento');
-            table.appendChild(bentoOne);
-            figures.push(bentoOne);
-            const orange = document.createElement('orange');
-            orange.style.width = "30px";
-            orange.className = "small strobe";
-            bentoOne.appendChild(orange);
-            figures.push(orange);
-            const plateOne = document.createElement('plate');
-            table.appendChild(plateOne);
-            figures.push(plateOne);
-            const orangeTwo = document.createElement('orange');
-            orangeTwo.style.width = "60px";
-            plateOne.appendChild(orangeTwo);
-            figures.push(orangeTwo);
-            const plateTwo = document.createElement('plate');
-            table.appendChild(plateTwo);
-            figures.push(plateTwo);
-            const orangeThree = document.createElement('orange');
-            orangeThree.style.width = "30px";
-            orangeThree.className = "small strobe";
-            plateTwo.appendChild(orangeThree);
-            figures.push(orangeThree);
-            const markup = `<div class="table"> \n <apple /> \n <apple class="small" /> \n <bento> \n <orange class="small" /> \n <plate> \n <orange /> \n </plate> \n <plate> \n <orange class="small" /> \n </plate> \n </div>`;
-            inputWindow.innerText = '';
-            inputWindow.innerText = markup;
-            return; //Прерывает выполнение кода    
-        }
-    }
-    ;
-    if (event.target instanceof HTMLElement) {
-        if (event.target.id === 'eight') {
-            tableWrapper.id = "size-eight";
-            const bentoOne = document.createElement('bento');
-            table.appendChild(bentoOne);
-            figures.push(bentoOne);
-            const orange = document.createElement('orange');
-            orange.style.width = "60px";
-            bentoOne.appendChild(orange);
-            figures.push(bentoOne);
-            const orangeThree = document.createElement('orange');
-            orangeThree.style.width = "30px";
-            orangeThree.className = "small";
-            table.appendChild(orangeThree);
-            figures.push(orangeThree);
-            const bentoTwo = document.createElement('bento');
-            table.appendChild(bentoTwo);
-            figures.push(bentoTwo);
-            const orangeTwo = document.createElement('orange');
-            orangeTwo.style.width = "30px";
-            orangeTwo.className = "small strobe";
-            bentoTwo.appendChild(orangeTwo);
-            figures.push(orangeTwo);
-            const bentoThree = document.createElement('bento');
-            table.appendChild(bentoThree);
-            figures.push(bentoThree);
-            const appleSmall = document.createElement('apple');
-            appleSmall.style.width = "30px";
-            appleSmall.className = "small";
-            bentoThree.appendChild(appleSmall);
-            figures.push(appleSmall);
-            const bentoFive = document.createElement('bento');
-            table.appendChild(bentoFive);
-            figures.push(bentoFive);
-            const orangeFour = document.createElement('orange');
-            orangeFour.style.width = "30px";
-            orangeFour.className = "small strobe";
-            bentoFive.appendChild(orangeFour);
-            figures.push(orangeFour);
-            const markup = `<div class="table"> \n <bento> \n <orange /> \n </bento> \n <orange class="small" /> \n <bento> \n <orange class="small" /> \n </bento> \n <bento> \n <orange class="small" /> \n </bento> \n </div>`;
-            inputWindow.innerText = '';
-            inputWindow.innerText = markup;
-            return; //Прерывает выполнение кода    
-        }
-    }
-    ;
-    if (event.target instanceof HTMLElement) {
-        if (event.target.id === 'nine') {
-            tableWrapper.id = "size-nine";
-            const pickle = document.createElement('pickle');
-            pickle.style.width = "18px";
-            table.appendChild(pickle);
-            figures.push(pickle);
-            const plateOne = document.createElement('plate');
-            plateOne.className = "table__strobe";
-            table.appendChild(plateOne);
-            figures.push(plateOne);
-            const pickleOne = document.createElement('pickle');
-            pickleOne.style.width = "18px";
-            pickleOne.className = "strobe";
-            plateOne.appendChild(pickleOne);
-            figures.push(pickleOne);
-            const bentoOne = document.createElement('bento');
-            bentoOne.classList.add('strobe');
-            table.appendChild(bentoOne);
-            figures.push(bentoOne);
-            const pickleFive = document.createElement('pickle');
-            pickleFive.style.width = "18px";
-            pickleFive.className = "strobe";
-            bentoOne.appendChild(pickleFive);
-            figures.push(pickle);
-            const plateTwo = document.createElement('plate');
-            plateTwo.className = "table__strobe";
-            table.appendChild(plateTwo);
-            figures.push(plateTwo);
-            const pickleTwo = document.createElement('pickle');
-            pickleTwo.style.width = "18px";
-            pickleTwo.className = "strobe";
-            plateTwo.appendChild(pickleTwo);
-            figures.push(pickleTwo);
-            const pickleThree = document.createElement('pickle');
-            pickleThree.style.width = "18px";
-            table.appendChild(pickleThree);
-            figures.push(pickleThree);
-            const markup = `<div class="table"> \n <pickle class="small" /> \n <pickle /> \n <plate> \n <pickle /> \n </plate> \n <bento> \n <pickle /> \n </bento> \n <plate> \n <pickle /> \n </plate> \n <pickle /> \n <pickle class="small" /> \n </div>`;
-            inputWindow.innerText = '';
-            inputWindow.innerText = markup;
-            return; //Прерывает выполнение кода    
-        }
-    }
-    ;
-    if (event.target instanceof HTMLElement) {
-        if (event.target.id === 'ten') {
-            tableWrapper.id = "size-ten";
-            const appleTwo = document.createElement('apple');
-            appleTwo.className = "strobe color";
-            appleTwo.style.width = "47px";
-            table.appendChild(appleTwo);
-            figures.push(appleTwo);
-            const plateTwo = document.createElement('plate');
-            plateTwo.className = "table__strobe";
-            table.appendChild(plateTwo);
-            figures.push(plateTwo);
-            const orangeThree = document.createElement('orange');
-            orangeThree.style.width = "30px";
-            orangeThree.className = "small strobe";
-            plateTwo.appendChild(orangeThree);
-            figures.push(orangeThree);
-            const bentoOne = document.createElement('bento');
-            bentoOne.classList.add('strobe');
-            table.appendChild(bentoOne);
-            figures.push(bentoOne);
-            const bentoTwo = document.createElement('bento');
-            bentoTwo.classList.add('strobe');
-            table.appendChild(bentoTwo);
-            figures.push(bentoTwo);
-            const orange = document.createElement('orange');
-            orange.style.width = "60px";
-            bentoTwo.appendChild(orange);
-            figures.push(bentoOne);
-            const plateOne = document.createElement('plate');
-            plateOne.className = "strobe";
-            plateOne.id = "fancy";
-            table.appendChild(plateOne);
-            figures.push(plateOne);
-            const markup = `<div class="table"> \n <apple /> \n <plate> \n <orange class="small" /> \n </plate>\n  <bento /> \n <bento> \n <orange /> \n </bento> \n <plate id="fancy" /> \n </div>`;
-            inputWindow.innerText = '';
-            inputWindow.innerText = markup;
-            return; //Прерывает выполнение кода        
-        }
-    }
-    ;
-}
-menuItems.forEach(function (item) {
-    item.addEventListener('click', handleClick);
-});
-//Часть кода 2 - отвечает за создание подсказок над элементами 
-const tableStrobe = document.querySelectorAll('.table');
-const tableWindow = document.querySelector(".window");
-tableStrobe.forEach((element) => {
-    element.addEventListener('mouseover', (e) => {
-        const targetElement = e.target;
-        if (targetElement && targetElement.tagName !== "DIV") {
-            if (targetElement.tagName === "PLATE") {
-                tableWindow.textContent = "<plate></plate>";
-            }
-            if (targetElement.tagName === "BENTO") {
-                tableWindow.textContent = "<bento></bento>";
-            }
-            if (targetElement.tagName === "APPLE") {
-                tableWindow.textContent = "<apple></apple>";
-            }
-            if (targetElement.id === "fancy") {
-                tableWindow.textContent = `<plate id="fancy"></plate>`;
-            }
-            if (targetElement.tagName === "ORANGE") {
-                tableWindow.textContent = "<orange></orange>";
-            }
-            if (targetElement.tagName === "PICKLE") {
-                tableWindow.textContent = "<pickle></pickle>";
-            }
-            if (targetElement.tagName === "APPLE" && targetElement.className === "small strobe") {
-                tableWindow.textContent = `<apple class="small"></apple>`;
-            }
-            if (targetElement.tagName === "ORANGE" && targetElement.className === "small strobe") {
-                tableWindow.textContent = `<orange class="small"></orange>`;
-            }
-        }
-    });
-    element.addEventListener('mouseout', (e) => {
-        const targetElement = e.target;
-        if (targetElement) {
-            tableWindow.textContent = "";
-        }
-    });
-});
-const targetElementOne = document.getElementById('one');
-const targetElementTwo = document.getElementById('two');
-const targetElementThree = document.getElementById('three');
-const targetElementFour = document.getElementById('four');
-const targetElementFive = document.getElementById('five');
-const targetElementSix = document.getElementById('six');
-const targetElementSeven = document.getElementById('seven');
-const targetElementEight = document.getElementById('eight');
-const targetElementNine = document.getElementById('nine');
-const targetElementTen = document.getElementById('ten');
-input.addEventListener('keydown', function (event) {
-    if (event.target instanceof HTMLElement && event.target.id === 'text' && event.key === 'Enter') {
-        const inputValue = input.value.toLowerCase();
-        let customEvent;
-        let targetElement;
-        if (inputValue === 'plate') {
-            customEvent = new PointerEvent('click');
-            targetElement = targetElementTwo;
-        }
-        else if (inputValue === 'bento') {
-            customEvent = new PointerEvent('click');
-            targetElement = targetElementThree;
-        }
-        else if (inputValue === '#fancy') {
-            customEvent = new PointerEvent('click');
-            targetElement = targetElementFour;
-        }
-        else if (inputValue === 'plate apple') {
-            customEvent = new PointerEvent('click');
-            targetElement = targetElementFive;
-        }
-        else if (inputValue === '#fancy pickle') {
-            customEvent = new PointerEvent('click');
-            targetElement = targetElementSix;
-        }
-        else if (inputValue === '.small') {
-            customEvent = new PointerEvent('click');
-            targetElement = targetElementSeven;
-        }
-        else if (inputValue === 'orange.small') {
-            customEvent = new PointerEvent('click');
-            targetElement = targetElementEight;
-        }
-        else if (inputValue === 'bento orange.small') {
-            customEvent = new PointerEvent('click');
-            targetElement = targetElementNine;
-        }
-        else if (inputValue === 'bento, plate') {
-            customEvent = new PointerEvent('click');
-            targetElement = targetElementTen;
-        }
-        else if (inputValue === '*') {
-            customEvent = new PointerEvent('click');
-            targetElement = targetElementOne;
-        }
-        else {
-            editor.classList.add('shake');
-            setTimeout(() => {
-                editor.classList.remove('shake');
-            }, 500);
-            return;
-        }
-        Object.defineProperty(customEvent, 'target', { value: targetElement });
-        handleClick(customEvent);
-        input.value = '';
-    }
-});
-// Код отвечает за подсветку выбранного уровня
-const elements = ['one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
-function handleClickElem(event) {
     elements.forEach((id) => {
         const element = document.getElementById(id);
-        element.classList.remove('selected');
+        element.addEventListener('click', handleClickElem);
     });
-    const clickedElement = event.currentTarget;
-    clickedElement.classList.add('selected');
 }
-elements.forEach((id) => {
-    const element = document.getElementById(id);
-    element.addEventListener('click', handleClickElem);
-});
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL3NyYy9tYWluLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSxrRkFBa0Y7QUFFbEYsTUFBTSxTQUFTLEdBQUcsUUFBUSxDQUFDLGdCQUFnQixDQUFDLGdCQUFnQixDQUFDLENBQUM7QUFDOUQsTUFBTSxLQUFLLEdBQUcsUUFBUSxDQUFDLGFBQWEsQ0FBQyxRQUFRLENBQXFCLENBQUM7QUFDbkUsTUFBTSxZQUFZLEdBQUcsUUFBUSxDQUFDLGFBQWEsQ0FBQyxnQkFBZ0IsQ0FBcUIsQ0FBQztBQUNsRixNQUFNLFdBQVcsR0FBRyxRQUFRLENBQUMsYUFBYSxDQUFDLFNBQVMsQ0FBZ0IsQ0FBQztBQUNyRSxNQUFNLFdBQVcsR0FBRyxRQUFRLENBQUMsYUFBYSxDQUFDLHVCQUF1QixDQUFnQixDQUFDO0FBQ25GLE1BQU0sS0FBSyxHQUFHLFFBQVEsQ0FBQyxhQUFhLENBQUMsdUJBQXVCLENBQXFCLENBQUM7QUFDbEYsTUFBTSxNQUFNLEdBQUcsUUFBUSxDQUFDLGFBQWEsQ0FBQyxTQUFTLENBQXFCLENBQUM7QUFDckUsS0FBSyxDQUFDLEVBQUUsR0FBRyxNQUFNLENBQUM7QUFFbEIsc0ZBQXNGO0FBQ3RGLE1BQU0sT0FBTyxHQUFrQixFQUFFLENBQUM7QUFFbEMsNkJBQTZCO0FBQzdCLFlBQVksQ0FBQyxFQUFFLEdBQUcsTUFBTSxDQUFDO0FBQ3pCLE1BQU0sUUFBUSxHQUFHLFFBQVEsQ0FBQyxhQUFhLENBQUMsT0FBTyxDQUFDLENBQUM7QUFDakQsUUFBUSxDQUFDLFNBQVMsR0FBRyxlQUFlLENBQUM7QUFDckMsS0FBSyxDQUFDLFdBQVcsQ0FBQyxRQUFRLENBQUMsQ0FBQztBQUM1QixPQUFPLENBQUMsSUFBSSxDQUFDLFFBQVEsQ0FBQyxDQUFDO0FBRXZCLE1BQU0sUUFBUSxHQUFHLFFBQVEsQ0FBQyxhQUFhLENBQUMsT0FBTyxDQUFDLENBQUM7QUFDakQsUUFBUSxDQUFDLFNBQVMs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
+exports.initializeButtonLight = initializeButtonLight;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYnV0dG9uLWxpZ2h0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL21vZHVsZXMvYnV0dG9uLWxpZ2h0LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFBLFNBQWdCLHFCQUFxQjtJQUNqQyxNQUFNLFFBQVEsR0FBRyxDQUFDLEtBQUssRUFBRSxLQUFLLEVBQUUsT0FBTyxFQUFFLE1BQU0sRUFBRSxNQUFNLEVBQUUsS0FBSyxFQUFFLE9BQU8sRUFBRSxPQUFPLEVBQUUsTUFBTSxFQUFFLEtBQUssQ0FBQyxDQUFDO0lBRWpHLFNBQVMsZUFBZSxDQUFDLEtBQWlCO1FBQ3hDLFFBQVEsQ0FBQyxPQUFPLENBQUMsQ0FBQyxFQUFFLEVBQUUsRUFBRTtZQUN0QixNQUFNLE9BQU8sR0FBRyxRQUFRLENBQUMsY0FBYyxDQUFDLEVBQUUsQ0FBZ0IsQ0FBQztZQUMzRCxPQUFPLENBQUMsU0FBUyxDQUFDLE1BQU0sQ0FBQyxVQUFVLENBQUMsQ0FBQztRQUN2QyxDQUFDLENBQUMsQ0FBQztRQUVILE1BQU0sY0FBYyxHQUFHLEtBQUssQ0FBQyxhQUE0QixDQUFDO1FBQzFELGNBQWMsQ0FBQyxTQUFTLENBQUMsR0FBRyxDQUFDLFVBQVUsQ0FBQyxDQUFDO0lBQzNDLENBQUM7SUFFRCxRQUFRLENBQUMsT0FBTyxDQUFDLENBQUMsRUFBRSxFQUFFLEVBQUU7UUFDdEIsTUFBTSxPQUFPLEdBQUcsUUFBUSxDQUFDLGNBQWMsQ0FBQyxFQUFFLENBQWdCLENBQUM7UUFDM0QsT0FBTyxDQUFDLGdCQUFnQixDQUFDLE9BQU8sRUFBRSxlQUFlLENBQUMsQ0FBQztJQUNyRCxDQUFDLENBQUMsQ0FBQztBQUNMLENBQUM7QUFqQkgsc0RBaUJHIn0=
 
 /***/ }),
 
-/***/ "./src/img/github.png":
-/*!****************************!*\
-  !*** ./src/img/github.png ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./src/modules/dom-elements.ts":
+/*!*************************************!*\
+  !*** ./src/modules/dom-elements.ts ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFiklEQVR4nO2cW4hVVRjHfzMem5maRmjsxoRGFwLLKSsty4rKhIisHkqMDLpoZZGXtCR68KGiJKIiH6Kil160i+kImb4EZnSXTKgeisQysxpHmGhqxtmx4AsOhzlz1nXvtWfWD9bLMHuv7/uftdflW99akEgkEolEIpFIJBIJbSYAM4F7gHXAe8Ae4AegF/hHSq/8bY/8z7PyzMXyjsQInAYsB3qAI0DmWPqALcAyoItxThuwCNgBHPUgbr0yBGwH7gBaGUe0S0v7JaC49cohYC0wiTHMRGA18GcBAtcWZcMjYtOY4grgmwgEri3fAXMZA6g+cT0wHIGo9Yqy7SWghZJyOvBJBEJmmuVL4CxKxlxP07Qs56KmhddQEm4B/o5AtMyyqMXQAiJnSeA5cZZTUT4sJlJulsVB0SJlHsW+jchQ/dpABOJkAbqReUTC2SUd+DKDAfLMokVukWlRNsbLF0XPs9cbGrwfOBE4GbgEWAnsylm0XVKvqv8U4CTgZ43n1KKmEK6yWPGtrPOuGRJhCynwdqlnJFZpPK98nUPOqGDMXgtnpzd47zIZgHwKrN73cIN6z9d8l9pkqJAjqy2dbtd49+VVg+tB4B1gDTAf6AY6gePkf9X7JotQNwGPA5skHJrJe9T7GtFh4MMKcuJ4h1BnRbOOC4FZQLOljeq52cBFBl+org+/azYYZx51+Iw7iJNJhn6oWHbwsOcBB6HPI066Df34VbbignGn48B0A3Ey38KX20MatMNR6FXEic3gvi2UMV0egkabiJMtlkGnIKkMyx1FzmTnO0YOWvrzUAhjejwI/SBxYrsueNe3ISrF6rCjyBuIlybp1kx9Ouw7/Wymo8hHZEUXM6cCf1n4prso0uJeR6GfoBw8Y+HbXT4NWOcgcr8s28vACRZBLfXjeGOzg9BvUy7eL3JA/NpB6EWUi/sN/dvts/KfHISeTrmYbejfjz4rd8kA7aRcTDH0T4VNvWG76zHsEFMuimMNfVRpFt74N7Vo6gmttPFGn0PXMY1yMctidegNl2MQ11MuFhj6p1IVopjePUm5eMPQv69iWbB8T3lotgiZeo2xv+AgdAZcTTm40cI3pY037nMU+iMJRcZMRboBU9/u9mnEDEehM2ApcfOYpV8qecfrr93vKPSAZtZQEVwHDFr41B8iRWybh1bdB1xGfEn0to1Ibep6Z6kHoTM5SOS1X7OkSTZXXVa9D4S6gcDnwcwe4FyK4QIPOSpHRZMgfOhR6Ex+uB7Zk8xL4I2eGswHIQ1d6FnorKqos+JPSzzYV8RvgpxDV1tx33q2N2hKWEtV7nHI0gvsBF6RxB3dwNQ0OVXwKvCxYzCsUXzjGAKzRsOQa4FzgOccB5sMeNkgc7NVzpqEbgi55BC2a7Tq16rml90OW2FPWdq4NqDIh/LM816hYdDGqmV3l+ytmTj0loN9TVJ/CKGDTOlGO4qgc9HJ4pr+s8+g1ahjci50yn6eT5H35n1YCBnNhzUGjbaqZ+Zp7j+q4xt5fXm6ZUhmRIXwvIaBS0bYKtoqrW2wapahdnE+lYSUDo/jiWty5v9FDeyFMVHjlpmdRRoIvO5B5N2hz6zooK7H+WMUI4dlqlcUtzqKrL68qUTCnAbXSLxYoG1nOAbAriTC3eN6Z1wGfOcRG9DmMPipy16iZOEoAfT9BY7apiIPho5l+OoTB0Zx4E05bzglx5sUTbsLde6wFKhdlN8sP9kQmJyIjW0HqCFTZV6clUToz0IG8kNTkQDPUMRCD8rxiOBhzzy4VO4lik3oz3Pc3cmNZlmON7odIQS1dRyQgFfZcreNaJUTtPsKEHqf7HyPq5vRKzKN2lwz924JkMG/VerKPcQZG5Pl9NYGWTInEolEIpFIJBKJRCLB2OI/bOLhdXH1ONAAAAAASUVORK5CYII=");
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.initializeDOMElements = void 0;
+const selectors_1 = __webpack_require__(/*! ./selectors */ "./src/modules/selectors.ts");
+const menuItems = (0, selectors_1.getMenuItems)();
+const table = (0, selectors_1.getTable)();
+const tableWrapper = (0, selectors_1.getTableWrapper)();
+const inputWindow = (0, selectors_1.getInputWindow)();
+const input = (0, selectors_1.getInput)();
+const editor = (0, selectors_1.getEditor)();
+const targetElementOne = (0, selectors_1.getTargetElementOne)();
+const targetElementTwo = (0, selectors_1.getTargetElementTwo)();
+const targetElementThree = (0, selectors_1.getTargetElementThree)();
+const targetElementFour = (0, selectors_1.getTargetElementFour)();
+const targetElementFive = (0, selectors_1.getTargetElementFive)();
+const targetElementSix = (0, selectors_1.getTargetElementSix)();
+const targetElementSeven = (0, selectors_1.getTargetElementSeven)();
+const targetElementEight = (0, selectors_1.getTargetElementEight)();
+const targetElementNine = (0, selectors_1.getTargetElementNine)();
+const targetElementTen = (0, selectors_1.getTargetElementTen)();
+function initializeDOMElements() {
+    const figures = [];
+    tableWrapper.id = "size";
+    const plateOne = document.createElement('plate');
+    plateOne.className = "table__strobe";
+    table.appendChild(plateOne);
+    figures.push(plateOne);
+    const plateTwo = document.createElement('plate');
+    plateTwo.className = "table__strobe";
+    table.appendChild(plateTwo);
+    figures.push(plateTwo);
+    const markup = "<div class=\"table\">\n<plate />\n<plate />\n</div>";
+    inputWindow.innerText = '';
+    inputWindow.innerText = markup;
+    function handleClick(event) {
+        const selectionText = document.querySelector('.selection__order');
+        const text = event.target.getAttribute('data-text');
+        if (text) {
+            selectionText.textContent = text;
+        }
+        figures.forEach((figure) => {
+            if (table.contains(figure)) {
+                table.removeChild(figure);
+            }
+        });
+        figures.length = 0;
+        if (event.target instanceof HTMLElement) {
+            if (event.target.id === 'one') {
+                tableWrapper.id = "size";
+                const plateOne = document.createElement('plate');
+                plateOne.className = "table__strobe";
+                table.appendChild(plateOne);
+                figures.push(plateOne);
+                const plateTwo = document.createElement('plate');
+                plateTwo.className = "table__strobe";
+                table.appendChild(plateTwo);
+                figures.push(plateTwo);
+                const markup = "<div class=\"table\">\n<plate />\n<plate />\n</div>";
+                inputWindow.innerText = '';
+                inputWindow.innerText = markup;
+                return;
+            }
+        }
+        ;
+        if (event.target instanceof HTMLElement) {
+            if (event.target.id === 'two') {
+                tableWrapper.id = "size-one";
+                const bentoOne = document.createElement('bento');
+                bentoOne.classList.add('strobe');
+                table.appendChild(bentoOne);
+                figures.push(bentoOne);
+                const plateTwo = document.createElement('plate');
+                table.appendChild(plateTwo);
+                figures.push(plateTwo);
+                const bentoTwo = document.createElement('bento');
+                bentoTwo.classList.add('strobe');
+                table.appendChild(bentoTwo);
+                figures.push(bentoTwo);
+                const markup = `<div class="table"> \n <bento /> \n <plate /> \n <bento /> \n </div>`;
+                inputWindow.innerText = '';
+                inputWindow.innerText = markup;
+                return;
+            }
+        }
+        ;
+        if (event.target instanceof HTMLElement) {
+            if (event.target.id === 'three') {
+                tableWrapper.id = "size-one";
+                const plateOne = document.createElement('plate');
+                plateOne.className = "strobe";
+                plateOne.id = "fancy";
+                table.appendChild(plateOne);
+                figures.push(plateOne);
+                const plateTwo = document.createElement('plate');
+                table.appendChild(plateTwo);
+                figures.push(plateTwo);
+                const bentoTwo = document.createElement('bento');
+                table.appendChild(bentoTwo);
+                figures.push(bentoTwo);
+                const markup = `<div class="table"> \n<plate id="fancy" /> \n<plate /> \n<bento /> \n</div>`;
+                inputWindow.innerText = '';
+                inputWindow.innerText = markup;
+                return;
+            }
+        }
+        ;
+        if (event.target instanceof HTMLElement) {
+            if (event.target.id === 'four') {
+                tableWrapper.id = "size-one";
+                const bentoOne = document.createElement('bento');
+                table.appendChild(bentoOne);
+                figures.push(bentoOne);
+                const plateOne = document.createElement('plate');
+                table.appendChild(plateOne);
+                figures.push(plateOne);
+                const apple = document.createElement('apple');
+                apple.className = "strobe";
+                apple.style.width = "46px";
+                plateOne.appendChild(apple);
+                figures.push(apple);
+                const appleTwo = document.createElement('apple');
+                appleTwo.style.width = "46px";
+                table.appendChild(appleTwo);
+                figures.push(appleTwo);
+                const markup = `<div class="table"> \n<bento" /> \n<plate> \n<apple /> \n</plate> \n<apple /> \n</div>`;
+                inputWindow.innerText = '';
+                inputWindow.innerText = markup;
+                return;
+            }
+        }
+        ;
+        if (event.target instanceof HTMLElement) {
+            if (event.target.id === 'five') {
+                tableWrapper.id = "size-one";
+                const bentoOne = document.createElement('bento');
+                table.appendChild(bentoOne);
+                figures.push(bentoOne);
+                const orange = document.createElement('orange');
+                orange.style.width = "60px";
+                bentoOne.appendChild(orange);
+                figures.push(bentoOne);
+                const plateOne = document.createElement('plate');
+                plateOne.id = "fancy";
+                table.appendChild(plateOne);
+                figures.push(plateOne);
+                const pickle = document.createElement('pickle');
+                plateOne.appendChild(pickle);
+                figures.push(pickle);
+                const plateTwo = document.createElement('plate');
+                table.appendChild(plateTwo);
+                figures.push(plateTwo);
+                const pickleTwo = document.createElement('pickle');
+                plateTwo.appendChild(pickleTwo);
+                figures.push(pickleTwo);
+                const markup = `<div class="table"> \n<bento> \n<orange /> \n</bento> \n<plate id="fancy" /> \n<pickle /> \n</plate> \n <plate> \n<pickle /> \n<plate /> \n</div>`;
+                inputWindow.innerText = '';
+                inputWindow.innerText = markup;
+                return;
+            }
+        }
+        ;
+        if (event.target instanceof HTMLElement) {
+            if (event.target.id === 'six') {
+                tableWrapper.id = "size-six";
+                const appleTwo = document.createElement('apple');
+                appleTwo.style.width = "47px";
+                table.appendChild(appleTwo);
+                figures.push(appleTwo);
+                const appleSmall = document.createElement('apple');
+                appleSmall.style.width = "30px";
+                appleSmall.className = "small strobe";
+                table.appendChild(appleSmall);
+                figures.push(appleSmall);
+                const plateOne = document.createElement('plate');
+                table.appendChild(plateOne);
+                figures.push(plateOne);
+                const apple = document.createElement('apple');
+                apple.style.width = "30px";
+                apple.className = "small strobe";
+                plateOne.appendChild(apple);
+                figures.push(apple);
+                const plateTwo = document.createElement('plate');
+                table.appendChild(plateTwo);
+                figures.push(plateTwo);
+                const markup = `<div class="table"> \n <apple" /> \n <apple class="small" /> \n <plate> \n <apple class="small" /> \n </plate> \n <plate /> \n </div>`;
+                inputWindow.innerText = '';
+                inputWindow.innerText = markup;
+                return;
+            }
+        }
+        ;
+        if (event.target instanceof HTMLElement) {
+            if (event.target.id === 'seven') {
+                tableWrapper.id = "size-seven";
+                const appleTwo = document.createElement('apple');
+                appleTwo.style.width = "47px";
+                table.appendChild(appleTwo);
+                figures.push(appleTwo);
+                const appleSmall = document.createElement('apple');
+                appleSmall.style.width = "30px";
+                appleSmall.className = "small";
+                table.appendChild(appleSmall);
+                figures.push(appleSmall);
+                const bentoOne = document.createElement('bento');
+                table.appendChild(bentoOne);
+                figures.push(bentoOne);
+                const orange = document.createElement('orange');
+                orange.style.width = "30px";
+                orange.className = "small strobe";
+                bentoOne.appendChild(orange);
+                figures.push(orange);
+                const plateOne = document.createElement('plate');
+                table.appendChild(plateOne);
+                figures.push(plateOne);
+                const orangeTwo = document.createElement('orange');
+                orangeTwo.style.width = "60px";
+                plateOne.appendChild(orangeTwo);
+                figures.push(orangeTwo);
+                const plateTwo = document.createElement('plate');
+                table.appendChild(plateTwo);
+                figures.push(plateTwo);
+                const orangeThree = document.createElement('orange');
+                orangeThree.style.width = "30px";
+                orangeThree.className = "small strobe";
+                plateTwo.appendChild(orangeThree);
+                figures.push(orangeThree);
+                const markup = `<div class="table"> \n <apple /> \n <apple class="small" /> \n <bento> \n <orange class="small" /> \n <plate> \n <orange /> \n </plate> \n <plate> \n <orange class="small" /> \n </plate> \n </div>`;
+                inputWindow.innerText = '';
+                inputWindow.innerText = markup;
+                return;
+            }
+        }
+        ;
+        if (event.target instanceof HTMLElement) {
+            if (event.target.id === 'eight') {
+                tableWrapper.id = "size-eight";
+                const bentoOne = document.createElement('bento');
+                table.appendChild(bentoOne);
+                figures.push(bentoOne);
+                const orange = document.createElement('orange');
+                orange.style.width = "60px";
+                bentoOne.appendChild(orange);
+                figures.push(bentoOne);
+                const orangeThree = document.createElement('orange');
+                orangeThree.style.width = "30px";
+                orangeThree.className = "small";
+                table.appendChild(orangeThree);
+                figures.push(orangeThree);
+                const bentoTwo = document.createElement('bento');
+                table.appendChild(bentoTwo);
+                figures.push(bentoTwo);
+                const orangeTwo = document.createElement('orange');
+                orangeTwo.style.width = "30px";
+                orangeTwo.className = "small strobe";
+                bentoTwo.appendChild(orangeTwo);
+                figures.push(orangeTwo);
+                const bentoThree = document.createElement('bento');
+                table.appendChild(bentoThree);
+                figures.push(bentoThree);
+                const appleSmall = document.createElement('apple');
+                appleSmall.style.width = "30px";
+                appleSmall.className = "small";
+                bentoThree.appendChild(appleSmall);
+                figures.push(appleSmall);
+                const bentoFive = document.createElement('bento');
+                table.appendChild(bentoFive);
+                figures.push(bentoFive);
+                const orangeFour = document.createElement('orange');
+                orangeFour.style.width = "30px";
+                orangeFour.className = "small strobe";
+                bentoFive.appendChild(orangeFour);
+                figures.push(orangeFour);
+                const markup = `<div class="table"> \n <bento> \n <orange /> \n </bento> \n <orange class="small" /> \n <bento> \n <orange class="small" /> \n </bento> \n <bento> \n <orange class="small" /> \n </bento> \n </div>`;
+                inputWindow.innerText = '';
+                inputWindow.innerText = markup;
+                return;
+            }
+        }
+        ;
+        if (event.target instanceof HTMLElement) {
+            if (event.target.id === 'nine') {
+                tableWrapper.id = "size-nine";
+                const pickle = document.createElement('pickle');
+                pickle.style.width = "18px";
+                table.appendChild(pickle);
+                figures.push(pickle);
+                const plateOne = document.createElement('plate');
+                plateOne.className = "table__strobe";
+                table.appendChild(plateOne);
+                figures.push(plateOne);
+                const pickleOne = document.createElement('pickle');
+                pickleOne.style.width = "18px";
+                pickleOne.className = "strobe";
+                plateOne.appendChild(pickleOne);
+                figures.push(pickleOne);
+                const bentoOne = document.createElement('bento');
+                bentoOne.classList.add('strobe');
+                table.appendChild(bentoOne);
+                figures.push(bentoOne);
+                const pickleFive = document.createElement('pickle');
+                pickleFive.style.width = "18px";
+                pickleFive.className = "strobe";
+                bentoOne.appendChild(pickleFive);
+                figures.push(pickle);
+                const plateTwo = document.createElement('plate');
+                plateTwo.className = "table__strobe";
+                table.appendChild(plateTwo);
+                figures.push(plateTwo);
+                const pickleTwo = document.createElement('pickle');
+                pickleTwo.style.width = "18px";
+                pickleTwo.className = "strobe";
+                plateTwo.appendChild(pickleTwo);
+                figures.push(pickleTwo);
+                const pickleThree = document.createElement('pickle');
+                pickleThree.style.width = "18px";
+                table.appendChild(pickleThree);
+                figures.push(pickleThree);
+                const markup = `<div class="table"> \n <pickle class="small" /> \n <pickle /> \n <plate> \n <pickle /> \n </plate> \n <bento> \n <pickle /> \n </bento> \n <plate> \n <pickle /> \n </plate> \n <pickle /> \n <pickle class="small" /> \n </div>`;
+                inputWindow.innerText = '';
+                inputWindow.innerText = markup;
+                return;
+            }
+        }
+        ;
+        if (event.target instanceof HTMLElement) {
+            if (event.target.id === 'ten') {
+                tableWrapper.id = "size-ten";
+                const appleTwo = document.createElement('apple');
+                appleTwo.className = "strobe color";
+                appleTwo.style.width = "47px";
+                table.appendChild(appleTwo);
+                figures.push(appleTwo);
+                const plateTwo = document.createElement('plate');
+                plateTwo.className = "table__strobe";
+                table.appendChild(plateTwo);
+                figures.push(plateTwo);
+                const orangeThree = document.createElement('orange');
+                orangeThree.style.width = "30px";
+                orangeThree.className = "small strobe";
+                plateTwo.appendChild(orangeThree);
+                figures.push(orangeThree);
+                const bentoOne = document.createElement('bento');
+                bentoOne.classList.add('strobe');
+                table.appendChild(bentoOne);
+                figures.push(bentoOne);
+                const bentoTwo = document.createElement('bento');
+                bentoTwo.classList.add('strobe');
+                table.appendChild(bentoTwo);
+                figures.push(bentoTwo);
+                const orange = document.createElement('orange');
+                orange.style.width = "60px";
+                bentoTwo.appendChild(orange);
+                figures.push(bentoOne);
+                const plateOne = document.createElement('plate');
+                plateOne.className = "strobe";
+                plateOne.id = "fancy";
+                table.appendChild(plateOne);
+                figures.push(plateOne);
+                const markup = `<div class="table"> \n <apple /> \n <plate> \n <orange class="small" /> \n </plate>\n  <bento /> \n <bento> \n <orange /> \n </bento> \n <plate id="fancy" /> \n </div>`;
+                inputWindow.innerText = '';
+                inputWindow.innerText = markup;
+                return;
+            }
+        }
+        ;
+    }
+    menuItems.forEach(function (item) {
+        item.addEventListener('click', handleClick);
+    });
+    input.id = 'text';
+    input.addEventListener('keydown', function (event) {
+        if (event.target instanceof HTMLElement && event.target.id === 'text' && event.key === 'Enter') {
+            const inputValue = input.value.toLowerCase();
+            let customEvent;
+            let targetElement;
+            if (inputValue === 'plate') {
+                customEvent = new PointerEvent('click');
+                targetElement = targetElementTwo;
+            }
+            else if (inputValue === 'bento') {
+                customEvent = new PointerEvent('click');
+                targetElement = targetElementThree;
+            }
+            else if (inputValue === '#fancy') {
+                customEvent = new PointerEvent('click');
+                targetElement = targetElementFour;
+            }
+            else if (inputValue === 'plate apple') {
+                customEvent = new PointerEvent('click');
+                targetElement = targetElementFive;
+            }
+            else if (inputValue === '#fancy pickle') {
+                customEvent = new PointerEvent('click');
+                targetElement = targetElementSix;
+            }
+            else if (inputValue === '.small') {
+                customEvent = new PointerEvent('click');
+                targetElement = targetElementSeven;
+            }
+            else if (inputValue === 'orange.small') {
+                customEvent = new PointerEvent('click');
+                targetElement = targetElementEight;
+            }
+            else if (inputValue === 'bento orange.small') {
+                customEvent = new PointerEvent('click');
+                targetElement = targetElementNine;
+            }
+            else if (inputValue === 'bento, plate') {
+                customEvent = new PointerEvent('click');
+                targetElement = targetElementTen;
+            }
+            else if (inputValue === '*') {
+                customEvent = new PointerEvent('click');
+                targetElement = targetElementOne;
+            }
+            else {
+                editor.classList.add('shake');
+                setTimeout(() => {
+                    editor.classList.remove('shake');
+                }, 500);
+                return;
+            }
+            Object.defineProperty(customEvent, 'target', { value: targetElement });
+            handleClick(customEvent);
+            input.value = '';
+        }
+    });
+}
+exports.initializeDOMElements = initializeDOMElements;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiZG9tLWVsZW1lbnRzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL21vZHVsZXMvZG9tLWVsZW1lbnRzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFBLDJDQWlCdUI7QUFFckIsTUFBTSxTQUFTLEdBQUcsSUFBQSx3QkFBWSxHQUFFLENBQUM7QUFDakMsTUFBTSxLQUFLLEdBQUcsSUFBQSxvQkFBUSxHQUFFLENBQUM7QUFDekIsTUFBTSxZQUFZLEdBQUcsSUFBQSwyQkFBZSxHQUFFLENBQUM7QUFDdkMsTUFBTSxXQUFXLEdBQUcsSUFBQSwwQkFBYyxHQUFFLENBQUM7QUFDckMsTUFBTSxLQUFLLEdBQUcsSUFBQSxvQkFBUSxHQUFFLENBQUM7QUFDekIsTUFBTSxNQUFNLEdBQUcsSUFBQSxxQkFBUyxHQUFFLENBQUM7QUFDM0IsTUFBTSxnQkFBZ0IsR0FBRyxJQUFBLCtCQUFtQixHQUFFLENBQUM7QUFDL0MsTUFBTSxnQkFBZ0IsR0FBRyxJQUFBLCtCQUFtQixHQUFFLENBQUM7QUFDL0MsTUFBTSxrQkFBa0IsR0FBRyxJQUFBLGlDQUFxQixHQUFFLENBQUM7QUFDbkQsTUFBTSxpQkFBaUIsR0FBRyxJQUFBLGdDQUFvQixHQUFFLENBQUM7QUFDakQsTUFBTSxpQkFBaUIsR0FBRyxJQUFBLGdDQUFvQixHQUFFLENBQUM7QUFDakQsTUFBTSxnQkFBZ0IsR0FBRyxJQUFBLCtCQUFtQixHQUFFLENBQUM7QUFDL0MsTUFBTSxrQkFBa0IsR0FBRyxJQUFBLGlDQUFxQixHQUFFLENBQUM7QUFDbkQsTUFBTSxrQkFBa0IsR0FBRyxJQUFBLGlDQUFxQixHQUFFLENBQUM7QUFDbkQsTUFBTSxpQkFBaUIsR0FBRyxJQUFBLGdDQUFvQixHQUFFLENBQUM7QUFDakQsTUFBTSxnQkFBZ0IsR0FBRyxJQUFBLCtCQUFtQixHQUFFLENBQUM7QUFFakQsU0FBZ0IscUJBQXFCO0lBQ3JDLE1BQU0sT0FBTyxHQUFrQixFQUFFLENBQUM7SUFHbEMs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
 
 /***/ }),
 
-/***/ "./src/img/rsschool.svg":
-/*!******************************!*\
-  !*** ./src/img/rsschool.svg ***!
-  \******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./src/modules/selectors-over-elements.ts":
+/*!************************************************!*\
+  !*** ./src/modules/selectors-over-elements.ts ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, exports) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "img/rsschool.svg");
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.initializeSelectorsOverElements = void 0;
+// selectors-over-elements.ts
+function initializeSelectorsOverElements() {
+    const tableStrobe = document.querySelectorAll('.table');
+    const tableWindow = document.querySelector('.window');
+    tableStrobe.forEach((element) => {
+        element.addEventListener('mouseover', (e) => {
+            const targetElement = e.target;
+            if (targetElement && targetElement.tagName !== 'DIV') {
+                if (targetElement.tagName === 'PLATE') {
+                    tableWindow.textContent = '<plate></plate>';
+                }
+                if (targetElement.tagName === 'BENTO') {
+                    tableWindow.textContent = '<bento></bento>';
+                }
+                if (targetElement.tagName === 'APPLE') {
+                    tableWindow.textContent = '<apple></apple>';
+                }
+                if (targetElement.id === 'fancy') {
+                    tableWindow.textContent = `<plate id="fancy"></plate>`;
+                }
+                if (targetElement.tagName === 'ORANGE') {
+                    tableWindow.textContent = '<orange></orange>';
+                }
+                if (targetElement.tagName === 'PICKLE') {
+                    tableWindow.textContent = '<pickle></pickle>';
+                }
+                if (targetElement.tagName === 'APPLE' && targetElement.className === 'small strobe') {
+                    tableWindow.textContent = `<apple class="small"></apple>`;
+                }
+                if (targetElement.tagName === 'ORANGE' && targetElement.className === 'small strobe') {
+                    tableWindow.textContent = `<orange class="small"></orange>`;
+                }
+            }
+        });
+        element.addEventListener('mouseout', (e) => {
+            const targetElement = e.target;
+            if (targetElement) {
+                tableWindow.textContent = '';
+            }
+        });
+    });
+}
+exports.initializeSelectorsOverElements = initializeSelectorsOverElements;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2VsZWN0b3JzLW92ZXItZWxlbWVudHMuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi9zcmMvbW9kdWxlcy9zZWxlY3RvcnMtb3Zlci1lbGVtZW50cy50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBQSw2QkFBNkI7QUFDN0IsU0FBZ0IsK0JBQStCO0lBQzNDLE1BQU0sV0FBVyxHQUFHLFFBQVEsQ0FBQyxnQkFBZ0IsQ0FBQyxRQUFRLENBQTRCLENBQUM7SUFDbkYsTUFBTSxXQUFXLEdBQUcsUUFBUSxDQUFDLGFBQWEsQ0FBQyxTQUFTLENBQWdCLENBQUM7SUFFckUsV0FBVyxDQUFDLE9BQU8sQ0FBQyxDQUFDLE9BQU8sRUFBRSxFQUFFO1FBQzlCLE9BQU8sQ0FBQyxnQkFBZ0IsQ0FBQyxXQUFXLEVBQUUsQ0FBQyxDQUFDLEVBQUUsRUFBRTtZQUMxQyxNQUFNLGFBQWEsR0FBRyxDQUFDLENBQUMsTUFBNEIsQ0FBQztZQUNyRCxJQUFJLGFBQWEsSUFBSSxhQUFhLENBQUMsT0FBTyxLQUFLLEtBQUssRUFBRTtnQkFDcEQsSUFBSSxhQUFhLENBQUMsT0FBTyxLQUFLLE9BQU8sRUFBRTtvQkFDckMsV0FBVyxDQUFDLFdBQVcsR0FBRyxpQkFBaUIsQ0FBQztpQkFDN0M7Z0JBQ0QsSUFBSSxhQUFhLENBQUMsT0FBTyxLQUFLLE9BQU8sRUFBRTtvQkFDckMsV0FBVyxDQUFDLFdBQVcsR0FBRyxpQkFBaUIsQ0FBQztpQkFDN0M7Z0JBQ0QsSUFBSSxhQUFhLENBQUMsT0FBTyxLQUFLLE9BQU8sRUFBRTtvQkFDckMsV0FBVyxDQUFDLFdBQVcsR0FBRyxpQkFBaUIsQ0FBQztpQkFDN0M7Z0JBQ0QsSUFBSSxhQUFhLENBQUMsRUFBRSxLQUFLLE9BQU8sRUFBRTtvQkFDaEMsV0FBVyxDQUFDLFdBQVcsR0FBRyw0QkFBNEIsQ0FBQztpQkFDeEQ7Z0JBQ0QsSUFBSSxhQUFhLENBQUMsT0FBTyxLQUFLLFFBQVEsRUFBRTtvQkFDdEMsV0FBVyxDQUFDLFdBQVcsR0FBRyxtQkFBbUIsQ0FBQztpQkFDL0M7Z0JBQ0QsSUFBSSxhQUFhLENBQUMsT0FBTyxLQUFLLFFBQVEsRUFBRTtvQkFDdEMsV0FBVyxDQUFDLFdBQVcsR0FBRyxtQkFBbUIsQ0FBQztpQkFDL0M7Z0JBQ0QsSUFBSSxhQUFhLENBQUMsT0FBTyxLQUFLLE9BQU8sSUFBSSxhQUFhLENBQUMsU0FBUyxLQUFLLGNBQWMsRUFBRTtvQkFDbkYsV0FBVyxDQUFDLFdBQVcsR0FBRywrQkFBK0IsQ0FBQztpQkFDM0Q7Z0JBQ0QsSUFBSSxhQUFhLENBQUMsT0FBTyxLQUFLLFFBQVEsSUFBSSxhQUFhLENBQUMsU0FBUyxLQUFLLGNBQWMsRUFBRTtvQkFDcEYsV0FBVyxDQUFDLFdBQVcsR0FBRyxpQ0FBaUMsQ0FBQztpQkFDN0Q7YUFDRjtRQUNILENBQUMsQ0FBQyxDQUFDO1FBRUgsT0FBTyxDQUFDLGdCQUFnQixDQUFDLFVBQVUsRUFBRSxDQUFDLENBQUMsRUFBRSxFQUFFO1lBQ3pDLE1BQU0sYUFBYSxHQUFHLENBQUMsQ0FBQyxNQUE0QixDQUFDO1lBQ3JELElBQUksYUFBYSxFQUFFO2dCQUNqQixXQUFXLENBQUMsV0FBVyxHQUFHLEVBQUUsQ0FBQzthQUM5QjtRQUNILENBQUMsQ0FBQyxDQUFDO0lBQ0wsQ0FBQyxDQUFDLENBQUM7QUFDTCxDQUFDO0FBMUNILDBFQTBDRyJ9
+
+/***/ }),
+
+/***/ "./src/modules/selectors.ts":
+/*!**********************************!*\
+  !*** ./src/modules/selectors.ts ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, exports) => {
+
+"use strict";
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getTargetElementTen = exports.getTargetElementNine = exports.getTargetElementEight = exports.getTargetElementSeven = exports.getTargetElementSix = exports.getTargetElementFive = exports.getTargetElementFour = exports.getTargetElementThree = exports.getTargetElementTwo = exports.getTargetElementOne = exports.getTableWindow = exports.getTableStrobe = exports.getButton = exports.getEditor = exports.getInput = exports.getInputWindow = exports.getWindowModal = exports.getTableWrapper = exports.getTable = exports.getMenuItems = void 0;
+function getMenuItems() {
+    return document.querySelectorAll('.menu-right h1');
+}
+exports.getMenuItems = getMenuItems;
+function getTable() {
+    return document.querySelector('.table');
+}
+exports.getTable = getTable;
+function getTableWrapper() {
+    return document.querySelector('.table-wrapper');
+}
+exports.getTableWrapper = getTableWrapper;
+function getWindowModal() {
+    return document.querySelector('.window');
+}
+exports.getWindowModal = getWindowModal;
+function getInputWindow() {
+    return document.querySelector('.input-window__markup');
+}
+exports.getInputWindow = getInputWindow;
+function getInput() {
+    return document.querySelector('.input-window__strobe');
+}
+exports.getInput = getInput;
+function getEditor() {
+    return document.querySelector('.editor');
+}
+exports.getEditor = getEditor;
+function getButton() {
+    return document.querySelector('.button-help');
+}
+exports.getButton = getButton;
+function getTableStrobe() {
+    return document.querySelectorAll('.table');
+}
+exports.getTableStrobe = getTableStrobe;
+function getTableWindow() {
+    return document.querySelector('.window');
+}
+exports.getTableWindow = getTableWindow;
+function getTargetElementOne() {
+    return document.getElementById('one');
+}
+exports.getTargetElementOne = getTargetElementOne;
+function getTargetElementTwo() {
+    return document.getElementById('two');
+}
+exports.getTargetElementTwo = getTargetElementTwo;
+function getTargetElementThree() {
+    return document.getElementById('three');
+}
+exports.getTargetElementThree = getTargetElementThree;
+function getTargetElementFour() {
+    return document.getElementById('four');
+}
+exports.getTargetElementFour = getTargetElementFour;
+function getTargetElementFive() {
+    return document.getElementById('five');
+}
+exports.getTargetElementFive = getTargetElementFive;
+function getTargetElementSix() {
+    return document.getElementById('six');
+}
+exports.getTargetElementSix = getTargetElementSix;
+function getTargetElementSeven() {
+    return document.getElementById('seven');
+}
+exports.getTargetElementSeven = getTargetElementSeven;
+function getTargetElementEight() {
+    return document.getElementById('eight');
+}
+exports.getTargetElementEight = getTargetElementEight;
+function getTargetElementNine() {
+    return document.getElementById('nine');
+}
+exports.getTargetElementNine = getTargetElementNine;
+function getTargetElementTen() {
+    return document.getElementById('ten');
+}
+exports.getTargetElementTen = getTargetElementTen;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2VsZWN0b3JzLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL21vZHVsZXMvc2VsZWN0b3JzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFBLFNBQWdCLFlBQVk7SUFDeEIsT0FBTyxRQUFRLENBQUMsZ0JBQWdCLENBQUMsZ0JBQWdCLENBQUMsQ0FBQztBQUNyRCxDQUFDO0FBRkgsb0NBRUc7QUFFRCxTQUFnQixRQUFRO0lBQ3RCLE9BQU8sUUFBUSxDQUFDLGFBQWEsQ0FBQyxRQUFRLENBQXFCLENBQUM7QUFDOUQsQ0FBQztBQUZELDRCQUVDO0FBRUQsU0FBZ0IsZUFBZTtJQUM3QixPQUFPLFFBQVEsQ0FBQyxhQUFhLENBQUMsZ0JBQWdCLENBQXFCLENBQUM7QUFDdEUsQ0FBQztBQUZELDBDQUVDO0FBRUQsU0FBZ0IsY0FBYztJQUM1QixPQUFPLFFBQVEsQ0FBQyxhQUFhLENBQUMsU0FBUyxDQUFnQixDQUFDO0FBQzFELENBQUM7QUFGRCx3Q0FFQztBQUVELFNBQWdCLGNBQWM7SUFDNUIsT0FBTyxRQUFRLENBQUMsYUFBYSxDQUFDLHVCQUF1QixDQUFnQixDQUFDO0FBQ3hFLENBQUM7QUFGRCx3Q0FFQztBQUVELFNBQWdCLFFBQVE7SUFDdEIsT0FBTyxRQUFRLENBQUMsYUFBYSxDQUFDLHVCQUF1QixDQUFxQixDQUFDO0FBQzdFLENBQUM7QUFGRCw0QkFFQztBQUVELFNBQWdCLFNBQVM7SUFDdkIsT0FBTyxRQUFRLENBQUMsYUFBYSxDQUFDLFNBQVMsQ0FBcUIsQ0FBQztBQUMvRCxDQUFDO0FBRkQsOEJBRUM7QUFFRCxTQUFnQixTQUFTO0lBQ3ZCLE9BQU8sUUFBUSxDQUFDLGFBQWEsQ0FBQyxjQUFjLENBQXNCLENBQUM7QUFDckUsQ0FBQztBQUZELDhCQUVDO0FBRUQsU0FBZ0IsY0FBYztJQUM1QixPQUFPLFFBQVEsQ0FBQyxnQkFBZ0IsQ0FBQyxRQUFRLENBQTRCLENBQUM7QUFDeEUsQ0FBQztBQUZELHdDQUVDO0FBRUQsU0FBZ0IsY0FBYztJQUM1QixPQUFPLFFBQVEsQ0FBQyxhQUFhLENBQUMsU0FBUyxDQUFnQixDQUFDO0FBQzFELENBQUM7QUFGRCx3Q0FFQztBQUVELFNBQWdCLG1CQUFtQjtJQUNqQyxPQUFPLFFBQVEsQ0FBQyxjQUFjLENBQUMsS0FBSyxDQUFDLENBQUM7QUFDeEMsQ0FBQztBQUZELGtEQUVDO0FBRUQsU0FBZ0IsbUJBQW1CO0lBQ2pDLE9BQU8sUUFBUSxDQUFDLGNBQWMsQ0FBQyxLQUFLLENBQUMsQ0FBQztBQUN4QyxDQUFDO0FBRkQsa0RBRUM7QUFFRCxTQUFnQixxQkFBcUI7SUFDbkMsT0FBTyxRQUFRLENBQUMsY0FBYyxDQUFDLE9BQU8sQ0FBQyxDQUFDO0FBQzFDLENBQUM7QUFGRCxzREFFQztBQUVELFNBQWdCLG9CQUFvQjtJQUNsQyxPQUFPLFFBQVEsQ0FBQyxjQUFjLENBQUMsTUFBTSxDQUFDLENBQUM7QUFDekMsQ0FBQztBQUZELG9EQUVDO0FBRUQsU0FBZ0Isb0JBQW9CO0lBQ2xDLE9BQU8sUUFBUSxDQUFDLGNBQWMsQ0FBQyxNQUFNLENBQUMsQ0FBQztBQUN6QyxDQUFDO0FBRkQsb0RBRUM7QUFFRCxTQUFnQixtQkFBbUI7SUFDakMsT0FBTyxRQUFRLENBQUMsY0FBYyxDQUFDLEtBQUssQ0FBQyxDQUFDO0FBQ3hDLENBQUM7QUFGRCxrREFFQztBQUVELFNBQWdCLHFCQUFxQjtJQUNuQyxPQUFPLFFBQVEsQ0FBQyxjQUFjLENBQUMsT0FBTyxDQUFDLENBQUM7QUFDMUMsQ0FBQztBQUZELHNEQUVDO0FBRUQsU0FBZ0IscUJBQXFCO0lBQ25DLE9BQU8sUUFBUSxDQUFDLGNBQWMsQ0FBQyxPQUFPLENBQUMsQ0FBQztBQUMxQyxDQUFDO0FBRkQsc0RBRUM7QUFFRCxTQUFnQixvQkFBb0I7SUFDbEMsT0FBTyxRQUFRLENBQUMsY0FBYyxDQUFDLE1BQU0sQ0FBQyxDQUFDO0FBQ3pDLENBQUM7QUFGRCxvREFFQztBQUVELFNBQWdCLG1CQUFtQjtJQUNqQyxPQUFPLFFBQVEsQ0FBQyxjQUFjLENBQUMsS0FBSyxDQUFDLENBQUM7QUFDeEMsQ0FBQztBQUZELGtEQUVDIn0=
 
 /***/ })
 
@@ -10965,18 +11103,6 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		};
 /******/ 	})();
 /******/ 	
-/******/ 	/* webpack/runtime/global */
-/******/ 	(() => {
-/******/ 		__webpack_require__.g = (function() {
-/******/ 			if (typeof globalThis === 'object') return globalThis;
-/******/ 			try {
-/******/ 				return this || new Function('return this')();
-/******/ 			} catch (e) {
-/******/ 				if (typeof window === 'object') return window;
-/******/ 			}
-/******/ 		})();
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -10991,29 +11117,6 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src;
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) {
-/******/ 					var i = scripts.length - 1;
-/******/ 					while (i > -1 && !scriptUrl) scriptUrl = scripts[i--].src;
-/******/ 				}
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
@@ -11054,11 +11157,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _index_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.scss */ "./src/index.scss");
 /* harmony import */ var _index_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.html */ "./src/index.html");
 /* harmony import */ var _main_ts__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./main.ts */ "./src/main.ts");
-/* harmony import */ var _main_ts__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_main_ts__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _img_github_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/github.png */ "./src/img/github.png");
-/* harmony import */ var _img_rsschool_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/rsschool.svg */ "./src/img/rsschool.svg");
-
-
 
 
 
@@ -11066,4 +11164,4 @@ __webpack_require__.r(__webpack_exports__);
 
 /******/ })()
 ;
-//# sourceMappingURL=index.4808cf109e1f7c6950d8.js.map
+//# sourceMappingURL=index.54d7989df8afe0b9a5d7.js.map
