@@ -1,22 +1,18 @@
 .css-view .input-window__numbers {
-  color: #999;
-  background: #DDD;
+  color: $numbersColor;
+  background: $numbersBackColor;
 }
 
 .input-window__plus {
-  color: #666;
-  padding: 0px 4px;
-  font-size: 40px;
   display: none;
 }
 
 .input-window__button {
-  background: #ddd;
   display: block;
   border-radius: 2px;
   padding: 2px 7px 2px 7px;
-  color: #666;
-  border: solid 3px #999;
+  color: $enterButtonColor;
+  border: solid 3px $enterButtonBorderColor;
   border-width: 1px 1px 6px 1px;
   font-size: 9px;
   position: absolute;
@@ -27,14 +23,15 @@
 }
 
 .html-view .input-window__numbers {
-  color: #666;
-  border-right: solid 1px #333;
+  color: $fonts-color;
+  border-right: solid 1px $numbersBorderColor;
 }
 
 .input-window__markup {
-  color: rgba(255,255,255,.3);
+  color: $fonts-color;
 }
 
 .input-window__strobe {
   margin-bottom: 10px;
 }
+

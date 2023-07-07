@@ -1,4 +1,3 @@
-// selectors-over-elements.ts
 export function initializeSelectorsOverElements() {
     const tableStrobe = document.querySelectorAll('.table') as NodeListOf<HTMLElement>;
     const tableWindow = document.querySelector('.window') as HTMLElement;
@@ -41,5 +40,5 @@ export function initializeSelectorsOverElements() {
         }
       });
     });
-  }
+}
   

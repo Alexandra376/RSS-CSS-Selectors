@@ -2,7 +2,7 @@
   width: 274px;
   opacity: 1;
   margin: 0 auto 10px auto;
-  background: #ac741c;
+  background: $orangeBackgroundColor;
   height: 15px;
   transform: rotateX(-40deg);
   transform-origin: top;
@@ -11,7 +11,7 @@
 .table-edge__leg {
   width: 24px;
   height: 10px;
-  background: #84570f;
+  background: $orangeBackgroundColor;
   position: absolute;
   top: 15px;
 }

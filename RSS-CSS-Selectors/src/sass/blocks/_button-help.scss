@@ -1,5 +1,5 @@
 .button-help {
-    background-color: rgba(0,0,0,.2);
+    background-color: $buttonHelpColor;
     padding: 8px 15px 10px 15px;
     border-radius: 22px;
     cursor: pointer;
@@ -11,6 +11,6 @@
 }
 
 .button-help:hover {
-    box-shadow: 1px 5px 6px 1px rgba(244, 241, 238, 0.71);
+    box-shadow: 1px 5px 6px 1px $playElementsHoverColor;
     transition: 0.5s;
 }

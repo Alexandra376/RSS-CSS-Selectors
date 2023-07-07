@@ -57,6 +57,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src', 'index.html'),
+      favicon: './src/img/plate.png',
     }),
     new MiniCssExtractPlugin({
       filename: '[name].[contenthash].css',
@@ -67,3 +68,4 @@ module.exports = {
     open: true,
   },
 };
+

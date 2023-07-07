@@ -1,5 +1,5 @@
 h1 {
-  color: #6c6a66;
+  color: $fonts-color;
 }
 
 .menu-right {
@@ -9,7 +9,7 @@ h1 {
 }
 
 .menu-right h1:hover {
-  background-color: rgba(255, 166, 0, 0.59);
+  background-color: $buttonColor;
   transition: 0.2s;
 }
 
@@ -18,10 +18,11 @@ h1 {
 }
 
 .selected {
-  background-color: rgba(255, 166, 0, 0.59);
+  background-color: $buttonColor;
 }
 
 #one {
   text-decoration: underline;
-  text-decoration-color: #ffa50087;
+  text-decoration-color: $buttonColor;
 }
+
