@@ -16,6 +16,6 @@ test('getMenuItems returns the correct menu items', () => {
     </div>
   `;
   const result = getMenuItems();
-  
+
   expect(result.length).toBe(10);
 });

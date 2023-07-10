@@ -11,7 +11,7 @@ describe('Button functionality', () => {
     resetButton();
 
     button.dispatchEvent(new Event('click'));
-    
+
     expect(clickHandlerMock).toHaveBeenCalled();
   });
 });
