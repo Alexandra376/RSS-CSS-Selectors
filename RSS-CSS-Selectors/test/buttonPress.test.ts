@@ -16,5 +16,3 @@ test('should handle "click" event on the button and return alert with message', 
 
     expect(clickHandlerMock).toHaveBeenCalled();
 });
-
-

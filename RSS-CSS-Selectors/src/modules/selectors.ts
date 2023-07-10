@@ -78,4 +78,3 @@ export function getMenuItems() {
     return document.getElementById('ten');
   }
   
-  

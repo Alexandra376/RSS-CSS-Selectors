@@ -3,5 +3,3 @@ import { initializeSelectorsOverElements } from "../src/modules/selectors-over-e
 test('initializeSelectorsOverElements is defined', () => {
     expect(initializeSelectorsOverElements).toBeDefined();
 });
-
-

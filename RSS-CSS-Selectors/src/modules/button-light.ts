@@ -12,11 +12,8 @@ export function initializeButtonLight() {
     }
     
     elements.forEach((id) => {
-      // console.log(id)
       const element = document.getElementById(id) as HTMLElement;
       element.addEventListener('click', handleClickElem);
-      // console.log(document.body.children[0])
-      
     });
   }
   

@@ -42,7 +42,6 @@ getTargetElementEight();
 getTargetElementNine();
 getTargetElementTen();
 
-
 import { initializeButtonLight } from './modules/button-light';
 initializeButtonLight();
 
@@ -57,7 +56,3 @@ resetButton();
 
 import { buttonPress } from './modules/button-press';
 buttonPress();
-
-
-
-

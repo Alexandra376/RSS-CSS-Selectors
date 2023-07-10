@@ -28,6 +28,3 @@ describe('Should add class selected', () => {
         expect(elem.className).toBe("selected");
     });
 });
-
-
-  
