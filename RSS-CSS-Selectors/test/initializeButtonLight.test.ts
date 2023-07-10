@@ -13,7 +13,7 @@ const rightResults = [
     {id: 9, input: "ten"},
 ]
 
-describe('Should ', () => {
+describe('Should add class selected', () => { 
     
     const elements = rightResults.map(({input}) => {
         const element = document.createElement('div');
@@ -28,5 +28,6 @@ describe('Should ', () => {
         expect(elem.className).toBe("selected");
     });
 });
+
 
   

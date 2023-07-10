@@ -34,7 +34,7 @@ import {
   const targetElementNine = getTargetElementNine();
   const targetElementTen = getTargetElementTen();
 
-export function initializeDOMElements() {
+export function creatingDOMElementsByClick() {
 const figures: HTMLElement[] = [];
 
 
@@ -52,6 +52,7 @@ figures.push(plateTwo);
 const markup = "<div class=\"table\">\n<plate />\n<plate />\n</div>";
 inputWindow.innerText = '';
 inputWindow.innerText = markup;
+
 
 function handleClick(event: Event) {
   const selectionText = document.querySelector('.selection__order') as HTMLElement;
@@ -87,7 +88,7 @@ function handleClick(event: Event) {
 
       return; 
     }     
-  };
+  }
   if (event.target instanceof HTMLElement) {
     if (event.target.id === 'two') {
       tableWrapper.id = "size-one";
@@ -111,7 +112,7 @@ function handleClick(event: Event) {
 
       return;   
     }     
-  };
+  }
   if (event.target instanceof HTMLElement) {
     if (event.target.id === 'three') {
       tableWrapper.id = "size-one";
@@ -135,7 +136,7 @@ function handleClick(event: Event) {
 
       return;  
     }     
-  };
+  }
   if (event.target instanceof HTMLElement) {
     if (event.target.id === 'four') {
       tableWrapper.id = "size-one";
@@ -164,7 +165,7 @@ function handleClick(event: Event) {
 
       return;   
     }     
-  };
+  }
   if (event.target instanceof HTMLElement) {
     if (event.target.id === 'five') {
       tableWrapper.id = "size-one";
@@ -200,7 +201,7 @@ function handleClick(event: Event) {
 
       return;   
     }     
-  };
+  }
   if (event.target instanceof HTMLElement) {
     if (event.target.id === 'six') {
       tableWrapper.id = "size-six";
@@ -235,7 +236,7 @@ function handleClick(event: Event) {
 
       return; 
     }     
-  };
+  }
   if (event.target instanceof HTMLElement) {
     if (event.target.id === 'seven') {
       tableWrapper.id = "size-seven";
@@ -285,7 +286,7 @@ function handleClick(event: Event) {
 
       return; 
     }     
-  };
+  }
   if (event.target instanceof HTMLElement) {
     if (event.target.id === 'eight') {
       tableWrapper.id = "size-eight";
@@ -340,7 +341,7 @@ function handleClick(event: Event) {
 
       return; 
     }     
-  };
+  }
   if (event.target instanceof HTMLElement) {
     if (event.target.id === 'nine') {
       tableWrapper.id = "size-nine";
@@ -393,7 +394,7 @@ function handleClick(event: Event) {
 
       return;  
     }     
-  };
+  }
   if (event.target instanceof HTMLElement) {
     if (event.target.id === 'ten') {
       tableWrapper.id = "size-ten";
@@ -441,7 +442,7 @@ function handleClick(event: Event) {
 
       return;      
     }     
-  };
+  }
 }
 
 menuItems.forEach(function(item) {
