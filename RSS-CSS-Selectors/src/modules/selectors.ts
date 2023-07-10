@@ -77,4 +77,3 @@ export function getMenuItems() {
   export function getTargetElementTen() {
     return document.getElementById('ten');
   }
-  

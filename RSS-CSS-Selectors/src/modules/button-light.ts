@@ -16,4 +16,3 @@ export function initializeButtonLight() {
       element.addEventListener('click', handleClickElem);
     });
   }
-  
