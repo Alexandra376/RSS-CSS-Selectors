@@ -1,0 +1,27 @@
+h1 {
+  color: $fonts-color;
+}
+
+.menu-right {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+.menu-right h1:hover {
+  background-color: $buttonColor;
+  transition: 0.2s;
+}
+
+.menu-right h1 {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: $buttonColor;
+}
+
+#one {
+  text-decoration: underline;
+  text-decoration-color: $buttonColor;
+}

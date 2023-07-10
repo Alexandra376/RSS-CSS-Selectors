@@ -1,0 +1,16 @@
+.window {
+  position: absolute;
+  background: $windowBackColor;
+  z-index: 1000;
+  font-size: 18px;
+  color: $main-color;
+  border-bottom: solid 2px $windowBorderBottomColor;
+  box-shadow: 0px 5px 0px $rightColumnColor;
+  transform: rotateX(20deg);
+  outline: solid 1px transparent;
+  word-wrap: nowrap;
+  white-space: nowrap;
+  left: 26%;
+  top: 24%;
+  border-radius: 10px;
+}

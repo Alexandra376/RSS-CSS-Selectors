@@ -1,0 +1,36 @@
+.css-view .input-window__numbers {
+  color: $numbersColor;
+  background: $numbersBackColor;
+}
+
+.input-window__plus {
+  display: none;
+}
+
+.input-window__button {
+  display: block;
+  border-radius: 2px;
+  padding: 2px 7px 2px 7px;
+  color: $enterButtonColor;
+  border: solid 3px $enterButtonBorderColor;
+  border-width: 1px 1px 6px 1px;
+  font-size: 9px;
+  position: absolute;
+  cursor: pointer;
+  top: 7px;
+  right: 7px;
+  z-index: 999999;
+}
+
+.html-view .input-window__numbers {
+  color: $fonts-color;
+  border-right: solid 1px $numbersBorderColor;
+}
+
+.input-window__markup {
+  color: $fonts-color;
+}
+
+.input-window__strobe {
+  margin-bottom: 10px;
+}

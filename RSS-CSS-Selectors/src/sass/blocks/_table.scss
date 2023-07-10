@@ -1,0 +1,192 @@
+.table {
+  transform-style: preserve-3d;
+  outline: solid 1px transparent;
+  margin: 0px auto 0px auto;
+  padding: 15px 15px 22px 15px;
+  display: inline-block;
+  z-index: 999;
+  position: relative;
+  white-space: nowrap;
+  display: flex;
+}
+
+.table__strobe {
+  width: 100px;
+  transform-origin: bottom;
+  animation: strobeStart .5s ease-out, strobe 1s infinite;
+  animation-delay: 0s, .5s;
+  cursor: pointer;
+}
+
+.strobe {
+  animation: strobeStart .5s ease-out, strobe 1s infinite;
+  animation-delay: 0s, .5s;
+}
+
+#fancy pickle {
+  animation: strobeStart .5s ease-out, strobe 1s infinite;
+  animation-delay: 0s, .5s;
+}
+
+.table__strobe:hover {
+  box-shadow: 0px 0px 0px 6px $playElementsHoverColor;
+}
+
+plate:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: calc(50% - 32px);
+  top: calc(50% - 32px);
+  height: 65px;
+  width: 65px;
+  border-radius: 60px;
+  border-top: solid 6px $plateBorderTopColor;
+  opacity: .4;
+  background: $plateColor;
+}
+
+plate {
+  border-bottom: solid 5px $plateBorderBottomColor;
+  background: $plateColor;
+  border-radius: 100px;
+  border-radius: 100px;
+}
+
+bento,
+plate {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 0 10px;
+  position: relative;
+}
+
+.table img {
+  width: 97px;
+  height: 130px;
+  cursor: pointer;
+}
+
+apple {
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 2px 4px 15px 4px;
+  position: relative;
+  background: $appleBackColor;
+  border-color: $appleBorderColor;
+  display: flex;
+  height: 38px;
+  margin: 20px 24px;
+}
+
+#fancy:after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: calc(50% - 47px);
+  top: calc(50% - 44px);
+  height: 68px;
+  width: 74px;
+  border-radius: 60px;
+  border: solid 10px $fancyPlateColor;
+  opacity: .4;
+}
+
+bento {
+  height: 100px;
+  background: $bentoBackColor;
+  position: relative;
+  border: solid 3px $bentoBorderColor;
+}
+
+bento:hover {
+  box-shadow: 0px 0px 0 6px $playElementsHoverColor;
+  cursor: pointer;
+}
+
+.strobe:hover {
+  box-shadow: 0px 0px 0 6px $playElementsHoverColor;
+  cursor: pointer;
+}
+
+apple:hover {
+  box-shadow: 0px 0px 0 6px $playElementsHoverColor;
+  cursor: pointer;
+}
+
+plate:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 0px 6px $playElementsHoverColor;
+}
+
+orange {
+  background: $orangeBackgroundColor;
+  border-color: $orangeBorderColor;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 2px 4px 15px 4px;
+  position: relative;
+  display: flex;
+  margin: 13px;
+  height: 50px;
+  cursor: pointer;
+}
+
+orange:hover {
+  box-shadow: 0px 0px 0 6px $playElementsHoverColor;
+}
+
+pickle {
+  background: $pickleBackColor;
+  border-radius: 30px;
+  position: relative;
+  border: solid 2px $pickleBorderColor;
+  border-width: 2px 2px 9px 2px;
+  display: flex;
+  width: 18px;
+  height: 49px;
+  margin: 24px 40px;
+}
+
+pickle:hover {
+  box-shadow: 0 0 0 6px $playElementsHoverDarkColor;
+}
+
+#fancy:hover pickle {
+  box-shadow: 0 0 0 6px $playElementsHoverDarkColor;
+}
+
+plate orange:hover {
+  box-shadow: 0 0 0 6px $playElementsHoverDarkColor;
+}
+
+plate orange.small:hover {
+  box-shadow: 0 0 0 6px $playElementsHoverDarkColor;
+}
+
+apple.small {
+  height: 20px;
+  margin: 31px 32px;
+}
+
+orange.small {
+  height: 20px;
+  margin: 31px 32px;
+}
+
+apple.strobe:hover {
+  box-shadow: 0 0 0 6px $playElementsHoverDarkColor;
+}
+
+.table__strobe pickle:hover {
+  box-shadow: 0 0 0 6px $playElementsHoverDarkColor;
+}
+
+.table__strobe orange:hover {
+  box-shadow: 0 0 0 6px $playElementsHoverDarkColor;
+}
+
+apple.color:hover {
+  box-shadow: 0px 0px 0px 6px $playElementsHoverColor;
+}

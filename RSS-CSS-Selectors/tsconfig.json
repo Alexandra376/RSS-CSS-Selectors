@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "types": [
+      "jest",
+      "@types/jest"
+    ],
+    "target": "ES2018",
+    "lib": [
+      "ES6",
+      "dom"
+    ],
+    "module": "commonjs",
+    "rootDir": "./",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "inlineSourceMap": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "./test/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+}
